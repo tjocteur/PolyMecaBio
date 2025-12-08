@@ -1,0 +1,216 @@
+\chapter{Aspects énergétiques de la dynamique du point}
+\label{chapter3}
+
+\paragraph{}\textit{Dans ce chapitre nous allons voir comment relier la notion intuitive d'énergie à la mécanique. Dans les deux chapitres précédents, nous avons vu que, soumis à des forces, les corps peuvent voir leur mouvement se modifier, leur vitesse augmenter ou diminuer. Comme si rien n'était durable. Ce que nous allons voir dans ce chapitre c'est un principe très important dans le monde physique : celui de la conservation de l'énergie.}
+
+\section{Énergie cinétique}
+
+\paragraph{}On peut qualifier l'énergie d'un corps d'une première façon : via la notion d'énergie cinétique. L'énergie cinétique est l'énergie reliée au mouvement d'un objet. Son existence se manifeste lors des impacts entre des corps en mouvement par exemple. Prenons l'exemple d'un vélo fonçant dans un mur. On comprend assez intuitivement que plus le vélo arrive avec une grande vitesse, plus l'impact sera violent, et donc plus il possède avant cela une grande énergie cinétique. On s'attend donc à ce que cette quantité augmente avec la vitesse de l'objet. Si l'on considère maintenant non pas un vélo mais une voiture, avec donc une masse bien plus élevée, on comprend intuitivement qu'à une vitesse similaire, l'impact sera beaucoup plus violent dans le cas de la voiture. En d'autres termes, la voiture possède donc une énergie cinétique supérieure à celle du vélo. On s'attend donc à ce que l'énergie cinétique augmente avec la masse de l'objet.
+
+\paragraph{}En fait, pour un objet de masse $m$ et de vitesse $v$, l'énergie cinétique est définie comme :
+
+\begin{equation}
+	E_c = \frac{1}{2}mv^2
+\end{equation}
+
+\noindent avec $E_c$ une grandeur qui s'exprime en joules ($J$), qui représente l'énergie contenue dans le mouvement de l'objet.
+
+\paragraph{}Comme toute énergie en physique, l'énergie cinétique est une grandeur conservative. C'est à dire qu'elle n'apparaît pas ou ne disparaît pas spontanément. Si l'énergie cinétique d'un corps varie, c'est qu'elle est échangée avec l'extérieure sous une autre forme.
+
+\section{Transmission d'énergie par une force}
+
+\subsection{Travail d'une force}
+
+\paragraph{}Comme on l'a vu dans le chapitre précédent, une force extérieure est capable de mettre en mouvement, ou de modifier le mouvement d'un corps. Cela signifie donc qu'elle peut modifier son énergie cinétique, via un transfert d'énergie avec l'extérieur. En fait c'est possible de le comprendre en partant du PFD ! En effet, si l'on considère un corps de masse $m$ soumis à une force $\vv{F}$ on a :
+
+\begin{equation}
+	m\frac{\mathrm{d}\vv{v}}{\mathrm{d}t} = \vv{F}
+\end{equation}
+
+\noindent et donc en prenant le produit scalaire avec $\vv{v}$ :
+
+\begin{equation}
+	m\frac{\mathrm{d}\vv{v}}{\mathrm{d}t}\cdot \vv{v} = \vv{F}\cdot\vv{v}\Rightarrow \frac{1}{2}m\frac{\mathrm{d}\vv{v}^2}{\mathrm{d}t} = \vv{F}\cdot\frac{\mathrm{d}\vv{OM}}{\mathrm{d}t}
+\end{equation}
+
+\noindent $m$ étant une constante on a en fait $\frac{\mathrm{d}}{\mathrm{d}t}\left( \frac{1}{2}mv^2 \right) \frac{\mathrm{d}E_c}{\mathrm{d}t} = \vv{F}\cdot\frac{\mathrm{d}\vv{OM}}{\mathrm{d}t}$ et donc en intégrant entre un instant $t_i$ et un instant $t_f$ :
+
+\begin{equation}
+	E_{c, B} - E_{c, A} = \int_{t_A}^{t_B}\vv{F}\cdot \mathrm{d}\vv{OM}
+\end{equation}
+
+\paragraph{}On définit alors $W_{AB} = \int_{t_A}^{t_B}\vv{F}\cdot \mathrm{d}\vv{OM}$ le travail fourni par la force $\vv{F}$ à l'objet. Le travail est une énergie (qui s'exprime don aussi en \SI{}{\joule}) qui mesure en quelques sortes l'effort fourni par une force. Si l'on considère une force constante, alors on a simplement :
+
+\begin{equation}
+	W_{AB} = \vv{F}\cdot\vv{\Delta OM}
+\end{equation}
+
+\noindent le travail d'une force correspond alors simplement au produit scalaire de la force avec le déplacement de l'objet sur la durée considérée.
+
+\paragraph{}Dans le cas où le travail d'une force est positif $W_{AB} > 0$, et que donc la force est globalement dans le sens du déplacement, on dit que la force est motrice. En effet, dans ce cas là, la force permet de favoriser le mouvement de l'objet et d'augmenter son énergie cinétique. Par contre, dans le cas où le travail est négatif $W_{AB} < 0$, et que donc la force est globalement dans le sens inverse au déplacement, on dit que la force est résistante.
+
+\paragraph{}Via cette définition, on en déduit aussi qu'une force orthogonale au mouvement à tout instant produit un travail nul. C'est par exemple le cas du poids s'exerçant sur une boule de bowling qui roule par terre : son poids ne permet ni d'accélérer ni de ralentir son mouvement.
+
+\subsection{Puissance d'une force}
+
+\paragraph{}Une autre manière de définir le transfert d'énergie opéré par une force est de manière instantanée via la notion de puissance. En effet, via la notion de travail, on définit l'apport énergétique d'une force en considérant un trajet, une durée finie. Pour un objet se déplaçant à une vitesse $\vv{v}$ et soumis à une force $\vv{F}$, la puissance de cette force sur cet objet est :
+
+\begin{equation}
+	\mathcal{P} = \vv{F}\cdot\vv{v}
+\end{equation}
+
+\noindent Elle s'exprime en joules par seconde, équivalent à des watts (\SI{}{\watt}) et permet de quantifier la quantité d'énergie apportée par la force au mouvement par unité de temps. 
+
+\paragraph{}\textit{Une force peut produire un très grand travail à très faible puissance comme un très faible travail à une grande puissance. Tout dépend de la durée sur laquelle l'effort est fourni.}
+
+\paragraph{}De la même manière que pour le travail, une puissance positive $\mathcal{P}>0$ correspond à une force instantanément motrice tandis qu'une puissance négative $\mathcal{P}<0$ correspond à une force instantanément résistante.
+
+\subsection{Théorème de l'énergie cinétique}
+
+\paragraph{}Dans le cas d'une unique force, nous avons vu que l'énergie cinétique d'un objet pouvait être échangé avec l'extérieur via le travail de cette force. En fait, cette règle s'applique dans le cas général. La variation d'énergie cinétique d'un corps entre deux instants $t_A$ et $t_B$ correspond à la somme des travaux reçus par ce corps pendant cette durée :
+
+\begin{equation}
+	\Delta E_c = E_c (t_B) - E_c (t_A) = \frac{1}{2}mv_B^2-\frac{1}{2}mv_A^2 = \sum_i W_{AB}(\vv{F_i})
+\end{equation}
+
+\noindent Ce théorème peut permettre de prédire la variation d'énergie cinétique en connaissant les travaux ou bien de déduire un travail de force en connaissant une variation d'énergie cinétique.
+
+\section{Énergie potentielle et forces conservatives}
+
+\paragraph{}On dit qu'une force est conservative si le travail qu'elle fournit entre deux points $A$ et $B$ ne dépend que de la position de ces deux points et non du chemin parcouru entre ces deux points. Dans ce cas là, le travail peut s'écrire comme :
+
+\begin{equation}
+	W_{AB}(\vv{F}) = E_p(A) - E_p(B)
+\end{equation}
+
+\noindent avec $E_p$ l'énergie potentielle associée à la force $\vv{F}$, définie comme :
+
+\begin{equation}
+	\vv{F}(x,y,z) = -\frac{\partial E_p}{\partial x}\vv{e_x} - \frac{\partial E_p}{\partial y}\vv{e_y} - \frac{\partial E_p}{\partial z}\vv{e_z}
+\end{equation}
+
+\paragraph{}Dans cette expression, l'opérateur $\frac{\partial}{\partial x}$ correspond à la dérivée partielle par rapport à $x$. Une dérivée partielle correspond à une dérivée d'une fonction de plusieurs variables par rapport à l'une seule de ces variables en gardant les autres constantes. Par exemple, si l'on considère la fonction $g(x,y,z) = xy + z$ alors on a :
+
+\begin{equation}
+	\frac{\partial g}{\partial x} = y, \quad \frac{\partial g}{\partial y} = x, \quad \frac{\partial g}{\partial z} = 1
+\end{equation}
+
+\paragraph{}Étant donné que l'énergie potentielle est définie comme une intégrale de la force, elle n'est définie qu'à une constante près. Toutefois ce n'est pas un problème car pour calculer un travail, on utilise une différence d'énergie potentielle (donc les constantes s'annulent). Pour déterminer l'énergie potentielle uniquement, on définit souvent une origine $O$ où celle-ci est nulle.
+
+\paragraph{}\textit{Nous allons voir dans la partie suivante quelques exemples d'énergie potentielle.}
+
+\subsection{Exemples d'énergie potentielle}
+
+\subsubsection{Énergie potentielle de pesanteur}
+
+\paragraph{}Prenons tout d'abord l'exemple d'une force très simple : le poids. Si l'on définit un repère cartésien d'axe $(Oz)$ ascendant du sol vers le ciel, alors on a vu que la force de poids s'écrit :
+
+\begin{equation}
+	\vv{P} = -mg\vv{e_z}
+\end{equation}
+
+\noindent On peut montrer simplement que cette force est conservative. En effet si l'on définit $E_p = mgz + C$ on a :
+
+\begin{equation}
+	-\frac{\partial E_p}{\partial x}\vv{e_x} - \frac{\partial E_p}{\partial y}\vv{e_y} - \frac{\partial E_p}{\partial z}\vv{e_z} = -mg\vv{e_z} = \vv{P}
+\end{equation}
+
+\noindent En choisissant arbitrairement qu'à l'altitude $z=0$ on a $E_p = 0$ alors on a $C=0$ et donc finalement :
+
+\begin{defi}{Énergie potentielle de pesanteur}
+\begin{equation}
+	E_p = mgz = mg\times \text{altitude}
+\end{equation}
+\end{defi}
+
+\paragraph{}Ainsi, d'après la définition de l'énergie potentielle, le travail du poids entre deux points $A$ et $B$ s'exprime simplement :
+
+\begin{equation}
+	W_{AB}(\vv{P})=mg(z_A-z_B)
+\end{equation}
+
+\noindent Le poids est donc moteur lorsque $z_A > z_B$ et que donc le mouvement perd en altitude, ce qui est logique car la gravité fait tomber les corps en direction du sol. À l'inverse, lors de l'ascension d'un corps, le poids est résistant.
+
+\subsubsection{Énergie potentielle de rappel élastique}
+
+\paragraph{}La force de rappel exercée par un ressort est elle aussi conservative. En effet, on peut montrer que l'énergie potentielle $E_p = \frac{1}{2}k(l-l_0)^2+C$ est l'énergie potentielle dont dérive la force de rappel définie à l'\autoref{eq:forceressort}. En choisissant comme origine de l'énergie potentiel la position du ressort au repos ($l=l_0$) on a $C=0$ et donc finalement :
+
+\begin{defi}{Énergie potentielle de rappel élastique}
+\begin{equation}
+	E_p = \frac{1}{2}k(l-l_0)^2
+\end{equation}
+\end{defi}
+
+\subsubsection{Énergie potentielle coulombienne}
+
+\paragraph{}Enfin, de la même manière que pour les autres forces, on peut montrer que la force coulombienne d'interactions entre deux charges $q_1$ et $q_2$ prend la forme :
+
+\begin{defi}{Énergie potentielle coulombienne}
+\begin{equation}
+	E_p = \frac{q_1q_2}{4\pi\epsilon_0r}
+\end{equation}
+\end{defi}
+
+\noindent avec $r$ la distance séparant les deux charges.
+
+\subsubsection{Force de frottements visqueux : un exemple de force non conservative}
+
+\paragraph{}Toutes les forces ne peuvent pas s'exprimer comme la dérivée d'une énergie potentielle. C'est le cas de la force de frottements visqueux que l'on a vu au chapitre précédent. En effet, celle-ci dépend de la vitesse du corps sur le trajet entre $A$ et $B$. Ainsi, pour un même point de départ et d'arrivée on peut avoir des intensités de force très différentes (avec des trajectoires très différentes). On dit alors qu'une telle force est non-conservative. Nous verrons pourquoi.
+
+\section{Principe de conservation de l'énergie mécanique}
+
+\subsection{Corps soumis à des forces conservatives}
+
+\paragraph{}La conservation de l'énergie en mécanique prend tout son sens lorsqu'on ne considère pas l'énergie cinétique seule ou l'énergie potentielle seule mais plutôt les deux ensemble dans un même concept d'énergie mécanique :
+
+\begin{defi}{Énergie mécanique}
+Pour un corps donné, l'énergie mécanique et la somme de son énergie cinétique et de ses énergies potentielles (si plusieurs forces conservatives s’exercent sur le corps) :
+\begin{equation}
+	E_m = E_c + E_p
+\end{equation}
+\end{defi}
+
+\paragraph{}En effet, un corps soumis uniquement à des forces conservatives voit son énergie mécanique conservée. C'est à dire que tout au long du mouvement on a $E_m = \text{cste}$. Cette propriété peut s'avérer très utile pour résoudre certains problèmes comme on le verra dans la partie suivante.
+
+\subsection{Cas général}
+
+\paragraph{}Dans le cas général où le corps serait aussi soumis à des forces non conservatives, l'énergie mécanique n'est plus conservée. Dans ce cas, la variation d'énergie mécanique sur un trajet de $A$ à $B$ correspond aux travaux des forces non-conservatives (uniquement) sur ce trajet :
+
+\begin{equation}
+	\Delta E_m = E_m(B) - E_m(A) = \sum_iW_{AB}(\vv{F_{i, NC}})
+\end{equation}
+
+\section{Mouvement dans un profil d'énergie potentielle ($\star$)}
+
+\subsection{Principe}
+
+\paragraph{}Le principe de conservation de l'énergie mécanique peut s'avérer très pratique pour étudier le mouvement d'un corps soumis uniquement à des forces conservatives dont on connaît l'énergie potentielle totale associée. Considérons par exemple un snowboardeur évoluant sur une piste, repérée par la coordonnée $x$ et dont le profil est le suivant :
+
+
+\paragraph{}Celui-ci n'est soumis qu'à son poids en termes de force conservative\footnote{On néglige ici les frottements et la réaction du support ne travaille pas.}, dont on a vu que l'énergie potentielle associée est proportionnelle à l'altitude. Ainsi, on a le profil d'énergie potentielle suivant :
+
+\paragraph{}On suppose que le snowboardeur part du début de la piste en $x=0$ avec une vitesse nulle. Son énergie cinétique est donc nulle $E_c=0$ et donc son énergie mécanique totale égale à son énergie potentielle initiale. On peut donc la représenter sur la \textbf{Fig XX}. Lorsque le snowboardeur se laisse glisser, son énergie cinétique augmente et son énergie potentielle diminue de telle manière que son énergie mécanique reste constante. Grâce à ce graphe, on peut calculer la vitesse du snowboardeur et les zones auxquelles il peut accéder en glissant sans trop de calcul. En effet, il est possible de lire direction l'énergie cinétique sur ce graphe comme $E_c = E_m - E_p$. De plus, étant donné que l'on a nécessairement $E_m \geq E_p$ car l'énergie cinétique est une grandeur positive, on a $E_m \geq E_p$. Ainsi, le snowboardeur ne pourra pas atteindre les zones se situant au-dessus de la droite $E_p = E_m$.
+
+\subsection{Électron lié à un atome}
+
+\paragraph{}Dans l'atome d'hydrogène, l'électron est soumis à des forces d'interaction avec le noyau, résultant en l'énergie potentielle dont le profil est le suivant, avec $r$ la distance entre le noyau et l'électron :
+
+\paragraph{}Infiniment loin du noyau, l'énergie potentielle de l'électron est nulle. Infiniment proche du noyau, l'énergie potentielle de l'électron est infinie. En fonction de l'énergie totale de l'électron, on peut tirer de ce diagramme plusieurs informations :
+
+\begin{itemize}
+	\item L'énergie minimale de l'électron dans l'atome d'hydrogène est $E_\text{min} = E_{p, \text{min}}$.
+	\item Pour $E_m < 0$, l'électron est lié au noyau, il ne peut pas s'en éloigner arbitrairement loin. On parle d'état lié de l'électron.
+	\item Pour $E_m > 0$, l'électron possède assez d'énergie pour "fuir" l'attraction du noyau et donc partir infiniment loin. On parle d'état libre de l'électron.
+\end{itemize}
+
+\paragraph{}Formellement, on peut relier la quantité d'énergie à fournir à l'électron pour qu'il puisse être dans un état libre à l'énergie d'ionisation.
+
+\paragraph{}Il existe de nombreux autres cas physiques possédant des profils d'énergie potentielle non-monotones présentant ces mêmes notions d'états liés et d'états libres. C'est notamment le cas de certains systèmes d'astres en gravitation.
+
+\section*{Objectifs de ce chapitre}
+
+\paragraph{}À l'issue de ce chapitre, vous devez :
+
+\begin{itemize}
+	\item Savoir repérer un point sur un axe.
+\end{itemize}

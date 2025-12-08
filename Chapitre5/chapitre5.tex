@@ -1,0 +1,117 @@
+\chapter{CTD : Guidage des ondes électromagnétiques}
+\label{chapter5}
+
+\textit{Jusqu'à présent on ne s'est intéressé qu'au comportement des ondes électromagnétiques dans le vide. Dans ce dernier chapitre, nous allons faire une première étude de leur interaction avec les milieux matériels, et plus spécifiquement les conducteurs parfaits. Par une approche pratique, cela nous permettra de comprendre comment il est possible de guider une onde électromagnétique, comme c'est le cas dans les fibres optiques par exemple.}
+
+\section{Relations de passage}
+
+\paragraph{}Si l'on considère un matériau possédant une répartition surfacique $\sigma$ de ses charges et $\vv{j}_s$ de ses courants, il n'est pas possible d'utiliser les équations de Maxwell pour déterminer le champ électromagnétique sur cette surface. En effet, des répartitions surfaciques correspondent en fait à des répartitions volumiques $\rho$ et $\vv{j}$ infinies sur la surface. Il est cependant possible de convertir ces équations en relations de passage qui permettent de faire le lien entre les champs juste avant la surface et juste après celle-ci :
+
+\begin{equation}
+\begin{aligned}
+    \hat{n}\cdot\left( \vv{E}(A^+, t) - \vv{E}(A^-, t) \right) &= \frac{\sigma(A,t)}{\varepsilon_0} \\
+    \hat{n}\wedge\left( \vv{E}(A^+, t) - \vv{E}(A^-, t) \right) &= \vv{0} \\
+     \hat{n}\cdot\left( \vv{B}(A^+, t) - \vv{B}(A^-, t) \right) &= 0 \\
+     \hat{n}\wedge\left( \vv{B}(A^+, t) - \vv{B}(A^-, t) \right) &= \mu_0\vv{j}_s(A,t)
+\end{aligned}
+\end{equation}
+
+\noindent Avec $A$ un point de l'interface et $\hat{n}$ le vecteur unitaire normal à l'interface dans le sens de la propagation. Globalement, ces relations indiquent que la composante tangentielle de $\vv{E}$ est continue à l'interface et que la composante normale de $\vv{B}$ est continue à l'interface. Pour ce qui est de la composante normale de $\vv{E}$ et la composante tangentielle de $\vv{B}$, cela dépend des charges et des courants surfaciques présents à l'interface. On admettra par ailleurs que les potentiels scalaire $V$ et vectoriel $\vv{A}$ sont eux continus à l'interface.
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.4\textwidth]{Chapitre5/RelationsPassage.pdf}
+    \caption{Passage d'une interface par le champ électrique}
+    \label{fig:enter-label}
+\end{figure}
+
+\section{Interaction avec un conducteur parfait}
+
+\paragraph{}\textit{Les interactions entre la lumière et la matière peuvent s'avérer très complexe c'est pourquoi il est plus judicieux d'aborder ce problème avec un exemple simple : celui du conducteur parfait.}
+
+\subsection{Définition}
+
+\paragraph{}Un conducteur parfait est un modèle idéalisé d'un matériau conducteur qui aurait une conductivité $\gamma$ infinie. Dans ces matériaux, les densités volumiques de charges et de courants $\rho$ et $\vv{j}$ sont nulles tout comme le champ électromagnétique $\left(\vv{E}, \vv{B}\right)$. Ils peuvent toutefois porter des charges et des courants mais ceux-ci seront présents uniquement en surface ($\sigma\neq 0$ et $\vv{j}_s\neq\vv{0}$). Si ce modèle est plutôt simpliste, pour des fréquences suffisamment faibles et des matériaux suffisamment conducteur il se révèle être une très bonne approximation. Comme nous allons le voir par la suite, le fait que les champs soient nuls à l'intérieur du conducteur parfait en fait un matériau intéressant pour l'utiliser comme réflecteur des OEM.
+
+\subsection{Réflexion d'une OEM sous incidence normale}
+
+\paragraph{}Considérons une OPPH se propageant dans le vide selon les $z$ croissants. Une plaque de métal que l'on considère comme un conducteur parfait se situe dans le plan $z=0$. Pour simplifier le problème on va considérer l'onde polarisée rectilignement selon $\hat{e}_x$ et on a alors :
+
+\begin{equation}
+\begin{aligned}
+    &\vv{E}_i = E_0\cos\left( \omega t - kz \right)\hat{e}_x \\
+    &\vv{B}_i = \frac{E_0}{c}\cos\left( \omega t - kz \right)\hat{e}_y
+\end{aligned}
+\end{equation}
+
+\noindent À son arrivée sur le conducteur, le champ électromagnétique incident $(\vv{E}_i, \vv{B}_i)$ met en mouvement les porteurs de charge à la surface qui à leur tour renvoient une onde électromagnétique réfléchie représentée par le champ $(\vv{E}_r, \vv{B}_r)$. La mise en mouvement des charges se faisant dans une direction parallèle au champ, le champ réfléchi émis est polarisé de la même façon et donc on a :
+
+\begin{equation}
+\begin{aligned}
+    &\vv{E}_r = E_{0r}\cos\left( \omega t + kz +\phi \right)\hat{e}_x \\
+    &\vv{B}_r = -\frac{E_{0r}}{c}\cos\left( \omega t + kz +\phi \right)\hat{e}_y
+\end{aligned}
+\end{equation}
+
+\paragraph{}En appliquant les relations de passage en $z=0$ on a donc :
+
+\begin{equation}
+    \vv{E}_r(0^-, t) = -\vv{E}_i(0^-, t) \Rightarrow E_{0r}=-E_{0}, \quad \phi=0
+\end{equation}
+
+\noindent et donc l'onde réfléchie est décrite par le champ suivant :
+
+\begin{equation}
+\begin{aligned}
+    &\vv{E}_r = -E_0\cos\left( \omega t + kz \right)\hat{e}_x \\
+    &\vv{B}_r = \frac{E_0}{c}\cos\left( \omega t + kz \right)\hat{e}_y
+\end{aligned}
+\end{equation}
+
+\noindent On remarque alors que l'onde réfléchie a la même amplitude que l'onde incidente, ainsi toute l'énergie est réfléchie et rien ne traverse le conducteur parfait. Si l'on calcule l'onde résultante de l'incidence et de la réflexion on a :
+
+\begin{equation}
+\begin{aligned}
+    &\vv{E} = \vv{E}_i + \vv{E}_r = 2E_0\sin\left(\omega t\right)\sin\left(kz\right)\hat{e}_x \\
+    & \vv{B} = \vv{B}_i + \vv{B}_r = 2\frac{E_0}{c}\cos\left(\omega t\right)\cos\left(kz\right)\hat{e}_y
+\end{aligned}
+\end{equation}
+
+\noindent On reconnaît là une onde stationnaire. En d'autres termes, l'onde résultante ne se propage pas.
+
+\paragraph{}\textit{Pour une application pratique, une onde qui ne se propage pas est souvent peu intéressante. Nous allons voir qu'en utilisant non pas un mais deux plans conducteurs, il est possible de propager des ondes dans une direction donnée.}
+
+\section{TD-Cours : Propagation guidée entre deux plans métalliques parallèles}
+
+\paragraph{}Cette partie est un TD-cours qui a pour but d'étudier la propagation guidée d'une onde entre deux plans de conducteur parfait. Ce premier modèle permet de comprendre par l'exercice quelques aspects de la propagation guidée, notamment la notion de pulsation de coupure et de vitesse de groupe.
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.6\textwidth]{Chapitre5/PropagGuide.pdf}
+    \caption{OPPH dans le guide d'onde plan}
+    \label{fig:enter-label}
+\end{figure}
+
+\paragraph{}Considérons un onde électromagnétique se propageant selon $\hat{e}_x$, dirigée par un couple de plans conducteurs parfaits situés en $z=0$ et $z=a$ respectivement. On cherche le champ électrique associé sous la forme :
+
+\begin{equation}
+    \vv{E} = E(y,z)\cos\left( \omega t - kx \right) \hat{e}_y
+\end{equation}
+
+\begin{enumerate}
+    \item \begin{enumerate}
+        \item Quelle équation de propagation doit vérifier $\vv{E}$ entre les deux plans ?
+        \item Quelles sont les conditions aux limites imposées par les plans conducteurs en $z=0$ et $z=a$ ?
+    \end{enumerate}
+    \item En utilisant l'équation de Maxwell-Gauss, montrer que $\vv{E}$ ne dépend que de $z$.
+    \item Écrire l'équation différentielle vérifiée par la fonction $E(z)$.
+    \item Résoudre cette équation. En imposant les conditions aux limites, déterminer complètement les solutions.
+    \item En déduire le champ $\vv{B}$ associé à chaque solution.
+    \item Donner la relation de dispersion associée à ce type d'onde guidée.
+    \item Que se passe-t-il si $k^2<0$ ? En déduire une condition sur la pulsation de l'onde pour qu'elle puisse effectivement se propager dans le guide.
+    \item Calculer la vitesse de phase associée à ces ondes et la comparer à $c$.
+    
+\end{enumerate}
+
+\newpage
+\newpage

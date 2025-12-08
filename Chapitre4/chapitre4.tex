@@ -1,0 +1,289 @@
+\chapter{Mécanique du solide}
+\label{chapter4}
+
+\paragraph{}\textit{En optique géométrique ou ondulatoire, vous avez utilisé le modèle scalaire des ondes lumineuses qui permet de rendre compte d'une multitude de phénomènes. Or dans les chapitres précédents, nous avons montré que les OEM ont une structure vectorielle bien définie. Ce niveau de description supplémentaire plus réaliste est en fait un aspect essentiel pour appréhender les interactions lumière-matière comme dans le cas du fonctionnement d'un polariseur par exemple.}
+
+\section{Définition}
+
+\paragraph{}Comme on l'a vu dans le chapitre précédent, la structure des OPPH est assez contrainte dans le vide (relation de structure, relation de dispersion, ...). Toutefois, il reste quelques degrés de liberté non définis qui permettent de décrire un nouvel aspect structurel de l'onde : la polarisation.
+
+\paragraph{}Considérons une OPPH se propageant selon $\hat{e}_z$. D'après la relation de structure, le champ électrique étant orthogonal à la direction de propagation on a $E_z=0$ et on peut alors écrire le champ $\vv{E}$ associé sous la forme la plus générale possible\footnote{Cette écriture est en effet totalement générale car on pourra toujours réabsorber une éventuelle phase constante $\phi_x$ dans une redéfinition de l'origine des temps $t_0$.} :
+
+\begin{equation}
+    \vv{E} = E_{0x}\cos\left( \omega t - kz \right)\hat{e}_x + E_{0y}\cos\left( \omega t - kz - \phi \right)\hat{e}_y
+\end{equation}
+
+\noindent On voit alors ici que $(\phi, E_{0x}, E_{0y})$ sont trois paramètres libres qui vont définir ce nouveau degré de structure.
+
+\paragraph{}Plaçons nous dans un plan de phase, disons $z=0$, et observons l'évolution du vecteur $\vv{E}$ au cours du temps. Pour cela on pourra se rendre sur le site \hyperlink{https://emanim.szialab.org/index.html}{EMANIM}. On remarque alors qu'en fonction du triplet de paramètres choisi, la courbe décrite par le vecteur $\vv{E}$ dans le plan d'onde n'est pas la même : c'est la polarisation.
+
+\paragraph{}La polarisation d'une onde EM correspond à la courbe décrite par le vecteur $\vv{E}$ associé dans un plan d'onde lorsque l'observateur regarde l'onde arriver vers lui (convention). En soi, on pourrait se focaliser de manière équivalente sur $\vv{B}$ mais cela n'apporte pas plus d'information car $\vv{E}$ et $\vv{B}$ s'entre-déterminent entièrement via la relation de structure.
+
+\section{Classification}
+
+\subsection{Équation de la courbe de polarisation}
+
+\paragraph{}Pour un triplet $(\phi, E_{0x}, E_{0y})$ on a :
+
+\begin{equation}
+\begin{aligned}
+    &E_x = E_{0x}\cos\left( \omega t \right)\\
+    &E_y = E_{0y}\cos\left( \omega t - \phi \right)
+\end{aligned}
+\end{equation}
+
+\noindent En utilisant $\cos(a-b) = \cos(a)\cos(b)+\sin(a)\sin(b)$ on obtient alors :
+
+\begin{equation}
+\begin{aligned}
+    &\frac{E_y}{E_{0y}} = \cos(\omega t)\cos(\phi)+\sin(\omega t)\sin(\phi)\\
+    &\frac{E_x}{E_{0x}} = \cos(\omega t)
+\end{aligned}
+\end{equation}
+
+\noindent qui peut aussi se mettre sous la forme :
+
+\begin{equation}
+    \begin{aligned}
+        &\cos(\omega t)\sin(\phi) = \frac{E_x}{E_{0x}}\sin(\phi)\\
+        &\sin(\omega t)\sin(\phi) = \frac{E_y}{E_{0y}}-\frac{E_x}{E_{0x}}\cos(\phi)
+    \end{aligned}
+\end{equation}
+
+\noindent En utilisant alors l'identité trigonométrique $\cos^2(x)+\sin^2(x)=1$ on peut combiner ces deux équations pour obtenir la forme suivante :
+
+\begin{equation}
+\left(\frac{E_x}{E_{0 x}}\right)^2-2\left(\frac{E_x}{E_{0 x}}\right)\left(\frac{E_y}{E_{0 y}}\right) \cos \phi+\left(\frac{E_y}{E_{0 y}}\right)^2=\sin ^2 \phi
+\end{equation}
+
+\paragraph{}La courbe décrite par l'extrémité du vecteur $\vv{E}$ est donc une ellipse ! A partir de là il y a alors deux possibilités : soit l'ellipse de polarisation est parcourue dans le sens horaire, soit elle est parcourue dans le sens trigonométrique. Pour le savoir, le plus simple est de se placer à un instant caractéristique et de regarder l'évolution du vecteur $\vv{E}$ autour de cet instant. Dans notre cas présent, nous allons nous placer à l'instant $t=0$. Cet instant est caractéristique dans notre cas puisqu'il représente un maximum de $E_x$. Il suffit alors de regarder l'évolution de $E_y$ autour de ce point pour savoir dans quel sens l'ellipse tourne (voir \autoref{fig:droitegauche}).
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.6\textwidth]{Chapitre4/croitegauche.pdf}
+    \caption{Détermination du sens de parcours d'une ellipse de polarisation}
+    \label{fig:droitegauche}
+\end{figure}
+
+\begin{equation}
+    \dpart{E_y}{t}(t=0) = E_{0y}\sin(\phi)\omega
+\end{equation}
+
+\begin{itemize}
+    \item Pour $\dpart{E_y}{t}(t=0)>0$ l'ellipse est parcourue dans le sens trigonométrique et on parle alors de polarisation gauche.
+    \item Pour $\dpart{E_y}{t}(t=0)<0$ l'ellipse est parcourue dans le sens horaire et on parle alors de polarisation droite.
+\end{itemize}
+
+\paragraph{}Dans le cas général on dira donc d'une OPPH qu'elle est polarisée elliptique droite ou elliptique gauche. Mais il y a des cas particuliers !
+
+\subsection{Polarisation rectiligne}
+
+\paragraph{}Dans le cas où l'un des axes de l'ellipse est nul, l'ellipse devient une portion de droite. On parle alors de polarisation rectiligne. Dans ce cas, $\vv{E}$ garde une direction fixe au cours du temps et on peut écrire :
+
+\begin{equation}
+    \vv{E} = \left(
+\begin{aligned}
+    &E_{0}\cos(\alpha)\\
+    &E_{0}\sin(\alpha)
+\end{aligned}
+\right)
+\cos(\omega t-kz)
+\end{equation}
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.5\textwidth]{Chapitre4/rectiligne.pdf}
+    \caption{Représentation d'une polarisation rectiligne}
+    \label{fig:enter-label}
+\end{figure}
+
+\paragraph{}Une OPPH quelconque peut toujours s'écrire comme la superposition de deux OPPH polarisées rectilignement suivant deux directions orthogonales. Elles représentent donc une base de décomposition des OPPH et par extension de toute la théorie électromagnétique ondulatoire.
+
+\subsection{Polarisation circulaire}
+
+\paragraph{}Dans le cas ou $\phi = \frac{\pi}{2}[\pi]$ et $E_{0x}=E_{0y}$, l'équation de l'ellipse se réduit à celle d'un cercle. 
+
+\begin{equation}
+    \vv{E} = \left( 
+    \begin{aligned}
+        &E_0\cos(\omega t)\\
+        \pm&E_0\sin(\omega t)
+    \end{aligned}\right)
+\end{equation}
+
+On dit alors que l'onde est polarisée circulairement (gauche ou droite). De la même manière, toute OPPH de polarisation quelconque peut s'écrire sous la forme d'une superposition d'une OPPH polarisée circulairement gauche et d'une OPPH polarisée circulairement droite.
+
+\subsection{Lumière naturelle}
+
+\paragraph{}Les corps chauds comme le soleil et la plupart de nos sources lumineuses émettent la lumière sous la forme de trains d'onde de durée $\tau$ très courte. Le champ électrique associé peut alors s'écrire :
+
+\begin{equation}
+\vv{E} = \left(
+\begin{aligned}
+    &E_{0x}\cos\left( \omega t \right)\\
+    &E_{0y}\cos\left( \omega t - \phi(t) \right)
+\end{aligned} \right)
+\end{equation}
+
+\noindent avec $\phi(t)$ une phase qui change aléatoirement tous les $\tau$ (voir \autoref{fig:TrainDOnde}). Chaque train d'onde a une polarisation bien définie mais nos détecteurs sont bien trop lents pour les analyser séparément : $\tau_\text{détec}\gg \tau$. Ils ne sont alors sensibles qu'à $\langle \lVert \vv{E} \rVert^2 \rangle$ qui n'apparaît donc pas polarisé. En d'autres termes, la lumière naturelle n'a pas d'état de polarisation bien défini pour nous mais contient en elle la superposition de toutes les polarisations existantes.
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.4\textwidth]{Chapitre4/TrainDOndes.pdf}
+    \caption{Émission de la lumière naturelle selon le modèle des trains d'onde}
+    \label{fig:TrainDOnde}
+\end{figure}
+
+\section{Manipuler la polarisation de la lumière}
+
+\subsection{Polariseurs et analyseurs}
+
+\paragraph{}Pour manipuler la polarisation de la lumière, on peut utiliser des matériaux dont les propriétés dépendent de la direction considérée : on parle de milieux anisotropes. Un exemple simple de ces objets sont les polariseurs. Un polariseur est une lame qui laisse passer le champ électrique seulement dans une direction privilégiée. Dans le domaine des micro-ondes, on peut réaliser des polariseurs grâce à des grilles métalliques dont le fonctionnement est résumé sur la \autoref{fig:pola}. En passant au travers de la grille, le champ $\vv{E}_\perp$ dans la même direction que les tiges va mettre en mouvement les électrons métalliques. On va alors avoir un transfert et une dissipation de l'énergie. Par contre, le champ $\vv{E}_\parallel$ étant orthogonal aux tiges, il ne peut pas mettre en mouvement les électrons et il est donc transmis.
+
+\begin{figure}
+    \centering
+    \includegraphics[width=0.7\textwidth]{Chapitre4/polariseur.pdf}
+    \caption{Principe de fonctionnement d'un polariseur pour les micro-ondes}
+    \label{fig:pola}
+\end{figure}
+
+\paragraph{}Finalement, en sortie de polariseur, seule la composante parallèle à la direction privilégiée est passée :
+
+\begin{equation}
+    \vv{E}_\text{out} = \left( \vv{E}_\text{in}\cdot\vv{u} \right) \vv{u}
+\end{equation}
+
+\noindent avec $\vv{u}$ le vecteur unitaire portant la direction privilégiée du polariseur. On obtient donc une onde polarisée rectilignement dans la direction privilégiée quelque soit l'onde incidente. Toutefois l'intensité de cette onde dépend fortement de la forme de l'onde incidente. Si on la prend rectiligne et faisant un angle $\alpha$ avec la direction privilégiée $\hat{e}_x$ :
+
+\begin{equation}
+    \vv{E}_\text{in} = E_0cos(\omega t - kz)\left( \cos(\alpha)\hat{e}_x + \sin(\alpha)\hat{e}_y \right)
+\end{equation}
+
+\noindent L'intensité entrante associée est :
+
+\begin{equation}
+    I_\text{in} = \langle\lVert\vv{\Pi}_\text{in}\rVert\rangle = \frac{1}{2}\epsilon_0 c E_0^2
+\end{equation}
+
+\noindent En sortie de polariseur on a :
+
+\begin{equation}
+\begin{aligned}
+    \vv{E}_\text{out} &= \left( \vv{E}_\text{in}\cdot\hat{e}_x \right) \hat{e}_x\\
+    &= E_0cos(\omega t - kz) \cos(\alpha)\hat{e}_x
+\end{aligned}
+\end{equation}
+
+\noindent et donc l'intensité sortante :
+
+\begin{equation}
+    I_\text{out} = \langle\lVert\vv{\Pi}_\text{out}\rVert\rangle = \frac{1}{2}\epsilon_0 c E_0^2\cos^2(\alpha)
+\end{equation}
+
+\paragraph{}Ce résultat correspond à la loi de Malus : si une est onde polarisée rectilignement dans une direction faisant un angle $\alpha$ avec l'axe privilégié d'un polariseur, son intensité au passage de ce dernier est multipliée par le cosinus carré de cet angle.
+
+\begin{equation}
+    I_\text{out} = I_\text{in}\cos^2(\alpha)
+\end{equation}
+
+\noindent on en déduit alors qu'une onde polarisée dans la direction orthogonale à la direction privilégiée du polariseur est totalement absorbée par celui-ci. Dans le cas d'une lumière naturelle non polarisée, l'énergie est uniformément répartie dans toutes les directions de polarisation. Après le passage d'un polariseur on a donc $I_\text{out} = I_\text{in}/2$ quelque soit la direction de celui-ci. Les polariseurs permettent donc de créer une lumière polarisée à partir d'une source non polarisée. De plus, via la loi de la Malus et l'étude de l'intensité sortante, ils permettent de se renseigner sur la nature d'une lumière polarisée. Comme on le verra en TP, cela peut s'avérer très pratique dans certaines applications comme la photographie.
+
+\paragraph{Remarque} Expérimentalement on parle de polariseur et d'analyseur. Ce sont en fait exactement le même objet : on l'appelle polariseur lorsqu'on l'utilise pour produire une onde polarisée rectilignement et on l'appelle analyseur lorsqu'on l'utilise pour étudier la polarisation d'une onde incidente.
+
+\subsection{Lames à retard de phase}
+
+\paragraph{}Certains matériaux sont dits biréfringents : ils ne possèdent pas un indice optique isotrope, i.e. leur indice dépend de la direction considérée. En d'autres termes, cela signifie qu'une onde ayant un champ $\vv{E}$ portée par une direction $\hat{e}_1$ ne ressentira pas le même indice optique à la traversée qu'une onde ayant un champ $\vv{E}$ portée par une direction $\hat{e}_2$. Ces matériaux permettent la fabrication de lames à retard de phase.
+
+\paragraph{}Pour une lame à retard de phase, on peut définir deux directions orthogonales aussi appelées lignes neutres, chacune affectée d'un indice optique $n_i$. La ligne ayant l'indice le plus grand est appelée l'axe lent (car la lumière s'y propage moins vite\footnote{On rappelle que dans un milieu d'indice $n$ la lumière se propage à la vitesse $c/n$.}) et celle ayant l'indice le plus faible est appelée l'axe rapide (car la lumière s'y propage plus vite). Pour comprendre l'effet d'une telle lame sur une onde incidente, prenons l'exemple d'une OPPH se propageant selon l'axe $Oz$ et rencontrant une lame à retard de phase située entre $z=0$ et $z=e$ dont les lignes neutres sont les axes $Ox$ et $Oy$ associées à des indices $n_x$ et $n_y$. Avant la lame on a un champ polarisé de manière quelconque :
+
+\begin{equation}
+    \vv{E} = \left(
+\begin{aligned}
+    &E_{0x}\cos(\omega t - k_0 z) \\
+    &E_{0y}\cos(\omega t - k_0 z + \phi)
+\end{aligned}
+\right)
+\end{equation}
+
+\noindent où l'on a noté $k_0 = 2\pi/\lambda_0$ avec $\lambda_0$ la longueur d'onde dans le vide associée à l'onde. On rappelle à toute fin utile que dans un milieu d'indice $n_i$ le vecteur d'onde associé est $k_i = 2\pi n_i/\lambda_0 = k_0n_i$. Ainsi dans la lame on a :
+
+\begin{equation}
+    \vv{E} = \left(
+\begin{aligned}
+    &E_{0x}\cos(\omega t - n_xk_0 z) \\
+    &E_{0y}\cos(\omega t - n_yk_0 z + \phi)
+\end{aligned}
+\right)
+\end{equation}
+
+\noindent et après avoir parcouru une épaisseur $e$ :
+
+\begin{equation}
+    \vv{E} = \left(
+\begin{aligned}
+    &E_{0x}\cos(\omega t - n_xk_0 e) \\
+    &E_{0y}\cos(\omega t - n_yk_0 e + \phi)
+\end{aligned}
+\right)
+\end{equation}
+
+\noindent et finalement en après la lame :
+
+\begin{equation}
+    \vv{E} = \left(
+\begin{aligned}
+    &E_{0x}\cos(\omega t - n_xk_0 e - k_0(z-e)) \\
+    &E_{0y}\cos(\omega t - n_yk_0 e -k_0(z-e)+ \phi)
+\end{aligned}
+\right)
+\end{equation}
+
+\noindent La lame à retard a donc pour effet de déphaser les deux composantes selon les lignes neutres d'un déphasage :
+
+\begin{equation}
+    \phi\rightarrow \phi+\Delta\phi, \quad \Delta\phi = k_0(n_x-n_y)e
+\end{equation}
+
+\noindent En agissant sur la phase entre les composantes du vecteur $\vv{E}$ on agit alors directement sur la polarisation de l'onde. Il existe deux principaux types de lames à retard pour modifier la polarisation d'une lumière incidente : les lames demi-onde et les lames quart-d'onde.
+
+\paragraph{Lames demi-onde} Les lames demi-onde sont telles que $\Delta\phi=\pi[2\pi]$.\footnote{La différence de marche associée est donc une demi-longueur d'onde.} $\Delta\phi$ dépendant de $\lambda_0$, une lame demi-onde n'est par définition demi-onde que pour une certaine longueur d'onde donnée ! On peut alors se demander comment agit une telle lame sur une polarisation incidente. Si l'on prend une OPPH polarisée de manière quelconque on a :
+
+\begin{equation}
+    \vv{E} = \left(
+\begin{aligned}
+    &E_{0x}\cos(\omega t - k_0 z) \\
+    &E_{0y}\cos(\omega t - k_0 z + \phi)
+\end{aligned}
+\right)
+\end{equation}
+
+\noindent et donc après une lame demi-onde de lignes neutres $Ox$ et $Oy$ :
+
+\begin{equation}
+    \vv{E} = \left(
+\begin{aligned}
+    &E_{0x}\cos(\omega t - k_0 z) \\
+    &E_{0y}\cos(\omega t - k_0 z + \phi + \pi) = - E_{0y}\cos(\omega t - k_0 z + \phi )
+\end{aligned}
+\right)
+\end{equation}
+
+\noindent Une lame demi-onde fait donc changer le signe de la composante selon l'axe rapide. En d'autres termes, cela correspond à une symétrie de réflexion par rapport à l'axe lent.
+
+\begin{figure}
+    \centering
+    \includegraphics[width=\textwidth]{Chapitre4/demionde.pdf}
+    \caption{Effets d'une lame demi-onde sur une polarisation incidente}
+    \label{fig:demionde}
+\end{figure}
+
+\paragraph{Lame quart d'onde} Les lames quart-d'onde sont les lames telles que $\Delta\phi=\pi/2[2\pi]$. Une telle lame transforme une onde polarisée rectilignement en une onde polarisée elliptiquement dont les axes sont les lignes neutres de la lame. Si l'angle entre la polarisation incidente et les lignes neutres de la lame est de \SI{45}{\degree} alors on obtient une onde polarisée circulairement.
+
+\begin{figure}
+    \centering
+    \includegraphics[width=\textwidth]{Chapitre4/quartdonde.pdf}
+    \caption{Effets d'une lame quart-d'onde sur une polarisation incidente}
+    \label{fig:quartdonde}
+\end{figure}
+
+\paragraph{}Les lames à retard permettent de nombreuses applications. Elles permettent d'analyser complètement une polarisation incidente en les utilisant conjointement avec des polariseurs mais aussi d'analyser des matériaux interagissant eux-mêmes avec la polarisation de la lumière (certains minéraux par exemple).

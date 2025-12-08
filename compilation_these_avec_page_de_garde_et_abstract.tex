@@ -1,0 +1,37 @@
+\documentclass[a4paper,12pt,twoside]{book}
+
+\input{preambule_these.tex}
+
+\title{Template de thèse minimaliste}
+\author{Antoine Bérut}
+\date\today
+
+\begin{document}
+
+\frontmatter
+
+%\maketitle
+\input{Intro-Conclusion/page_de_garde.tex}
+
+
+\newpage
+\thispagestyle{empty}
+\hspace{1cm}
+\newpage
+
+\setcounter{page}{1}
+\tableofcontents
+
+\mainmatter
+
+\input{Intro-Conclusion/Introduction.tex}
+\input{Chapitre1/chapitre1.tex}
+\input{Chapitre2/chapitre2.tex}
+\input{Chapitre3/chapitre3.tex}
+
+\nocite{*}
+\bibliographystyle{ieeetr}
+\bibliography{biblio}
+%\addcontentsline{toc}{chapter}{Bibliography}
+
+\end{document}
