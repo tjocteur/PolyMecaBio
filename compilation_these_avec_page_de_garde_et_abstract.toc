@@ -1,195 +1,196 @@
 \babel@toc {french}{}\relax 
 \contentsline {chapter}{Note d'intention}{1}{chapter*.1}%
+\contentsline {paragraph}{}{1}{section*.2}%
+\contentsline {paragraph}{}{1}{section*.3}%
 \contentsline {chapter}{\numberline {1}Cinématique du point}{3}{chapter.1}%
-\contentsline {paragraph}{}{3}{section*.2}%
-\contentsline {paragraph}{}{3}{section*.3}%
-\contentsline {paragraph}{Objectifs du chapitre}{3}{section*.4}%
-\contentsline {section}{\numberline {1.1}L'approximation ponctuelle en mécanique}{3}{section.1.1}%
+\contentsline {paragraph}{}{3}{section*.4}%
 \contentsline {paragraph}{}{3}{section*.5}%
+\contentsline {paragraph}{Objectifs du chapitre}{3}{section*.6}%
+\contentsline {section}{\numberline {1.1}L'approximation ponctuelle en mécanique}{3}{section.1.1}%
 \contentsline {paragraph}{}{3}{section*.7}%
-\contentsline {paragraph}{}{4}{section*.8}%
-\contentsline {paragraph}{}{4}{section*.9}%
+\contentsline {paragraph}{}{3}{section*.9}%
 \contentsline {paragraph}{}{4}{section*.10}%
-\contentsline {section}{\numberline {1.2}Repérage d'un point}{4}{section.1.2}%
 \contentsline {paragraph}{}{4}{section*.11}%
 \contentsline {paragraph}{}{4}{section*.12}%
+\contentsline {section}{\numberline {1.2}Repérage d'un point}{4}{section.1.2}%
+\contentsline {paragraph}{}{4}{section*.13}%
+\contentsline {paragraph}{}{4}{section*.14}%
 \contentsline {subsection}{\numberline {1.2.1}Repérage sur une droite}{5}{subsection.1.2.1}%
-\contentsline {paragraph}{}{5}{section*.13}%
 \contentsline {paragraph}{}{5}{section*.15}%
 \contentsline {paragraph}{}{5}{section*.17}%
-\contentsline {subsection}{\numberline {1.2.2}Repérage dans un plan}{5}{subsection.1.2.2}%
-\contentsline {subsubsection}{Coordonnées cartésiennes}{5}{section*.18}%
 \contentsline {paragraph}{}{5}{section*.19}%
-\contentsline {paragraph}{}{6}{section*.21}%
-\contentsline {paragraph}{}{6}{section*.22}%
-\contentsline {subsubsection}{Coordonnées polaires}{6}{section*.23}%
+\contentsline {subsection}{\numberline {1.2.2}Repérage dans un plan}{5}{subsection.1.2.2}%
+\contentsline {subsubsection}{Coordonnées cartésiennes}{5}{section*.20}%
+\contentsline {paragraph}{}{5}{section*.21}%
+\contentsline {paragraph}{}{6}{section*.23}%
 \contentsline {paragraph}{}{6}{section*.24}%
+\contentsline {subsubsection}{Coordonnées polaires}{6}{section*.25}%
 \contentsline {paragraph}{}{6}{section*.26}%
-\contentsline {paragraph}{}{7}{section*.28}%
-\contentsline {paragraph}{}{7}{section*.29}%
+\contentsline {paragraph}{}{6}{section*.28}%
 \contentsline {paragraph}{}{7}{section*.30}%
+\contentsline {paragraph}{}{7}{section*.31}%
+\contentsline {paragraph}{}{7}{section*.32}%
 \contentsline {subsection}{\numberline {1.2.3}Repérage dans l'espace}{7}{subsection.1.2.3}%
-\contentsline {subsubsection}{Coordonnées cartésiennes}{7}{section*.32}%
-\contentsline {paragraph}{}{7}{section*.33}%
-\contentsline {subsubsection}{Autres systèmes de coordonnées dans l'espace}{8}{section*.34}%
-\contentsline {paragraph}{}{8}{section*.35}%
-\contentsline {paragraph}{}{8}{section*.36}%
+\contentsline {subsubsection}{Coordonnées cartésiennes}{7}{section*.34}%
+\contentsline {paragraph}{}{7}{section*.35}%
+\contentsline {subsubsection}{Autres systèmes de coordonnées dans l'espace}{8}{section*.36}%
 \contentsline {paragraph}{}{8}{section*.37}%
-\contentsline {paragraph}{}{9}{section*.38}%
-\contentsline {section}{\numberline {1.3}Notion de référentiel}{9}{section.1.3}%
-\contentsline {paragraph}{}{9}{section*.39}%
-\contentsline {subsection}{\numberline {1.3.1}Problématisation}{9}{subsection.1.3.1}%
+\contentsline {paragraph}{}{8}{section*.38}%
+\contentsline {paragraph}{}{8}{section*.39}%
 \contentsline {paragraph}{}{9}{section*.40}%
-\contentsline {subsection}{\numberline {1.3.2}Définition}{9}{subsection.1.3.2}%
+\contentsline {section}{\numberline {1.3}Notion de référentiel}{9}{section.1.3}%
+\contentsline {paragraph}{}{9}{section*.41}%
+\contentsline {subsection}{\numberline {1.3.1}Problématisation}{9}{subsection.1.3.1}%
 \contentsline {paragraph}{}{9}{section*.42}%
-\contentsline {paragraph}{}{10}{section*.43}%
-\contentsline {paragraph}{}{10}{section*.44}%
+\contentsline {subsection}{\numberline {1.3.2}Définition}{9}{subsection.1.3.2}%
+\contentsline {paragraph}{}{9}{section*.44}%
 \contentsline {paragraph}{}{10}{section*.45}%
 \contentsline {paragraph}{}{10}{section*.46}%
 \contentsline {paragraph}{}{10}{section*.47}%
-\contentsline {section}{\numberline {1.4}Les descripteurs du mouvement}{10}{section.1.4}%
 \contentsline {paragraph}{}{10}{section*.48}%
-\contentsline {subsection}{\numberline {1.4.1}Le vecteur position}{10}{subsection.1.4.1}%
-\contentsline {subsubsection}{Définitions}{10}{section*.49}%
+\contentsline {paragraph}{}{10}{section*.49}%
+\contentsline {section}{\numberline {1.4}Les descripteurs du mouvement}{10}{section.1.4}%
 \contentsline {paragraph}{}{10}{section*.50}%
-\contentsline {subsubsection}{Vecteur déplacement}{11}{section*.51}%
-\contentsline {paragraph}{}{11}{section*.53}%
-\contentsline {paragraph}{}{12}{section*.54}%
-\contentsline {subsection}{\numberline {1.4.2}Le vecteur vitesse}{12}{subsection.1.4.2}%
-\contentsline {subsubsection}{Définition}{12}{section*.55}%
+\contentsline {subsection}{\numberline {1.4.1}Le vecteur position}{10}{subsection.1.4.1}%
+\contentsline {subsubsection}{Définitions}{10}{section*.51}%
+\contentsline {paragraph}{}{10}{section*.52}%
+\contentsline {subsubsection}{Vecteur déplacement}{11}{section*.53}%
+\contentsline {paragraph}{}{11}{section*.55}%
 \contentsline {paragraph}{}{12}{section*.56}%
-\contentsline {paragraph}{}{12}{section*.57}%
+\contentsline {subsection}{\numberline {1.4.2}Le vecteur vitesse}{12}{subsection.1.4.2}%
+\contentsline {subsubsection}{Définition}{12}{section*.57}%
 \contentsline {paragraph}{}{12}{section*.58}%
 \contentsline {paragraph}{}{12}{section*.59}%
-\contentsline {paragraph}{}{13}{section*.60}%
-\contentsline {subsubsection}{Dérivation}{13}{section*.61}%
+\contentsline {paragraph}{}{12}{section*.60}%
+\contentsline {paragraph}{}{12}{section*.61}%
 \contentsline {paragraph}{}{13}{section*.62}%
-\contentsline {paragraph}{}{14}{section*.65}%
+\contentsline {subsubsection}{Dérivation}{13}{section*.63}%
+\contentsline {paragraph}{}{13}{section*.64}%
+\contentsline {paragraph}{}{14}{section*.67}%
 \contentsline {subsection}{\numberline {1.4.3}Le vecteur accélération}{15}{subsection.1.4.3}%
-\contentsline {paragraph}{}{15}{section*.67}%
-\contentsline {paragraph}{}{15}{section*.68}%
 \contentsline {paragraph}{}{15}{section*.69}%
+\contentsline {paragraph}{}{15}{section*.70}%
+\contentsline {paragraph}{}{15}{section*.71}%
 \contentsline {section}{\numberline {1.5}Étude de mouvements caractéristiques ($\star $)}{16}{section.1.5}%
-\contentsline {paragraph}{}{16}{section*.70}%
+\contentsline {paragraph}{}{16}{section*.72}%
 \contentsline {subsection}{\numberline {1.5.1}Mouvement rectiligne uniforme}{16}{subsection.1.5.1}%
-\contentsline {paragraph}{}{16}{section*.71}%
 \contentsline {paragraph}{}{16}{section*.73}%
-\contentsline {paragraph}{}{17}{section*.74}%
-\contentsline {subsection}{\numberline {1.5.2}Mouvement uniformément accéléré}{17}{subsection.1.5.2}%
-\contentsline {paragraph}{}{17}{section*.75}%
+\contentsline {paragraph}{}{16}{section*.75}%
 \contentsline {paragraph}{}{17}{section*.76}%
+\contentsline {subsection}{\numberline {1.5.2}Mouvement uniformément accéléré}{17}{subsection.1.5.2}%
 \contentsline {paragraph}{}{17}{section*.77}%
-\contentsline {paragraph}{Équation de la trajectoire}{18}{section*.78}%
+\contentsline {paragraph}{}{17}{section*.78}%
+\contentsline {paragraph}{}{17}{section*.79}%
+\contentsline {paragraph}{Équation de la trajectoire}{18}{section*.80}%
 \contentsline {subsection}{\numberline {1.5.3}Mouvement circulaire uniforme ($\star \star $)}{18}{subsection.1.5.3}%
-\contentsline {paragraph}{}{18}{section*.79}%
-\contentsline {paragraph}{}{18}{section*.80}%
-\contentsline {paragraph}{}{19}{section*.81}%
+\contentsline {paragraph}{}{18}{section*.81}%
+\contentsline {paragraph}{}{18}{section*.82}%
 \contentsline {paragraph}{}{19}{section*.83}%
+\contentsline {paragraph}{}{19}{section*.85}%
 \contentsline {chapter}{\numberline {2}Dynamique du point}{21}{chapter.2}%
 \contentsline {section}{\numberline {2.1}Principe fondamental de la dynamique}{21}{section.2.1}%
 \contentsline {subsection}{\numberline {2.1.1}Énoncé}{21}{subsection.2.1.1}%
-\contentsline {paragraph}{}{21}{section*.84}%
-\contentsline {subsection}{\numberline {2.1.2}La masse}{21}{subsection.2.1.2}%
-\contentsline {paragraph}{}{21}{section*.85}%
 \contentsline {paragraph}{}{21}{section*.86}%
-\contentsline {paragraph}{}{22}{section*.87}%
-\contentsline {subsection}{\numberline {2.1.3}Notion de force}{22}{subsection.2.1.3}%
-\contentsline {paragraph}{}{22}{section*.88}%
+\contentsline {subsection}{\numberline {2.1.2}La masse}{21}{subsection.2.1.2}%
+\contentsline {paragraph}{}{21}{section*.87}%
+\contentsline {paragraph}{}{21}{section*.88}%
 \contentsline {paragraph}{}{22}{section*.89}%
+\contentsline {subsection}{\numberline {2.1.3}Notion de force}{22}{subsection.2.1.3}%
 \contentsline {paragraph}{}{22}{section*.90}%
-\contentsline {subsection}{\numberline {2.1.4}Système soumis à plusieurs forces}{22}{subsection.2.1.4}%
 \contentsline {paragraph}{}{22}{section*.91}%
 \contentsline {paragraph}{}{22}{section*.92}%
+\contentsline {subsection}{\numberline {2.1.4}Système soumis à plusieurs forces}{22}{subsection.2.1.4}%
+\contentsline {paragraph}{}{22}{section*.93}%
+\contentsline {paragraph}{}{22}{section*.94}%
 \contentsline {subsection}{\numberline {2.1.5}Utilisation du principe fondamental de la dynamique}{23}{subsection.2.1.5}%
-\contentsline {subsubsection}{Détermination du mouvement d'un objet}{23}{section*.93}%
-\contentsline {paragraph}{}{23}{section*.94}%
-\contentsline {paragraph}{}{23}{section*.95}%
-\contentsline {subsubsection}{Systèmes isolés et pseudo-isolés}{23}{section*.96}%
+\contentsline {subsubsection}{Détermination du mouvement d'un objet}{23}{section*.95}%
+\contentsline {paragraph}{}{23}{section*.96}%
 \contentsline {paragraph}{}{23}{section*.97}%
-\contentsline {paragraph}{}{23}{section*.98}%
+\contentsline {subsubsection}{Systèmes isolés et pseudo-isolés}{23}{section*.98}%
 \contentsline {paragraph}{}{23}{section*.99}%
-\contentsline {subsection}{\numberline {2.1.6}Écueil sur les référentiels galiléens ($\star $)}{23}{subsection.2.1.6}%
 \contentsline {paragraph}{}{23}{section*.100}%
+\contentsline {paragraph}{}{23}{section*.101}%
+\contentsline {subsection}{\numberline {2.1.6}Écueil sur les référentiels galiléens ($\star $)}{23}{subsection.2.1.6}%
+\contentsline {paragraph}{}{23}{section*.102}%
 \contentsline {section}{\numberline {2.2}Forces en présence dans le systèmes biologiques}{24}{section.2.2}%
-\contentsline {paragraph}{}{24}{section*.101}%
-\contentsline {subsection}{\numberline {2.2.1}Le poids}{24}{subsection.2.2.1}%
-\contentsline {paragraph}{}{24}{section*.102}%
 \contentsline {paragraph}{}{24}{section*.103}%
-\contentsline {subsection}{\numberline {2.2.2}Force de rappel d'un ressort}{24}{subsection.2.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Le poids}{24}{subsection.2.2.1}%
 \contentsline {paragraph}{}{24}{section*.104}%
-\contentsline {paragraph}{}{24}{section*.105}%
-\contentsline {subsection}{\numberline {2.2.3}Force de frottements visqueux}{24}{subsection.2.2.3}%
 \contentsline {paragraph}{}{24}{section*.106}%
+\contentsline {subsection}{\numberline {2.2.2}Force de rappel d'un ressort}{25}{subsection.2.2.2}%
 \contentsline {paragraph}{}{25}{section*.107}%
 \contentsline {paragraph}{}{25}{section*.108}%
-\contentsline {subsection}{\numberline {2.2.4}Poussée d'Archimède}{25}{subsection.2.2.4}%
-\contentsline {paragraph}{}{25}{section*.109}%
+\contentsline {subsection}{\numberline {2.2.3}Force de frottements visqueux}{25}{subsection.2.2.3}%
 \contentsline {paragraph}{}{25}{section*.110}%
-\contentsline {subsection}{\numberline {2.2.5}Force d'interaction coulombienne}{25}{subsection.2.2.5}%
-\contentsline {paragraph}{}{25}{section*.111}%
-\contentsline {paragraph}{}{25}{section*.112}%
+\contentsline {paragraph}{}{26}{section*.111}%
+\contentsline {paragraph}{}{26}{section*.112}%
+\contentsline {subsection}{\numberline {2.2.4}Poussée d'Archimède}{26}{subsection.2.2.4}%
 \contentsline {paragraph}{}{26}{section*.113}%
-\contentsline {section}{\numberline {2.3}Exemples d'applications ($\star $)}{26}{section.2.3}%
-\contentsline {paragraph}{}{26}{section*.114}%
-\contentsline {subsection}{\numberline {2.3.1}Chute libre d'une balle}{26}{subsection.2.3.1}%
 \contentsline {paragraph}{}{26}{section*.115}%
-\contentsline {paragraph}{}{26}{section*.116}%
-\contentsline {paragraph}{}{26}{section*.117}%
-\contentsline {paragraph}{}{26}{section*.118}%
-\contentsline {subsection}{\numberline {2.3.2}Sédimentation d'un globule rouge}{27}{subsection.2.3.2}%
+\contentsline {subsection}{\numberline {2.2.5}Force d'interaction coulombienne}{27}{subsection.2.2.5}%
+\contentsline {paragraph}{}{27}{section*.116}%
+\contentsline {paragraph}{}{27}{section*.118}%
 \contentsline {paragraph}{}{27}{section*.119}%
+\contentsline {section}{\numberline {2.3}Exemples d'applications ($\star $)}{27}{section.2.3}%
 \contentsline {paragraph}{}{27}{section*.120}%
+\contentsline {subsection}{\numberline {2.3.1}Chute libre d'une balle}{27}{subsection.2.3.1}%
 \contentsline {paragraph}{}{27}{section*.121}%
-\contentsline {paragraph}{}{27}{section*.122}%
-\contentsline {subsection}{\numberline {2.3.3}Mesure de force grâce aux pinces optiques}{27}{subsection.2.3.3}%
-\contentsline {paragraph}{}{27}{section*.124}%
-\contentsline {chapter}{\numberline {3}Aspects énergétiques de la dynamique du point}{29}{chapter.3}%
-\contentsline {paragraph}{}{29}{section*.125}%
-\contentsline {section}{\numberline {3.1}Énergie cinétique}{29}{section.3.1}%
-\contentsline {paragraph}{}{29}{section*.126}%
+\contentsline {paragraph}{}{28}{section*.122}%
+\contentsline {paragraph}{}{28}{section*.123}%
+\contentsline {paragraph}{}{28}{section*.124}%
+\contentsline {subsection}{\numberline {2.3.2}Sédimentation d'un globule rouge}{28}{subsection.2.3.2}%
+\contentsline {paragraph}{}{28}{section*.125}%
+\contentsline {paragraph}{}{28}{section*.126}%
 \contentsline {paragraph}{}{29}{section*.127}%
 \contentsline {paragraph}{}{29}{section*.128}%
-\contentsline {section}{\numberline {3.2}Transmission d'énergie par une force}{30}{section.3.2}%
-\contentsline {subsection}{\numberline {3.2.1}Travail d'une force}{30}{subsection.3.2.1}%
-\contentsline {paragraph}{}{30}{section*.129}%
-\contentsline {paragraph}{}{30}{section*.130}%
-\contentsline {paragraph}{}{30}{section*.131}%
-\contentsline {paragraph}{}{30}{section*.132}%
-\contentsline {subsection}{\numberline {3.2.2}Puissance d'une force}{30}{subsection.3.2.2}%
-\contentsline {paragraph}{}{30}{section*.133}%
+\contentsline {paragraph}{}{29}{section*.130}%
+\contentsline {chapter}{\numberline {3}Aspects énergétiques de la dynamique du point}{31}{chapter.3}%
+\contentsline {paragraph}{}{31}{section*.131}%
+\contentsline {section}{\numberline {3.1}Énergie cinétique}{31}{section.3.1}%
+\contentsline {paragraph}{}{31}{section*.132}%
+\contentsline {paragraph}{}{31}{section*.133}%
 \contentsline {paragraph}{}{31}{section*.134}%
-\contentsline {paragraph}{}{31}{section*.135}%
-\contentsline {subsection}{\numberline {3.2.3}Théorème de l'énergie cinétique}{31}{subsection.3.2.3}%
-\contentsline {paragraph}{}{31}{section*.136}%
-\contentsline {section}{\numberline {3.3}Énergie potentielle et forces conservatives}{31}{section.3.3}%
-\contentsline {paragraph}{}{31}{section*.137}%
-\contentsline {paragraph}{}{31}{section*.138}%
+\contentsline {section}{\numberline {3.2}Transmission d'énergie par une force}{32}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Travail d'une force}{32}{subsection.3.2.1}%
+\contentsline {paragraph}{}{32}{section*.135}%
+\contentsline {paragraph}{}{32}{section*.136}%
+\contentsline {paragraph}{}{32}{section*.137}%
+\contentsline {paragraph}{}{32}{section*.138}%
+\contentsline {subsection}{\numberline {3.2.2}Puissance d'une force}{32}{subsection.3.2.2}%
 \contentsline {paragraph}{}{32}{section*.139}%
-\contentsline {paragraph}{}{32}{section*.140}%
-\contentsline {subsection}{\numberline {3.3.1}Exemples d'énergie potentielle}{32}{subsection.3.3.1}%
-\contentsline {subsubsection}{Énergie potentielle de pesanteur}{32}{section*.141}%
-\contentsline {paragraph}{}{32}{section*.142}%
-\contentsline {paragraph}{}{32}{section*.143}%
-\contentsline {subsubsection}{Énergie potentielle de rappel élastique}{32}{section*.144}%
-\contentsline {paragraph}{}{32}{section*.145}%
-\contentsline {subsubsection}{Énergie potentielle coulombienne}{33}{section*.146}%
-\contentsline {paragraph}{}{33}{section*.147}%
-\contentsline {subsubsection}{Force de frottements visqueux : un exemple de force non conservative}{33}{section*.148}%
-\contentsline {paragraph}{}{33}{section*.149}%
-\contentsline {section}{\numberline {3.4}Principe de conservation de l'énergie mécanique}{33}{section.3.4}%
-\contentsline {subsection}{\numberline {3.4.1}Corps soumis à des forces conservatives}{33}{subsection.3.4.1}%
-\contentsline {paragraph}{}{33}{section*.150}%
-\contentsline {paragraph}{}{33}{section*.151}%
-\contentsline {subsection}{\numberline {3.4.2}Cas général}{33}{subsection.3.4.2}%
-\contentsline {paragraph}{}{33}{section*.152}%
-\contentsline {section}{\numberline {3.5}Mouvement dans un profil d'énergie potentielle ($\star $)}{34}{section.3.5}%
-\contentsline {subsection}{\numberline {3.5.1}Principe}{34}{subsection.3.5.1}%
-\contentsline {paragraph}{}{34}{section*.153}%
-\contentsline {paragraph}{}{34}{section*.154}%
-\contentsline {paragraph}{}{34}{section*.155}%
-\contentsline {subsection}{\numberline {3.5.2}Électron lié à un atome}{34}{subsection.3.5.2}%
-\contentsline {paragraph}{}{34}{section*.156}%
-\contentsline {paragraph}{}{34}{section*.157}%
-\contentsline {paragraph}{}{34}{section*.158}%
-\contentsline {paragraph}{}{35}{section*.159}%
-\contentsline {paragraph}{}{35}{section*.161}%
+\contentsline {paragraph}{}{33}{section*.140}%
+\contentsline {paragraph}{}{33}{section*.141}%
+\contentsline {subsection}{\numberline {3.2.3}Théorème de l'énergie cinétique}{33}{subsection.3.2.3}%
+\contentsline {paragraph}{}{33}{section*.142}%
+\contentsline {section}{\numberline {3.3}Énergie potentielle et forces conservatives}{33}{section.3.3}%
+\contentsline {paragraph}{}{33}{section*.143}%
+\contentsline {paragraph}{}{33}{section*.144}%
+\contentsline {paragraph}{}{34}{section*.145}%
+\contentsline {paragraph}{}{34}{section*.146}%
+\contentsline {subsection}{\numberline {3.3.1}Exemples d'énergie potentielle}{34}{subsection.3.3.1}%
+\contentsline {subsubsection}{Énergie potentielle de pesanteur}{34}{section*.147}%
+\contentsline {paragraph}{}{34}{section*.148}%
+\contentsline {paragraph}{}{34}{section*.149}%
+\contentsline {subsubsection}{Énergie potentielle de rappel élastique}{34}{section*.150}%
+\contentsline {paragraph}{}{34}{section*.151}%
+\contentsline {subsubsection}{Énergie potentielle coulombienne}{35}{section*.152}%
+\contentsline {paragraph}{}{35}{section*.153}%
+\contentsline {subsubsection}{Force de frottements visqueux : un exemple de force non conservative}{35}{section*.154}%
+\contentsline {paragraph}{}{35}{section*.155}%
+\contentsline {section}{\numberline {3.4}Principe de conservation de l'énergie mécanique}{35}{section.3.4}%
+\contentsline {subsection}{\numberline {3.4.1}Corps soumis à des forces conservatives}{35}{subsection.3.4.1}%
+\contentsline {paragraph}{}{35}{section*.156}%
+\contentsline {paragraph}{}{35}{section*.157}%
+\contentsline {subsection}{\numberline {3.4.2}Cas général}{35}{subsection.3.4.2}%
+\contentsline {paragraph}{}{35}{section*.158}%
+\contentsline {section}{\numberline {3.5}Mouvement dans un profil d'énergie potentielle ($\star $)}{36}{section.3.5}%
+\contentsline {subsection}{\numberline {3.5.1}Principe}{36}{subsection.3.5.1}%
+\contentsline {paragraph}{}{36}{section*.159}%
+\contentsline {paragraph}{}{36}{section*.160}%
+\contentsline {paragraph}{}{36}{section*.161}%
+\contentsline {subsection}{\numberline {3.5.2}Électron lié à un atome}{36}{subsection.3.5.2}%
+\contentsline {paragraph}{}{36}{section*.162}%
+\contentsline {paragraph}{}{36}{section*.163}%
+\contentsline {paragraph}{}{36}{section*.164}%
+\contentsline {paragraph}{}{37}{section*.165}%
+\contentsline {paragraph}{}{37}{section*.167}%

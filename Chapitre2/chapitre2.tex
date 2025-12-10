@@ -70,7 +70,7 @@
 	\sum_i \vv{F_i} = \vv{0} \Rightarrow \vv{a} = \vv{0}
 \end{equation}
 
-\paragraph{}Par définition de l'accélération (qui est la dérivée du vecteur vitesse), cela signifie qu'un tel système possède un vecteur vitesse constant en direction et en norme. Autrement dit, cela correspond à un mouvement rectiligne uniforme (voir \textbf{Chap XX}). Notons par ailleurs que l'immobilité est un cas particulier du mouvement rectiligne uniforme (vitesse uniformément nulle). Ce raisonnement constitue le principe d'inertie :
+\paragraph{}Par définition de l'accélération (qui est la dérivée du vecteur vitesse), cela signifie qu'un tel système possède un vecteur vitesse constant en direction et en norme. Autrement dit, cela correspond à un mouvement rectiligne uniforme (voir \autoref{chapter1}). Notons par ailleurs que l'immobilité est un cas particulier du mouvement rectiligne uniforme (vitesse uniformément nulle). Ce raisonnement constitue le principe d'inertie :
 
 \begin{defi}{Principe d'inertie}
 	Un système isolé ou pseudo-isolé conserve un mouvement rectiligne uniforme. 
@@ -95,7 +95,14 @@
 	\label{eq:poids}
 \end{equation}
 
-\noindent avec $\vv{g}$ l'accélération de la pesanteur, de norme $g = \SI{9,8}{\meter\per\second\squared}$, et dirigée vers le sol. Sur la \textbf{Fig XX} on représente le poids de différentes balles lancées en l'air. En premier approximation, le poids est une force qui ne varie ni dans l'espace, ni dans le temps. Tout au long du mouvement, un objet est soumis au même poids.
+\noindent avec $\vv{g}$ l'accélération de la pesanteur, de norme $g = \SI{9,8}{\meter\per\second\squared}$, et dirigée vers le sol. Sur la \autoref{fig:ballespoids} on représente le poids de différentes balles lancées en l'air. En premier approximation, le poids est une force qui ne varie ni dans l'espace, ni dans le temps. Tout au long du mouvement, un objet est soumis au même poids.
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.7\textwidth]{Chapitre2/Figures/PoidsBalles.pdf}
+	\caption{Représentation du poids de différentes balles. La masse de la balle de basket est plus grande que celle de la balle de tennis, elle-même plus grande que celle de la balle de ping pong. La norme du poids étant proportionnelle à la masse de l'objet, la norme du poids de la balle de basket est plus grande que celle de la balle de tennis, elle-même plus grande que celle de la balle de ping pong}
+	\label{fig:ballespoids}
+\end{figure}
 
 \paragraph{}\textit{Dans le langage courant, on confond souvent poids et masse. Ce n'est pas la même chose ! Le poids est une force (s'exprime en \SI{}{\newton}) s'appliquant sur un objet qui a une masse (s'exprime en \SI{}{\kg}). La confusion vient du fait qu'on se sert en général du poids pour mesurer indirectement la masse. En effet, une balance mesure le poids qui s'applique sur un objet et, par conversion, en utilisant l'\autoref{eq:poids}, en déduit la masse.}
 
@@ -104,13 +111,20 @@
 \paragraph{}Une autre force très utilisée en physique est la force de rappel qu'applique un ressort sur un objet collé à son extrémité. Si la longueur à vide du ressort est $l_0$, alors un ressort étiré d'une longueur $l$ applique une force de traction sur son extrémité :
 
 \begin{equation}
-	\vv{F_r} = k(l_0-l)\vv{e_x}
+	\vv{F_r} = k\Delta l \vv{e_x} = k(l_0-l)\vv{e_x}
 	\label{eq:forceressort}
 \end{equation}
 
 \noindent avec $k$ la constante de raideur du ressort, s'exprimant en \SI{}{\newton\per\meter} (d'autant plus grande que le ressort est raide) et $\vv{e_x}$ le vecteur unitaire dans le sens de l'élongation du ressort.
 
-\paragraph{}En pratique, on fait rarement face à des problèmes faisant intervenir des ressorts à proprement parler. Toutefois, dans bien des cas, il est très pratique de modéliser certains objets par des ressorts. \textbf{Exemple du microtubule et de la pince optique}
+\paragraph{}En pratique, on fait rarement face à des problèmes faisant intervenir des ressorts à proprement parler, surtout en biologie. Toutefois, dans bien des cas, il est très pratique de modéliser certains objets par des ressorts afin de représenter la force qu'ils exercent. C'est le cas notamment des pinces optiques, un dispositif expérimental très utilisé en biologie. Une pince optique est un dispositif formée d'un laser focalisé en un point, dont le rayonnement électromagnétique associé va agir comme un piège afin de maintenir un objet au niveau du point focal. La zone de focalisation d'un laser pouvant être réduite à quelques centaines de nanomètres, cet outil permet d'agir sur des objets très petits, comme des organelles à l'intérieur des cellules par exemple. En première approximation, on modélise la force d'attraction associée à une pince optique par la force de rappel d'un ressort (voir \autoref{fig:pinceoptique}). Comme on le verra en TD, cela peut permettre d'étudier des propriétés très intéressantes des systèmes biologiques microscopiques, comme les moteurs moléculaires.
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.6\textwidth]{Chapitre2/Figures/pinceoptique.pdf}
+	\caption{Modélisation du système de pince optique par un ressort.}
+	\label{fig:pinceoptique}
+\end{figure}
 
 \subsection{Force de frottements visqueux}
 
@@ -134,7 +148,14 @@
 	\vv{\Pi} = -\rho_f V_\text{im}\vv{g}
 \end{equation}
 
-\paragraph{}La poussée d'Archimède est donc une force antagoniste de la gravitéSi on prend l'exemple de la balle remplie d'air immergé dans l'eau de la \textbf{Fig XX}, on a $\rho_f > \rho$ et donc la poussée d'Archimède est orientée dans le sens opposé de l'accélération de la pesanteur. Cette force retranscrit donc bien le fait qu'il est difficile d'immerger la balle entièrement dans l'eau !
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.5\textwidth]{Chapitre2/Figures/poussee.pdf}
+	\caption{Représentation de la poussée d'Archimède et du poids appliqués sur une balle immergée dans l'eau.}
+	\label{fig:poussee}
+\end{figure}
+
+\paragraph{}La poussée d'Archimède est donc une force antagoniste de la gravité. Si l'on prend l'exemple de la balle remplie d'air immergé dans l'eau de la \autoref{fig:poussee}, on a $\rho_f > \rho$ et donc la résultante de la force de pesanteur et de la poussée d'Archimède est orientée dans le sens opposé de l'accélération de la pesanteur. Cette force retranscrit donc bien le fait qu'il est difficile d'immerger la balle entièrement dans l'eau !
 
 \subsection{Force d'interaction coulombienne}
 
@@ -146,7 +167,14 @@
 
 \noindent avec $\epsilon_0$ une constante fondamentale appelée permittivité du vide, et $\vv{e_{2\rightarrow 1}}$ le vecteur unitaire dans la direction de la charge 2 vers la charge 1.
 
-\paragraph{}Cette force est donc d'autant plus intense que les charges sont grandes et d'autant plus faible qu'elles sont éloignées. Son sens, dépend lui du signe des deux charges (voir \textbf{Fig XX}). Si les deux charges sont de même signe, alors $q_1q_2 > 0$ et donc la force est attractive. Si les deux charges sont de signes opposés, alors $q_1q_2<0$ et donc la force est répulsive.
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.7\textwidth]{Chapitre2/Figures/charge.pdf}
+	\caption{Représentation de la force d'interaction coulombienne entre différentes charges.}
+	\label{fig:charge}
+\end{figure}
+
+\paragraph{}Cette force est donc d'autant plus intense que les charges sont grandes et d'autant plus faible qu'elles sont éloignées. Son sens, dépend lui du signe des deux charges (voir \autoref{fig:charge}). Si les deux charges sont de même signe, alors $q_1q_2 > 0$ et donc la force est attractive. Si les deux charges sont de signes opposés, alors $q_1q_2<0$ et donc la force est répulsive.
 
 \paragraph{}En biologie moléculaire, la force d'interaction coulombienne est omniprésente, notamment dans les protéines. En effet, certains acides aminés sont chargés positivement ou négativement, ce qui favorise ou défavorise leur rapprochement via la force d'interaction coulombienne. Ainsi, cette force joue un grand rôle dans la conformation des protéines : les conformations stables sont grandement dictées par les interactions électrostatiques. De plus, même si la plupart des acides aminés ne portent pas de charge nette, beaucoup possèdent une charge partielle (on parle de molécules polaires), qui entre aussi en jeu dans les interactions coulombiennes.
 
@@ -213,8 +241,6 @@
 \end{equation}
 
 \paragraph{}Lors d'une inflammation, les globules rouges ont tendance à s'agglomérer et donc former une sorte de super globule de rayon $R$ plus élevé. D'après l'expression établie précédemment, cela correspond donc à une vitesse de sédimentation plus grande. Mesurer la vitesse de sédimentation permet, de cette, manière de déduire l'état d'un patient.
-
-\subsection{Mesure de force grâce aux pinces optiques}
 
 \section*{Objectifs de ce chapitre}
 

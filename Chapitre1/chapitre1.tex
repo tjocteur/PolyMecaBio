@@ -1,4 +1,5 @@
 \chapter{Cinématique du point}
+\label{chapter1}
 
 \paragraph{}\textit{La mécanique est la science du mouvement des corps. Comment la Terre tourne-t-elle autour du Soleil ? Comment les oiseaux volent-ils ? Comment les roches sédimentent-elles ? Pourquoi certains acides aminés s'attirent-ils ? Voilà autant de questions auxquelles la mécanique prétend pouvoir répondre. Dans ce cours nous allons aborder les bases de la mécanique classique afin de développer votre intuition physique sur cet aspect du monde qui nous entoure quotidiennement.}
 
@@ -383,7 +384,7 @@ Le vecteur vitesse correspond à la dérivée du vecteur position en fonction du
 
 \subsubsection{Dérivation}
 
-\paragraph{}Afin de calculer une vitesse, il est donc essentiel de maîtriser ses dérivées. Les dérivées de fonctions usuelles sont répertoriées dans le tableau suivant. Si vous n'êtes pas à l'aise avec cet outil, il est conseillé de reprendre vos cours de lycées. \textbf{Table de dérivées}
+\paragraph{}Afin de calculer une vitesse, il est donc essentiel de maîtriser ses dérivées. Les dérivées de fonctions usuelles sont répertoriées dans le \autoref{tab:der}. Si vous n'êtes pas à l'aise avec cet outil, il est conseillé de reprendre vos cours de lycées.
 
 \begin{table*}[h]
 \caption{Dérivée des fonctions usuelles}
@@ -399,6 +400,7 @@ Le vecteur vitesse correspond à la dérivée du vecteur position en fonction du
       $$ \sin (t) $$ & $$ \cos (t) $$\\
     \hline\hline
   \end{tabularx}
+  \label{tab:der}
 \end{table*}
 
 \begin{table*}[h]
@@ -407,7 +409,7 @@ Le vecteur vitesse correspond à la dérivée du vecteur position en fonction du
     \hline\hline
       $$x(t)$$ & $$\frac{\mathrm{d}x}{\mathrm{d}t}$$ \\
       \hline
-      $$ x(at) $$ & $$ a \frac{\mathrm{d}x}{\mathrm{d}t}$$\\
+      $$ x(at), \quad a=\text{cste} $$ & $$ a \frac{\mathrm{d}x}{\mathrm{d}t}$$\\
       $$ x(t)+y(t) $$ & $$ \frac{\mathrm{d}x}{\mathrm{d}t} + \frac{\mathrm{d}y}{\mathrm{d}t} $$\\
       $$ x(t)\times y(t) $$ & $$ \frac{\mathrm{d}x}{\mathrm{d}t}\times y(t) + x(t)\frac{\mathrm{d}y}{\mathrm{d}t} $$\\
       $$ x(y(t)) $$ & $$ \frac{\mathrm{d}y}{\mathrm{d}t}\times \frac{\mathrm{d}x}{\mathrm{d}y} $$\\
@@ -485,7 +487,7 @@ Le vecteur accélération correspond à la dérivée du vecteur vitesse en fonct
 	
 \end{exemple}
 
-\paragraph{}De manière inverse, si l'on connaît l'accélération du point $M$ ou sa vitesse et que l'on veut déterminer son vecteur position il faut faire le chemin inverse, donc non pas dériver mais intégrer. Il ne faut alors pas oublier les constantes d'intégration qui se déduisent des conditions initiales du mouvement (c'est-à-dire les caractéristiques du mouvement $t=0$). Si vous n'êtes pas à l'aise avec la notion d'intégration, il est fortement conseillé de reprendre un cours de mathématique de niveau lycée (\textbf{spécifié}).
+\paragraph{}De manière inverse, si l'on connaît l'accélération du point $M$ ou sa vitesse et que l'on veut déterminer son vecteur position il faut faire le chemin inverse, donc non pas dériver mais intégrer. Il ne faut alors pas oublier les constantes d'intégration qui se déduisent des conditions initiales du mouvement (c'est-à-dire les caractéristiques du mouvement $t=0$). Si vous n'êtes pas à l'aise avec la notion d'intégration, il est fortement conseillé de reprendre un cours de mathématique de niveau lycée.
 
 \begin{exemple}
 	Considérons une voiture modélisée par un point matériel $M$ se déplaçant en 1D sur un axe $(Ox)$,  ayant une accélération constante :
@@ -600,7 +602,7 @@ Le vecteur accélération correspond à la dérivée du vecteur vitesse en fonct
 
 \subsection{Mouvement circulaire uniforme ($\star\star$)}
 
-\paragraph{}Un autre type de mouvement caractéristique sont les mouvements circulaires uniformes. C'est le mouvement associé à un satellite géostationnaire par exemple. Considérons un tel mouvement dans le plan $xOy$. De manière évidente, les coordonnées les plus adaptées pour décrire ce mouvement sont les coordonnées polaires. En notant $R$ le rayon de la trajectoire et $\omega$ la vitesse angulaire du mouvement on a :
+\paragraph{}Un autre type de mouvement caractéristique sont les mouvements circulaires uniformes. C'est le mouvement associé à un satellite géostationnaire par exemple mais ça peut être aussi le mouvement d'une bactérie dans une colonie sous certaines conditions (voir \autoref{fig:bact_circ}). Considérons un tel mouvement dans le plan $xOy$. De manière évidente, les coordonnées les plus adaptées pour décrire ce mouvement sont les coordonnées polaires. En notant $R$ le rayon de la trajectoire et $\omega$ la vitesse angulaire du mouvement on a :
 
 \begin{equation}
 	\left\{\begin{aligned}
@@ -641,7 +643,7 @@ Le vecteur accélération correspond à la dérivée du vecteur vitesse en fonct
 \vv{a}(t) = -R\omega^2\vv{e_r}
 \end{equation}
 
-\noindent Ainsi, l'objet est accéléré vers l'origine du repère. Dans le cas du satellite géostationnaire, cela signifie donc qu'il est accéléré, tiré par le centre de la Terre... Nous allons voir dans le chapitre suivant comment l'expliquer !
+\noindent Ainsi, l'objet est accéléré vers l'origine du repère. Dans le cas du satellite géostationnaire, cela signifie donc qu'il est accéléré, tiré par le centre de la Terre... Cela vient de la force d'attraction gravitationnelle !
 
 \section*{Objectifs de ce chapitre}
 
