@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2025.11.11)  11 DEC 2025 11:14
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2025.11.11)  15 DEC 2025 17:13
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1156,18 +1156,12 @@ Package chemgreek Info: Activating mapping `default' on line 9.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-<Chapitre3/Figures/OEM.pdf, id=7, 457.72063pt x 293.21732pt>
-File: Chapitre3/Figures/OEM.pdf Graphic file (type pdf)
-<use Chapitre3/Figures/OEM.pdf>
-Package pdftex.def Info: Chapitre3/Figures/OEM.pdf  used on input line 9.
-(pdftex.def)             Requested size: 338.58632pt x 216.89687pt.
  [1
 
 
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./Chapitre3/Figures/OEM.pd
-f>]) [2]
-(./compilation_these_avec_page_de_garde_et_abstract.toc
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]) [2] (./compilation_these_
+avec_page_de_garde_et_abstract.toc
 LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 2
 .
 
@@ -1229,7 +1223,7 @@ File: uesvect.fd
  been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.149 ...3.1}Ã‰nergie cinÃ©tique}{31}{section.3.1}
+l.148 ...3.1}Ã‰nergie cinÃ©tique}{31}{section.3.1}
                                                   % [1])
 \tf@toc=\write4
 \openout4 = `compilation_these_avec_page_de_garde_et_abstract.toc'.
@@ -1258,54 +1252,56 @@ LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 1
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
-<Chapitre1/Figures/angles_solide.png, id=141, 1392.20125pt x 504.88625pt>
+<Chapitre1/Figures/angles_solide.png, id=135, 1392.20125pt x 504.88625pt>
 File: Chapitre1/Figures/angles_solide.png Graphic file (type png)
 <use Chapitre1/Figures/angles_solide.png>
 Package pdftex.def Info: Chapitre1/Figures/angles_solide.png  used on input lin
-e 30.
+e 14.
 (pdftex.def)             Requested size: 386.95897pt x 140.32715pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[3] [4 <./Chapitre1/Figures/angles_solide.png>]
-<Chapitre1/Figures/repere1D.pdf, id=169, 447.6725pt x 110.4125pt>
+ [3 <./Chapitre1/Figures/angles_solide.png>]
+<Chapitre1/Figures/ponct.pdf, id=152, 291.0875pt x 82.3075pt>
+File: Chapitre1/Figures/ponct.pdf Graphic file (type pdf)
+<use Chapitre1/Figures/ponct.pdf>
+Package pdftex.def Info: Chapitre1/Figures/ponct.pdf  used on input line 23.
+(pdftex.def)             Requested size: 241.84843pt x 68.38551pt.
+ [4 <./Chapitre1/Figures/ponct.pdf>]
+<Chapitre1/Figures/repere1D.pdf, id=167, 447.6725pt x 110.4125pt>
 File: Chapitre1/Figures/repere1D.pdf Graphic file (type pdf)
 <use Chapitre1/Figures/repere1D.pdf>
-Package pdftex.def Info: Chapitre1/Figures/repere1D.pdf  used on input line 55.
+Package pdftex.def Info: Chapitre1/Figures/repere1D.pdf  used on input line 46.
 
 (pdftex.def)             Requested size: 314.40001pt x 77.5443pt.
-<Chapitre1/Figures/ex1Dcart.pdf, id=171, 334.24875pt x 50.1875pt>
+<Chapitre1/Figures/ex1Dcart.pdf, id=169, 334.24875pt x 50.1875pt>
 File: Chapitre1/Figures/ex1Dcart.pdf Graphic file (type pdf)
 <use Chapitre1/Figures/ex1Dcart.pdf>
-Package pdftex.def Info: Chapitre1/Figures/ex1Dcart.pdf  used on input line 75.
+Package pdftex.def Info: Chapitre1/Figures/ex1Dcart.pdf  used on input line 66.
 
 (pdftex.def)             Requested size: 217.66211pt x 32.68274pt.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.95> on input line 76.
-<Chapitre1/Figures/ex1Dcart2.pdf, id=172, 334.24875pt x 50.1875pt>
+(Font)              <10.95> on input line 67.
+<Chapitre1/Figures/ex1Dcart2.pdf, id=170, 334.24875pt x 50.1875pt>
 File: Chapitre1/Figures/ex1Dcart2.pdf Graphic file (type pdf)
 <use Chapitre1/Figures/ex1Dcart2.pdf>
-Package pdftex.def Info: Chapitre1/Figures/ex1Dcart2.pdf  used on input line 80
+Package pdftex.def Info: Chapitre1/Figures/ex1Dcart2.pdf  used on input line 71
 .
 (pdftex.def)             Requested size: 217.66211pt x 32.68274pt.
-<Chapitre1/Figures/repere2D.pdf, id=174, 381.425pt x 278.03876pt>
+<Chapitre1/Figures/repere2D.pdf, id=172, 381.425pt x 278.03876pt>
 File: Chapitre1/Figures/repere2D.pdf Graphic file (type pdf)
 <use Chapitre1/Figures/repere2D.pdf>
-Package pdftex.def Info: Chapitre1/Figures/repere2D.pdf  used on input line 99.
+Package pdftex.def Info: Chapitre1/Figures/repere2D.pdf  used on input line 90.
 
 (pdftex.def)             Requested size: 275.70912pt x 200.98534pt.
-<Chapitre1/Figures/ex2Dcart.pdf, id=175, 339.2675pt x 201.75375pt>
+<Chapitre1/Figures/ex2Dcart.pdf, id=173, 339.2675pt x 201.75375pt>
 File: Chapitre1/Figures/ex2Dcart.pdf Graphic file (type pdf)
 <use Chapitre1/Figures/ex2Dcart.pdf>
-Package pdftex.def Info: Chapitre1/Figures/ex2Dcart.pdf  used on input line 105
-.
+Package pdftex.def Info: Chapitre1/Figures/ex2Dcart.pdf  used on input line 96.
+
 (pdftex.def)             Requested size: 145.11053pt x 86.29372pt.
-<Chapitre1/Figures/ex2Dcart2.pdf, id=176, 339.2675pt x 200.75pt>
+<Chapitre1/Figures/ex2Dcart2.pdf, id=174, 339.2675pt x 200.75pt>
 File: Chapitre1/Figures/ex2Dcart2.pdf Graphic file (type pdf)
 <use Chapitre1/Figures/ex2Dcart2.pdf>
 Package pdftex.def Info: Chapitre1/Figures/ex2Dcart2.pdf  used on input line 10
-9.
+0.
 (pdftex.def)             Requested size: 145.11053pt x 85.8644pt.
 
 
@@ -1320,44 +1316,13 @@ inclusion: multiple pdfs with page group included in a single page
 pdfTeX warning: /usr/bin/pdflatex (file ./Chapitre1/Figures/ex1Dcart2.pdf): PDF
  inclusion: multiple pdfs with page group included in a single page
 >]
-<Chapitre1/Figures/bact_circ.jpeg, id=205, 1284.8pt x 479.7925pt>
+<Chapitre1/Figures/bact_circ.jpeg, id=202, 1284.8pt x 479.7925pt>
 File: Chapitre1/Figures/bact_circ.jpeg Graphic file (type jpg)
 <use Chapitre1/Figures/bact_circ.jpeg>
 Package pdftex.def Info: Chapitre1/Figures/bact_circ.jpeg  used on input line 1
-35.
-(pdftex.def)             Requested size: 338.58632pt x 126.44157pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<Chapitre1/Figures/reperepol.pdf, id=206, 339.2675pt x 278.03876pt>
-File: Chapitre1/Figures/reperepol.pdf Graphic file (type pdf)
-<use Chapitre1/Figures/reperepol.pdf>
-Package pdftex.def Info: Chapitre1/Figures/reperepol.pdf  used on input line 15
-6.
-(pdftex.def)             Requested size: 275.70912pt x 225.96107pt.
-<Chapitre1/Figures/ex2Dpol.pdf, id=207, 339.2675pt x 201.75375pt>
-File: Chapitre1/Figures/ex2Dpol.pdf Graphic file (type pdf)
-<use Chapitre1/Figures/ex2Dpol.pdf>
-Package pdftex.def Info: Chapitre1/Figures/ex2Dpol.pdf  used on input line 162.
-
-(pdftex.def)             Requested size: 145.11053pt x 86.29372pt.
-<Chapitre1/Figures/ex2Dpol2.pdf, id=208, 339.2675pt x 200.75pt>
-File: Chapitre1/Figures/ex2Dpol2.pdf Graphic file (type pdf)
-<use Chapitre1/Figures/ex2Dpol2.pdf>
-Package pdftex.def Info: Chapitre1/Figures/ex2Dpol2.pdf  used on input line 166
-.
-(pdftex.def)             Requested size: 145.11053pt x 85.8644pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-Overfull \hbox (6.17552pt too wide) in paragraph at lines 176--177
- [][] \T1/lmr/m/n/12 La base de vec-teurs uni-taires adap-tée aux co-or-don-née
-s po-laires est consti-tuée (voir [][]fi-gure 1.6a[][][]) : 
- []
-
-[6 <./Chapitre1/Figures/repere2D.pdf> <./Chapitre1/Figures/ex2Dcart.pdf
+24.
+(pdftex.def)             Requested size: 290.22107pt x 108.38058pt.
+ [6 <./Chapitre1/Figures/repere2D.pdf> <./Chapitre1/Figures/ex2Dcart.pdf
 
 pdfTeX warning: /usr/bin/pdflatex (file ./Chapitre1/Figures/ex2Dcart.pdf): PDF 
 inclusion: multiple pdfs with page group included in a single page
@@ -1365,19 +1330,32 @@ inclusion: multiple pdfs with page group included in a single page
 
 pdfTeX warning: /usr/bin/pdflatex (file ./Chapitre1/Figures/ex2Dcart2.pdf): PDF
  inclusion: multiple pdfs with page group included in a single page
->]
-<Chapitre1/Figures/reperes3D.pdf, id=226, 469.755pt x 131.49126pt>
-File: Chapitre1/Figures/reperes3D.pdf Graphic file (type pdf)
-<use Chapitre1/Figures/reperes3D.pdf>
-Package pdftex.def Info: Chapitre1/Figures/reperes3D.pdf  used on input line 20
-2.
-(pdftex.def)             Requested size: 483.69687pt x 135.39334pt.
+> <./Chapitre1/Figures/bact_circ.jpeg>]
+<Chapitre1/Figures/reperepol.pdf, id=217, 339.2675pt x 278.03876pt>
+File: Chapitre1/Figures/reperepol.pdf Graphic file (type pdf)
+<use Chapitre1/Figures/reperepol.pdf>
+Package pdftex.def Info: Chapitre1/Figures/reperepol.pdf  used on input line 14
+7.
+(pdftex.def)             Requested size: 275.70912pt x 225.96107pt.
+<Chapitre1/Figures/ex2Dpol.pdf, id=218, 339.2675pt x 201.75375pt>
+File: Chapitre1/Figures/ex2Dpol.pdf Graphic file (type pdf)
+<use Chapitre1/Figures/ex2Dpol.pdf>
+Package pdftex.def Info: Chapitre1/Figures/ex2Dpol.pdf  used on input line 153.
 
+(pdftex.def)             Requested size: 145.11053pt x 86.29372pt.
+<Chapitre1/Figures/ex2Dpol2.pdf, id=219, 339.2675pt x 200.75pt>
+File: Chapitre1/Figures/ex2Dpol2.pdf Graphic file (type pdf)
+<use Chapitre1/Figures/ex2Dpol2.pdf>
+Package pdftex.def Info: Chapitre1/Figures/ex2Dpol2.pdf  used on input line 157
+.
+(pdftex.def)             Requested size: 145.11053pt x 85.8644pt.
 
-LaTeX Warning: `h' float specifier changed to `ht'.
+Overfull \hbox (6.17552pt too wide) in paragraph at lines 167--168
+ [][] \T1/lmr/m/n/12 La base de vec-teurs uni-taires adap-tée aux co-or-don-née
+s po-laires est consti-tuée (voir [][]fi-gure 1.7a[][][]) : 
+ []
 
-[7 <./Chapitre1/Figures/bact_circ.jpeg>] [8 <./Chapitre1/Figures/reperepol.pdf>
- <./Chapitre1/Figures/ex2Dpol.pdf
+[7 <./Chapitre1/Figures/reperepol.pdf> <./Chapitre1/Figures/ex2Dpol.pdf
 
 pdfTeX warning: /usr/bin/pdflatex (file ./Chapitre1/Figures/ex2Dpol.pdf): PDF i
 nclusion: multiple pdfs with page group included in a single page
@@ -1385,83 +1363,97 @@ nclusion: multiple pdfs with page group included in a single page
 
 pdfTeX warning: /usr/bin/pdflatex (file ./Chapitre1/Figures/ex2Dpol2.pdf): PDF 
 inclusion: multiple pdfs with page group included in a single page
-> <./Chapitre1/Figures/reperes3D.pdf
-
-pdfTeX warning: /usr/bin/pdflatex (file ./Chapitre1/Figures/reperes3D.pdf): PDF
- inclusion: multiple pdfs with page group included in a single page
 >]
-<Chapitre1/Figures/ref.pdf, id=257, 504.88625pt x 213.79875pt>
+<Chapitre1/Figures/reperes3D.pdf, id=235, 469.755pt x 131.49126pt>
+File: Chapitre1/Figures/reperes3D.pdf Graphic file (type pdf)
+<use Chapitre1/Figures/reperes3D.pdf>
+Package pdftex.def Info: Chapitre1/Figures/reperes3D.pdf  used on input line 19
+3.
+(pdftex.def)             Requested size: 483.69687pt x 135.39334pt.
+ [8 <./Chapitre1/Figures/reperes3D.pdf>]
+<Chapitre1/Figures/ref.pdf, id=256, 504.88625pt x 213.79875pt>
 File: Chapitre1/Figures/ref.pdf Graphic file (type pdf)
 <use Chapitre1/Figures/ref.pdf>
-Package pdftex.def Info: Chapitre1/Figures/ref.pdf  used on input line 237.
+Package pdftex.def Info: Chapitre1/Figures/ref.pdf  used on input line 228.
 (pdftex.def)             Requested size: 386.95897pt x 163.86215pt.
- [9 <./Chapitre1/Figures/ref.pdf>] [10]
+ [9 <./Chapitre1/Figures/ref.pdf>]
+[10]
 <Chapitre1/Figures/dOM.pdf, id=283, 316.18124pt x 247.92625pt>
 File: Chapitre1/Figures/dOM.pdf Graphic file (type pdf)
 <use Chapitre1/Figures/dOM.pdf>
-Package pdftex.def Info: Chapitre1/Figures/dOM.pdf  used on input line 321.
+Package pdftex.def Info: Chapitre1/Figures/dOM.pdf  used on input line 312.
 (pdftex.def)             Requested size: 241.84843pt x 189.64404pt.
  [11 <./Chapitre1/Figures/dOM.pdf>]
-[12]
+<Chapitre1/Figures/myosine.png, id=301, 695.59875pt x 585.18625pt>
+File: Chapitre1/Figures/myosine.png Graphic file (type png)
+<use Chapitre1/Figures/myosine.png>
+Package pdftex.def Info: Chapitre1/Figures/myosine.png  used on input line 348.
+
+(pdftex.def)             Requested size: 241.84843pt x 203.45207pt.
+ [12 <./Chapitre1/Figures/myosine.png>]
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10> on input line 369.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <7> on input line 369.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <5> on input line 369.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [13] [14]
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 457.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 457.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 457.
-
-Underfull \vbox (badness 4765) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [15]
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <17.28> on input line 519.
+(Font)              <17.28> on input line 515.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 519.
+(hyperref)                removing `math shift' on input line 515.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\star' on input line 519.
+(hyperref)                removing `\star' on input line 515.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 519.
+(hyperref)                removing `math shift' on input line 515.
 
-<Chapitre1/Figures/MRU.pdf, id=356, 524.96124pt x 152.57pt>
+[16]
+<Chapitre1/Figures/MRU.pdf, id=371, 524.96124pt x 152.57pt>
 File: Chapitre1/Figures/MRU.pdf Graphic file (type pdf)
 <use Chapitre1/Figures/MRU.pdf>
-Package pdftex.def Info: Chapitre1/Figures/MRU.pdf  used on input line 529.
+Package pdftex.def Info: Chapitre1/Figures/MRU.pdf  used on input line 525.
 (pdftex.def)             Requested size: 338.58632pt x 98.40573pt.
-[16 <./Chapitre1/Figures/MRU.pdf>] [17]
+ [17 <./Chapitre1/Figures/MRU.pdf>]
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <14.4> on input line 603.
+(Font)              <14.4> on input line 599.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 603.
+(hyperref)                removing `math shift' on input line 599.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\star' on input line 603.
+(hyperref)                removing `\star' on input line 599.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\star' on input line 603.
+(hyperref)                removing `\star' on input line 599.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 603.
+(hyperref)                removing `math shift' on input line 599.
 
-[18]) (./Chapitre2/chapitre2.tex [19] [20
-
-]
+[18] [19]) (./Chapitre2/chapitre2.tex [20]
 Chapitre 2.
-[21] [22]
+[21
+
+] [22]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 81.
@@ -1475,28 +1467,28 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 81.
 
 [23]
-<Chapitre2/Figures/PoidsBalles.pdf, id=457, 411.5375pt x 265.99374pt>
+<Chapitre2/Figures/PoidsBalles.pdf, id=462, 411.5375pt x 265.99374pt>
 File: Chapitre2/Figures/PoidsBalles.pdf Graphic file (type pdf)
 <use Chapitre2/Figures/PoidsBalles.pdf>
 Package pdftex.def Info: Chapitre2/Figures/PoidsBalles.pdf  used on input line 
 102.
 (pdftex.def)             Requested size: 338.58632pt x 218.84279pt.
  [24 <./Chapitre2/Figures/PoidsBalles.pdf>]
-<Chapitre2/Figures/pinceoptique.pdf, id=471, 449.68pt x 310.15875pt>
+<Chapitre2/Figures/pinceoptique.pdf, id=476, 449.68pt x 310.15875pt>
 File: Chapitre2/Figures/pinceoptique.pdf Graphic file (type pdf)
 <use Chapitre2/Figures/pinceoptique.pdf>
 Package pdftex.def Info: Chapitre2/Figures/pinceoptique.pdf  used on input line
  124.
 (pdftex.def)             Requested size: 290.22107pt x 200.181pt.
  [25 <./Chapitre2/Figures/pinceoptique.pdf>]
-<Chapitre2/Figures/poussee.pdf, id=494, 274.02374pt x 191.71625pt>
+<Chapitre2/Figures/poussee.pdf, id=499, 274.02374pt x 191.71625pt>
 File: Chapitre2/Figures/poussee.pdf Graphic file (type pdf)
 <use Chapitre2/Figures/poussee.pdf>
 Package pdftex.def Info: Chapitre2/Figures/poussee.pdf  used on input line 153.
 
 (pdftex.def)             Requested size: 241.84843pt x 169.20811pt.
  [26 <./Chapitre2/Figures/poussee.pdf>]
-<Chapitre2/Figures/charge.pdf, id=509, 466.74374pt x 145.54375pt>
+<Chapitre2/Figures/charge.pdf, id=515, 466.74374pt x 145.54375pt>
 File: Chapitre2/Figures/charge.pdf Graphic file (type pdf)
 <use Chapitre2/Figures/charge.pdf>
 Package pdftex.def Info: Chapitre2/Figures/charge.pdf  used on input line 172.
@@ -1514,7 +1506,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 181.
 
-<Chapitre2/Figures/balle.pdf, id=511, 443.6575pt x 189.70876pt>
+<Chapitre2/Figures/balle.pdf, id=517, 443.6575pt x 189.70876pt>
 File: Chapitre2/Figures/balle.pdf Graphic file (type pdf)
 <use Chapitre2/Figures/balle.pdf>
 Package pdftex.def Info: Chapitre2/Figures/balle.pdf  used on input line 189.
@@ -1527,57 +1519,78 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 ]
 Chapitre 3.
-[31] [32] [33] [34]
+[31] [32]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [33]
+[34] [35]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 183.
+(hyperref)                removing `math shift' on input line 209.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\star' on input line 183.
+(hyperref)                removing `\star' on input line 209.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 183.
+(hyperref)                removing `math shift' on input line 209.
 
-[35] [36])
+[36]
+<Chapitre3/Figures/piste.pdf, id=649, 470.75874pt x 118.4425pt>
+File: Chapitre3/Figures/piste.pdf Graphic file (type pdf)
+<use Chapitre3/Figures/piste.pdf>
+Package pdftex.def Info: Chapitre3/Figures/piste.pdf  used on input line 217.
+(pdftex.def)             Requested size: 483.69687pt x 121.69891pt.
+<Chapitre3/Figures/electron.pdf, id=653, 229.85875pt x 119.44624pt>
+File: Chapitre3/Figures/electron.pdf Graphic file (type pdf)
+<use Chapitre3/Figures/electron.pdf>
+Package pdftex.def Info: Chapitre3/Figures/electron.pdf  used on input line 233
+.
+(pdftex.def)             Requested size: 290.22107pt x 150.82199pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[37 <./Chapitre3/Figures/piste.pdf>])
 No file compilation_these_avec_page_de_garde_et_abstract.bbl.
-[37] (./compilation_these_avec_page_de_garde_et_abstract.aux) ) 
+[38 <./Chapitre3/Figures/electron.pdf>]
+(./compilation_these_avec_page_de_garde_et_abstract.aux) ) 
 Here is how much of TeX's memory you used:
- 34533 strings out of 478287
- 704473 string characters out of 5849288
- 1010575 words of memory out of 5000000
- 51783 multiletter control sequences out of 15000+600000
+ 34570 strings out of 478287
+ 705403 string characters out of 5849288
+ 1009205 words of memory out of 5000000
+ 51807 multiletter control sequences out of 15000+600000
  564435 words of font info for 123 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 104i,32n,107p,1275b,1219s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texm
-f/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.e
-nc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/d
-vips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathex.enc}{/usr/
-share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-
-dist/fonts/type1/public/esint-type1/esint10.pfb></usr/share/texmf/fonts/type1/p
-ublic/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmcsc10.pfb></usr/s
-hare/texmf/fonts/type1/public/lm/lmex10.pfb></usr/share/texmf/fonts/type1/publi
-c/lm/lmmi10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi12.pfb></usr/share/
-texmf/fonts/type1/public/lm/lmmi6.pfb></usr/share/texmf/fonts/type1/public/lm/l
-mmi7.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi8.pfb></usr/share/texmf/fo
-nts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr12.pfb
-></usr/share/texmf/fonts/type1/public/lm/lmr17.pfb></usr/share/texmf/fonts/type
-1/public/lm/lmr5.pfb></usr/share/texmf/fonts/type1/public/lm/lmr7.pfb></usr/sha
-re/texmf/fonts/type1/public/lm/lmr8.pfb></usr/share/texmf/fonts/type1/public/lm
-/lmri10.pfb></usr/share/texmf/fonts/type1/public/lm/lmri12.pfb></usr/share/texm
-f/fonts/type1/public/lm/lmri8.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy1
-0.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy8.pfb></usr/share/texlive/tex
-mf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/font
-s/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
-esvect/vect10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/esvect/vect
-8.pfb>
-Output written on compilation_these_avec_page_de_garde_et_abstract.pdf (41 page
-s, 927194 bytes).
+ 104i,32n,107p,1282b,1219s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf/fon
+ts/enc/dvips/lm/lm-mathit.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/
+usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dvips/
+lm/lm-mathsy.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathex.enc}{/usr/share
+/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/
+fonts/type1/public/esint-type1/esint10.pfb></usr/share/texmf/fonts/type1/public
+/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmcsc10.pfb></usr/share/
+texmf/fonts/type1/public/lm/lmex10.pfb></usr/share/texmf/fonts/type1/public/lm/
+lmmi10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi12.pfb></usr/share/texmf
+/fonts/type1/public/lm/lmmi6.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi7.
+pfb></usr/share/texmf/fonts/type1/public/lm/lmmi8.pfb></usr/share/texmf/fonts/t
+ype1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr12.pfb></us
+r/share/texmf/fonts/type1/public/lm/lmr17.pfb></usr/share/texmf/fonts/type1/pub
+lic/lm/lmr5.pfb></usr/share/texmf/fonts/type1/public/lm/lmr7.pfb></usr/share/te
+xmf/fonts/type1/public/lm/lmr8.pfb></usr/share/texmf/fonts/type1/public/lm/lmri
+10.pfb></usr/share/texmf/fonts/type1/public/lm/lmri12.pfb></usr/share/texmf/fon
+ts/type1/public/lm/lmri8.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb
+></usr/share/texmf/fonts/type1/public/lm/lmsy7.pfb></usr/share/texmf/fonts/type
+1/public/lm/lmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/u
+hvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr
+/share/texlive/texmf-dist/fonts/type1/public/esvect/vect10.pfb></usr/share/texl
+ive/texmf-dist/fonts/type1/public/esvect/vect8.pfb>
+Output written on compilation_these_avec_page_de_garde_et_abstract.pdf (42 page
+s, 1093496 bytes).
 PDF statistics:
- 986 PDF objects out of 1000 (max. 8388607)
- 858 compressed objects within 9 object streams
- 336 named destinations out of 1000 (max. 500000)
- 510 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1018 PDF objects out of 1200 (max. 8388607)
+ 884 compressed objects within 9 object streams
+ 346 named destinations out of 1000 (max. 500000)
+ 525 words of extra memory for PDF output out of 10000 (max. 10000000)
 

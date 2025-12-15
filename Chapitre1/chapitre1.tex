@@ -5,25 +5,9 @@
 
 \paragraph{}\textit{Pour commencer, nous allons nous intéresser à une branche spécifique de la mécanique : la cinématique. Celle-ci s'intéresse à la description du mouvement des objets, sans s'intéresser aux causes de celui-ci. C'est la fondation essentielle nécessaire à la compréhension du reste, car pour pouvoir comprendre le mouvement, il faut d'abord être capable de le décrire.} 
 
-\paragraph{Objectifs du chapitre}
-
-\begin{itemize}
-	
-	\item Définir l'approximation ponctuelle en mécanique.
-	
-	\item Repérer un point dans l'espace dans différentes dimensions et grâce à différents systèmes de coordonnées.
-	
-	\item Être familier avec la notion de référentiel.	
-	
-	\item Décrire une trajectoire dans l'espace via la position, la vitesse et l'accélération.
-	
-	\item Caractériser des mouvements modèle simples.
-	
-\end{itemize}
-
 \section{L'approximation ponctuelle en mécanique}
 
-\paragraph{}En mécanique classique, la plupart du temps, les objets dont on souhaite décrire le mouvement sont des solides. Par définition, un solide est un système matériel dont les points restent à distance constante les uns des autres. Pour décrire totalement un solide on a donc besoin de six paramètres : la position du centre de gravité (donc trois coordonnées) et trois angles d'orientation (voir \autoref{fig:anglesolide}).
+\paragraph{}En mécanique classique, la plupart du temps, les objets dont on souhaite décrire le mouvement sont des solides, comme des cellules par exemple. Par définition, un solide est un système matériel dont les points restent à distance constante les uns des autres. Pour décrire totalement un solide on a donc besoin de six paramètres : la position du centre de gravité (donc trois coordonnées) et trois angles d'orientation (voir \autoref{fig:anglesolide}).
 
 \begin{figure}[h]
 	\centering
@@ -32,13 +16,20 @@
 	\label{fig:anglesolide}
 \end{figure}
 
-\paragraph{}Cette quantité de paramètres rend l'étude riche mais potentiellement complexe sans raison. En effet, dans la plupart des cas, on s'intéresse uniquement à la position du centre de gravité du solide (une sorte de position moyenne) et son évolution au cours du temps. Pour simplifier l'étude du mouvement on considère alors souvent les objets d'étude comme des points matériels. C'est ce qu'on appelle l'\textbf{approximation ponctuelle} de la mécanique.
+\paragraph{}Cette quantité de paramètres rend l'étude riche mais potentiellement complexe sans raison. En effet, dans la plupart des cas, on s'intéresse uniquement à la position du centre de gravité du solide (une sorte de position moyenne) et son évolution au cours du temps. Pour simplifier l'étude du mouvement on considère alors souvent les objets d'étude comme des points matériels. C'est ce qu'on appelle l'\textbf{approximation ponctuelle} de la mécanique (voir \autoref{fig:ponct}).
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.5\textwidth]{Chapitre1/Figures/ponct.pdf}
+	\caption{Approximation ponctuelle de la mécanique classique : la cellule dont on étudie le mouvement est assimilée à son centre de gravité, elle devient le point matériel $M$ de même masse que la cellule.}
+	\label{fig:ponct}
+\end{figure}
 
 \paragraph{}Un point matériel est un solide dont on peut négliger l'extension spatiale et la rotation sur lui-même. Une fois l'approximation faite, on a donc besoin plus que de 3 paramètres pour décrire la position du solide (les 3 coordonnées nécessaires au repérage de la position du centre de masse). Modélisant le solide initial, on attribue alors à ce point la masse du solide.
 
-\paragraph{}\textit{Une masse ponctuelle n'est pas un objet physique réel car un objet d'extension spatiale infiniment petite ne représente aucune matière. La notion de point matériel est donc uniquement un moyen de modéliser simplement les objets en mécanique classique afin d'alléger la résolution des problèmes. Cette approche est en fait une très bonne représentation du raisonnement physique : tant qu'une modélisation simple permet de rendre compte du réel, autant s'y tenir ! Mais dès lors que la théorie rentre en contradiction avec l'expérience, il faut aller plus loin et considérer des théories plus complètes. Par exemple, l'approximation ponctuelle ne pourra pas nous aider à comprendre la rotation de la Terre sur elle-même mais elle pourra nous aider à comprendre la rotation de la Terre autour du Soleil !}
+\paragraph{}\textit{Une masse ponctuelle n'est pas un objet physique réel car un objet d'extension spatiale infiniment petite ne représente aucune matière. La notion de point matériel est donc uniquement un moyen de modéliser simplement les objets en mécanique classique afin d'alléger la résolution des problèmes. Cette approche est en fait une très bonne représentation du raisonnement physique : tant qu'une modélisation simple permet de rendre compte du réel, autant s'y tenir ! Mais dès lors que la théorie rentre en contradiction avec l'expérience, il faut aller plus loin et considérer des théories plus complètes. Par exemple, l'approximation ponctuelle ne pourra pas nous aider à comprendre la rotation de la Terre sur elle-même mais elle pourra nous aider à comprendre la rotation de la Terre autour du Soleil.}
 
-\paragraph{}Dans ce cours, nous ferons essentiellement (voire uniquement) de la mécanique dans l'approximation ponctuelle, c'est-à-dire de la mécanique du point. On négligera alors l'effet de toute extension spatiale de nos objets et leur rotation sur eux-mêmes dans la suite.
+\paragraph{}Dans ce cours, nous ferons uniquement de la mécanique dans l'approximation ponctuelle, c'est-à-dire de la mécanique du point. On négligera alors l'effet de toute extension spatiale de nos objets et leur rotation sur eux-mêmes dans la suite.
 
 \section{Repérage d'un point}
 
@@ -48,7 +39,7 @@
 
 \subsection{Repérage sur une droite}
 
-\paragraph{}Commençons par étudier le cas le plus simple d'un système ne comportant qu'une seule dimension (1D). L'espace est alors représenté par une droite. On définit alors un repère sur cette droite, représenté par un axe généralement noté $(Ox)$, dont la direction est donné par le vecteur unitaire directeur de la droite $\vv{e_x}$ (voir \autoref{fig:cart1}).
+\paragraph{}Commençons par étudier le cas le plus simple d'un système ne comportant qu'une seule dimension (1D). L'espace est alors représenté par une droite. On définit dans ce cas un repère sur cette droite, représenté par un axe généralement noté $(Ox)$, dont l'origine est définie par le point $O$ et dont la direction est donné par le vecteur unitaire directeur de la droite $\vv{e_x}$ (voir \autoref{fig:cart1}).
 
 \begin{figure}[h]
 	\centering
@@ -128,14 +119,14 @@
 
 \subsubsection{Coordonnées polaires}
 
-\paragraph{}Dans le cas de certains mouvements, les coordonnées cartésiennes ne sont pas les plus adaptées pour décrire la position d'un point $M$. C'est le cas notamment des mouvements circulaires plans. Ceux-ci se retrouvent notamment dans l'étude de l'orbite des satellites géostationnaires ou encore dans le comportement des colonies de bactéries (voir \autoref{fig:bact_circ}). Dans ces cas là, un type de coordonnées particulièrement bien adapté sont les \textbf{coordonnées polaires}.
-
 \begin{figure}[h]
 	\centering
-	\includegraphics[width=0.7\textwidth]{Chapitre1/Figures/bact_circ.jpeg}
+	\includegraphics[width=0.6\textwidth]{Chapitre1/Figures/bact_circ.jpeg}
 	\caption{Image of the trajectories (green) of E. coli (4-h growth time) swimming in the air-TN interfaces superimposed on the last frame of one acquisition (bacteria in white). Motion orientation of three highlighted trajectories is indicated by arrows, and values of instantaneous curvature }
 	\label{fig:bact_circ}
 \end{figure}
+
+\paragraph{}Dans le cas de certains mouvements, les coordonnées cartésiennes ne sont pas les plus adaptées pour décrire la position d'un point $M$. C'est le cas notamment des mouvements circulaires plans. Ceux-ci se retrouvent notamment dans l'étude de l'orbite des satellites géostationnaires ou encore dans le comportement des colonies de bactéries (voir \autoref{fig:bact_circ}). Dans ces cas là, un type de coordonnées particulièrement bien adapté sont les \textbf{coordonnées polaires}.
 
 \paragraph{}Dans ce système, le point $M$ est repéré par :
 
@@ -255,9 +246,9 @@
 
 \begin{itemize}
 
-	\item Dans le référentiel $\mathcal{R}_c$ de la cellule, l'origine des positions se déplace avec la cellule. Ainsi, l'appareil de Golgi ne se déplace pas dans ce référentiel car sa position par rapport à l'origine du repère d'espace est constante.
+	\item Dans le référentiel $\mathcal{R}_\text{cell}$ de la cellule, l'origine des positions se déplace avec la cellule. Ainsi, le noyau ne se déplace pas dans ce référentiel car sa position par rapport à l'origine du repère d'espace est constante.
 	
-	\item Dans le référentiel $\mathcal{R}_l$ du laboratoire, l'origine des positions est fixée à la table d'expérimentation. Ainsi, l'appareil de Golgi se déplace dans ce référentiel car sa position par rapport à l'origine du repère d'espace évolue.
+	\item Dans le référentiel $\mathcal{R}_\text{lab}$ du laboratoire, l'origine des positions est fixée à la table d'expérimentation. Ainsi, le noyau se déplace dans ce référentiel car sa position par rapport à l'origine du repère d'espace évolue.
 
 \end{itemize}
 
@@ -279,7 +270,7 @@
 	\vv{OM}(t) = x(t)\vv{e_x} + y(t)\vv{e_y} +z(t)\vv{e_z}
 \end{equation}
 
-\noindent Les composantes de ce vecteur, et donc sa norme, sont des distances. Elles s'expriment donc en mètre (\SI{}{\meter}). Ce vecteur permet de définir les notions d'équations horaires et de trajectoire.
+\noindent Les composantes de ce vecteur, et donc sa norme, sont des distances. Elles s'expriment donc en mètres (\SI{}{\meter}). Ce vecteur permet de définir les notions d'équations horaires et de trajectoire.
 
 \begin{defi}{Trajectoire}
       La trajectoire d'un point $M$ est la courbe décrite par l’extrémité du vecteur position au cours du temps.
@@ -323,7 +314,7 @@
 	\label{fig:dOM}
 \end{figure}
 
-\paragraph{}Si l'on considère l'évolution de la position du point $M$ entre l'instant $t$ et l'instant $\Delta t$, il est possible de décrire son déplacement sur la durée $\Delta t$ via le vecteur déplacement :
+\paragraph{}Si l'on considère l'évolution de la position du point $M$ entre l'instant $t$ et l'instant $t+\Delta t$, il est possible de décrire son déplacement sur la durée $\Delta t$ via le vecteur déplacement :
 
 \begin{equation}
 	\vv{\Delta OM}(t) = \vv{OM}(t+\Delta t) - \vv{OM}(t) = \vv{M(t)M(t+\Delta t)}
@@ -350,9 +341,16 @@
 
 \noindent Cette grandeur physique s'exprime en mètre par seconde (\SI{}{\meter\per\second}), comme on peut le déduire facilement de l'\autoref{eq:vbb}.
 
-\paragraph{}Dans cet exemple, pour être plus précis, la  vitesse $v$ correspond en fait à la moyenne de la vitesse de la kinésine sur le trajet. En effet, si l'on étudie expérimentalement le trajet d'une kinésine, on se rend compte que son déplacement n'est pas du tout uniforme mais se fait plutôt par pas : elle alterne des phases de pause immobile ($v=0$) et des avancées ponctuelles ($v>0$). Pour spécifier cette notion de moyenne sur le trajet, on préférera alors utiliser la notation $\langle v \rangle$.
+\paragraph{}Dans cet exemple, pour être plus précis, la  vitesse $v$ correspond en fait à la moyenne de la vitesse de la kinésine sur le trajet. En effet, si l'on étudie expérimentalement le trajet d'une myosine sur un filament d'actine (voir \autoref{fig:myosine}), on se rend compte que son déplacement n'est pas du tout uniforme mais se fait plutôt par pas : elle alterne des phases de pause immobile ($v=0$) et des avancées ponctuelles ($v>0$). Pour spécifier cette notion de moyenne sur le trajet, on préférera alors utiliser la notation $\langle v \rangle$.
 
-\paragraph{}On peut en fait généraliser assez simplement cette notion de vitesse dans le cas où le mouvement se fait dans l'espace et non uniquement en ligne droite. C'est le cas pour la kinésine si le microtubule est courbé par exemple. Dans ce cas là, la vitesse moyenne est définie par un vecteur vitesse moyenne $\langle \vv{v} \rangle$. Dans le cas du mouvement d'un point matériel $M$, il est relié au déplacement $\vv{\Delta OM}$ effectué pendant la durée $\Delta t$ considérée selon :
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.5\textwidth]{Chapitre1/Figures/myosine.png}
+	\caption{Évolution de la coordonnée d'une myosine sur un filament d'actine au cours du temps (c'est la représentation graphique de l'équation horaire $x(t)$).}
+	\label{fig:myosine}
+\end{figure}
+
+\paragraph{}On peut en fait généraliser assez simplement cette notion de vitesse dans le cas où le mouvement se fait dans l'espace et non uniquement en ligne droite. C'est le cas pour la myosine si le filament d'actine est courbé par exemple. Dans ce cas là, la vitesse moyenne est définie par un vecteur vitesse moyenne $\langle \vv{v} \rangle$. Dans le cas du mouvement d'un point matériel $M$, il est relié au déplacement $\vv{\Delta OM}$ effectué pendant la durée $\Delta t$ considérée selon :
 
 \begin{equation}
 	\langle \vv{v} \rangle = \frac{\vv{\Delta OM}}{\Delta t}
@@ -368,11 +366,11 @@
 
 \noindent avec $\vv{\mathrm{d}OM}$ le vecteur déplacement infinitésimal. 
 
-\paragraph{}Mathématiquement, on a $\frac{\vv{\mathrm{d}OM}}{\mathrm{d}t} = \lim_{\Delta t \to 0}\frac{\vv{OM}(t+\Delta t)-\vv{OM}(t)}{\Delta t}$ et donc $\vv{v}$ correspond simplement à la dérivée du vecteur position par rapport au temps. Selon ce principe, on utilisera dans la suite la notation $\frac{\mathrm{d}}{\mathrm{d}t}$ comme équivalente à "dérivée par rapport au temps". De plus, par souci de concision on appellera simplement vecteur vitesse le vecteur vitesse instantanée.
+\paragraph{}Mathématiquement, on a $\frac{\vv{\mathrm{d}OM}}{\mathrm{d}t} = \lim_{\Delta t \to 0}\frac{\vv{OM}(t+\Delta t)-\vv{OM}(t)}{\Delta t}$ et donc $\vv{v}$ correspond simplement à la \textbf{dérivée du vecteur position} par rapport au temps\footnote{On rappelle qu'en mathématiques, on définit la dérivée d'une fonction d'image $f(x)$ comme la fonction d'image $\frac{\mathrm{d}f}{\mathrm{d}x}(x)=\lim_{h \to 0}\frac{f(x+h)-f(x)}{h}$}. Selon ce principe, on utilisera dans la suite la notation $\frac{\mathrm{d}}{\mathrm{d}t}$ comme équivalente à "dérivée par rapport au temps". De plus, par souci de concision on appellera simplement vecteur vitesse le vecteur vitesse instantanée.
 
 \begin{imp}{Vecteur vitesse}
 
-Le vecteur vitesse correspond à la dérivée du vecteur position en fonction du temps :
+Le vecteur vitesse correspond à la dérivée du vecteur position par rapport au temps :
 
 \begin{equation}
 	\vv{v} =  \frac{\vv{\mathrm{d}OM}}{\mathrm{d}t} 
@@ -384,7 +382,7 @@ Le vecteur vitesse correspond à la dérivée du vecteur position en fonction du
 
 \subsubsection{Dérivation}
 
-\paragraph{}Afin de calculer une vitesse, il est donc essentiel de maîtriser ses dérivées. Les dérivées de fonctions usuelles sont répertoriées dans le \autoref{tab:der}. Si vous n'êtes pas à l'aise avec cet outil, il est conseillé de reprendre vos cours de lycées.
+\paragraph{}Afin de calculer une vitesse, il est donc essentiel de maîtriser ses dérivées. Les dérivées de fonctions usuelles sont répertoriées dans le \autoref{tab:der}. Si vous n'êtes pas à l'aise avec cet outil, il est conseillé de reprendre des cours de lycée.
 
 \begin{table*}[h]
 \caption{Dérivée des fonctions usuelles}
@@ -446,11 +444,9 @@ Le vecteur vitesse correspond à la dérivée du vecteur position en fonction du
 	
 \end{exemple}
 
-\subsection*{Exemple du mouvement de la kinésine}
-
 \subsection{Le vecteur accélération}
 
-\paragraph{}De la même manière que la vitesse caractérise la variation de la position au cours du temps, l'accélération caractérise la variation de la vitesse au cours du temps. Lorsqu'on accélère on augmente sa vitesse alors que lorsque l'on décélère on diminue sa vitesse. On définit donc de même un vecteur accélération à tout instant $t$.
+\paragraph{}De la même manière que la vitesse caractérise la variation de la position au cours du temps, l'accélération caractérise la variation de la vitesse au cours du temps. Lorsque l'on accélère on augmente sa vitesse alors que lorsque l'on décélère on diminue sa vitesse. On définit donc de même un vecteur accélération à tout instant $t$.
 
 \begin{imp}{Vecteur accélération}
 
@@ -487,10 +483,10 @@ Le vecteur accélération correspond à la dérivée du vecteur vitesse en fonct
 	
 \end{exemple}
 
-\paragraph{}De manière inverse, si l'on connaît l'accélération du point $M$ ou sa vitesse et que l'on veut déterminer son vecteur position il faut faire le chemin inverse, donc non pas dériver mais intégrer. Il ne faut alors pas oublier les constantes d'intégration qui se déduisent des conditions initiales du mouvement (c'est-à-dire les caractéristiques du mouvement $t=0$). Si vous n'êtes pas à l'aise avec la notion d'intégration, il est fortement conseillé de reprendre un cours de mathématique de niveau lycée.
+\paragraph{}De manière inverse, si l'on connaît l'accélération du point $M$ ou sa vitesse et que l'on veut déterminer son vecteur position il faut faire le chemin inverse, donc non pas dériver mais intégrer. Il ne faut alors pas oublier les constantes d'intégration qui se déduisent des conditions initiales du mouvement (c'est-à-dire les caractéristiques du mouvement à $t=0$). Si vous n'êtes pas à l'aise avec la notion d'intégration, il est fortement conseillé de reprendre un cours de mathématiques de niveau lycée à ce sujet.
 
 \begin{exemple}
-	Considérons une voiture modélisée par un point matériel $M$ se déplaçant en 1D sur un axe $(Ox)$,  ayant une accélération constante :
+	Considérons un moteur moléculaire modélisé par un point matériel $M$ se déplaçant en 1D sur un microtubule représenté par un axe $(Ox)$,  ayant une accélération constante :
 	
 	\begin{equation}
 		\vv{a}(t) = F~\vv{e_x}
@@ -520,9 +516,9 @@ Le vecteur accélération correspond à la dérivée du vecteur vitesse en fonct
 
 \paragraph{}\textit{Pour mettre en pratique tous ces outils nous allons étudier dans cette dernière partie trois mouvements caractéristique simples.}
 
-\subsection{Mouvement rectiligne uniforme}
+\subsection{Mouvement rectiligne uniforme (MRU)}
 
-\paragraph{}Beaucoup de mouvements peuvent être décrits par un vecteur vitesse $\vv{v_0}$ constant au cours du temps. Cela signifie que la norme de la vitesse $v_0$ est constante et que sa direction l'est aussi. On peut par exemple penser au trajet de migration d'une cellule sur un substrat unidimensionnel.
+\paragraph{}Beaucoup de mouvements peuvent être décrits par un vecteur vitesse $\vv{v_0}$ constant au cours du temps. Cela signifie que la norme de la vitesse $v_0$ est constante et que sa direction l'est aussi. On parle alors de mouvements rectilignes uniformes (MRU). On peut par exemple penser au trajet de migration d'une cellule sur un substrat unidimensionnel.
 
 \begin{figure}[h]
 	\centering
@@ -543,7 +539,7 @@ Le vecteur accélération correspond à la dérivée du vecteur vitesse en fonct
 	x(t) = v_0 t + C
 \end{equation}
 
-\noindent avec $C$ une constante d'intégration à déterminer à l'aide des conditions initiales. En supposant que l'objet est à la position $\vv{OM}(t=0)=x_0$ à l'instant initial, on a alors $C=x_0$. Les trois descripteurs de ce mouvement sont alors :
+\noindent avec $C$ une constante d'intégration à déterminer à l'aide des conditions initiales. En supposant que l'objet est à la position $\vv{OM}(t=0)=x_0\vv{e_x}$ à l'instant initial, on a alors $C=x_0$. Les trois descripteurs de ce mouvement sont alors :
 
 \begin{equation}
 \vv{OM}(t) = v_0 t + x_0, \quad \vv{v}(t)=v_0\vv{e_x}, \quad \vv{a}(t) = \vv{0}
@@ -598,11 +594,11 @@ Le vecteur accélération correspond à la dérivée du vecteur vitesse en fonct
 	y(x) = \frac{a_y}{2v_0^2}(x-x_0)^2
 \end{equation}
 
-\noindent Dans le plan $xOy$, l'objet parcourt donc une parabole.
+\noindent Dans le plan $xOy$, l'objet parcourt donc une parabole (on reconnaît la forme factorisée d'un polynôme du second degré).
 
 \subsection{Mouvement circulaire uniforme ($\star\star$)}
 
-\paragraph{}Un autre type de mouvement caractéristique sont les mouvements circulaires uniformes. C'est le mouvement associé à un satellite géostationnaire par exemple mais ça peut être aussi le mouvement d'une bactérie dans une colonie sous certaines conditions (voir \autoref{fig:bact_circ}). Considérons un tel mouvement dans le plan $xOy$. De manière évidente, les coordonnées les plus adaptées pour décrire ce mouvement sont les coordonnées polaires. En notant $R$ le rayon de la trajectoire et $\omega$ la vitesse angulaire du mouvement on a :
+\paragraph{}Un autre type de mouvement caractéristique sont les mouvements circulaires uniformes. C'est le mouvement associé à un satellite géostationnaire par exemple mais cela peut aussi être le mouvement d'une bactérie dans une colonie sous certaines conditions (voir \autoref{fig:bact_circ}). Considérons un tel mouvement dans le plan $xOy$. De manière évidente, les coordonnées les plus adaptées pour décrire ce mouvement sont les coordonnées polaires. En notant $R$ le rayon de la trajectoire et $\omega$ la vitesse angulaire du mouvement on a :
 
 \begin{equation}
 	\left\{\begin{aligned}

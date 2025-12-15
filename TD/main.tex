@@ -1,0 +1,596 @@
+\documentclass[a4paper,twocolumn]{article}
+\usepackage[landscape]{geometry}
+\usepackage{graphicx} % Required for inserting images
+\usepackage[f]{esvect}
+\usepackage{mathtools}
+\usepackage{enumitem}
+\usepackage{siunitx}
+\sisetup{input-digits = 0123456789\pi}
+\usepackage{hyperref}
+
+\newcommand{\dive}[1]{\mathrm{div}\left( #1 \right)}
+\newcommand{\rota}[1]{\vv{\mathrm{rot}}\left( #1 \right)}
+
+\geometry{%
+  a4paper,                % format de papier
+% Définition des marges :
+  left= 2.5cm,            % marge intérieure à la page
+  right = 2.5cm,          % marge extérieure
+  top = 2cm,
+  bottom = 2cm,
+% En-tête et pied de page :
+  headheight=6mm,         % espace réservé à l'en-tête dans la marge top
+  %headsep=3mm,            % espace entre le corps et l'en-tête
+  %footskip=9mm            % espace entre le corps et le pied de page
+}
+
+\begin{document}
+
+
+\section*{TD1}
+
+\begin{center}
+    \large\bf Raisonner simplement
+  \end{center}
+  
+\paragraph{Exercice 1} 
+
+\begin{enumerate}
+	\item Exercice de conversion pour savoir quand la kinésine arrive au bout.
+	\item Autre exercice pour savoir combien de distance parcourue par une cellule.
+\end{enumerate}
+
+  \begin{center}
+    \large\bf Décrire un mouvement
+  \end{center}
+
+\paragraph{Exercice 1} 
+
+\begin{enumerate}
+	\item Exprimer les coordonnées cartésiennes des points suivants puis écrire le vecteur position $\vv{OM}$ associé. La base cartésienne est-elle une base fixe ou mobile ?
+	\item Exprimer les coordonnées polaires des points suivants puis écrire le vecteur position $\vv{OM}$ associé. La base polaire est-elle une base fixe ou mobile ?
+	
+	\item Calculer le vecteur déplacement associé aux trajectoires suivantes. En considérant que les trajets ont été faits sur une durée $\Delta t = \SI{5}{\second}$, en déduire le vecteur vitesse moyenne associé.
+\end{enumerate}
+
+\paragraph{Exercice 2} 
+
+\begin{enumerate}
+	\item On donne la position d'une cellule, en déduire l'équation de la trajectoire.
+	
+\end{enumerate}
+
+\paragraph{Exercice 2} 
+
+\begin{enumerate}
+	\item Donner les dérivées des fonctions suivantes :
+	
+	\item Donner une primitive des fonctions suivantes : (en montrer une pas facile qui se déduit de celle d'avant)
+
+	\item On donne les vecteurs positions suivants. Calculer les vecteurs vitesse et accélération associés.
+	
+	\item On donne les vecteurs accélération suivants. En supposant les conditions initiales $\vv{OM}(t=0) = \vv{0}$ et $\vv{v}(t=0)=\vv{0}$, calculer les vecteurs vitesse et position associés.
+	
+\end{enumerate}
+
+\paragraph{Exercice 3} On considère le bout d'un pendule blabla on donne les équations horaires.
+
+\begin{enumerate}
+	\item Écrire le vecteur position de la masse au bout du pendule à tout instant $t$.
+	\item En déduire le vecteur vitesse instantané associé.
+	\item Pour quelles positions la vitesse du pendule s'annule-t-elle ?
+	\item Calculer l'accélération de la masse au bout du pendule à chaque instant $t$.
+	\item Bonus : Reprendre les questions suivantes en utilisant un repère polaire.
+\end{enumerate}
+
+\paragraph{Exercice 4} Globule rouge en accélération constante. On donne l'accélération faut trouver la position. A quel moment est-ce qu'il tombe au fond ?
+
+
+\newpage
+
+\section*{TD2}
+
+  \begin{center}
+    \large\bf Manipuler les équations
+  \end{center}
+
+\paragraph{Exercice 1} On suppose que le champ électromagnétique régnant dans une partie de l'espace vide de charges et de courants est donné par :
+$$
+\vv{E}(\vv{r}, t)=f(z) e^{-\alpha t} \hat{e}_x \quad \text { et } \quad \vv{B}(\vv{r}, t)=g(z) e^{-\alpha t} \hat{e}_y
+$$
+
+\begin{enumerate}
+    \item Les équations de Maxwell-Gauss et Maxwell-flux sont-elles vérifiées ?
+    \item Montrer que l'équation de Maxwell-Faraday impose une expression de $g(z)$ en fonction de $f^{\prime}(z)$.
+    \item Montrer que l'équation de Maxwell-Ampère impose une expression de $f(z)$ en fonction de $g^{\prime}(z)$.
+    \item En déduire une équation différentielle sur $f$ dont on vérifiera l'homogénéité.
+    \item Déterminer $f(z)$ en supposant $f$ paire et $\vv{E}(0,0)=E_0\hat{e}_x$
+    \item Donner l'expression du champ électromagnétique.
+\end{enumerate}
+
+  \begin{center}
+    \large\bf Résoudre des problèmes
+  \end{center}
+
+\paragraph{Exercice 3}
+
+Les matériaux supraconducteurs voient leur conductivité électrique devenir infinie en-dessous d'une certaine température. Dans ce cas, on constate que les lignes du champ magnétique ne peuvent plus entrer dans le matériau mais doivent le contourner : c'est l'effet Meissner. Pour expliquer ce phénomène, les frères London ont ajouté aux équations de Maxwell la relation entre le vecteur densité volumique de courant $\vv{j}$ et le champ magnétique à l'intérieur de la plaque :
+$$
+\rota{\vv{j}}=-\frac{1}{\mu_0 \lambda^2} \vv{B}
+$$
+où $\lambda$ est une constante positive, caractéristique du matériau.
+
+\begin{enumerate}
+    \item En se plaçant dans l'ARQSM, déterminer l'équation différentielle satisfaite en tout point intérieur du matériau par le champ magnétique. On donne par ailleurs la formule d'analyse vectorielle $\rota{\rota{\vv{V}}}=\vv{\mathrm{grad}}\left( \mathrm{div}\left(\vv{V}\right) \right)-\Delta\vv{V}$.
+\end{enumerate}
+
+On considère une plaque supraconductrice d'épaisseur $2 d$ dans la direction $\hat{e}_z$ et d'extension infinie dans les deux autres directions. L'origine de l'axe $z$ est prise au milieu de l'épaisseur de la plaque de sorte que les faces inférieure et supérieure aient pour équation respectivement $z=-d$ et $z=+d$. La plaque est plongée dans un champ magnétique statique et uniforme : $\vv{B}_0=B_0 \hat{e}_x$. On cherche le champ magnétique à l'intérieur de la plaque sous la forme $\vv{B}=B(z)\hat{e}_x$
+
+\begin{enumerate}[resume]
+    \item Faire un schéma simple du système.
+    \item Déterminer le champ magnétique à l'intérieur de la plaque en supposant que $\vec{B}(-d)=\vec{B}(d)=\overrightarrow{B_0}$.
+    \item En déduire le vecteur densité volumique de courant $\vec{j}$ à l'intérieur de la plaque.
+\end{enumerate}
+
+Un modèle microscopique donne :
+$$
+\lambda^2=\frac{m_e}{\mu_0 n_s e^2}
+$$
+avec : $\mu_0 = \SI{4\pi e-7}{\henry\per\meter}$ la perméabilité magnétique du vide,
+$m_e=\SI{9.1 e-31}{\kilogram}$ la masse d'un électron,
+$e=\SI{1.6 e-19}{\coulomb}$ la charge élémentaire,
+$n_s$ la densité volumique d'électrons supraconducteurs,
+
+\begin{enumerate}[resume]
+    \item Vérifier que $\lambda$ est bien homogène à une longueur.
+    \item Calculer $\lambda$ en prenant $n_s=\SI{1.0 e29}{\per\meter\cubed}$.
+    \item Tracer les graphes des composantes non nulles de $\vec{B}$ et $\vec{j}$ en fonction de $z$. Donner un sens concret à $\lambda$.
+    \item Pour $d \gg \lambda$, à quelle distance de la surface de la plaque la densité de courant est-elle réduite à un centième de sa valeur à la surface?
+\end{enumerate}
+
+\newpage
+
+\section*{TD3}
+
+\begin{center}
+    \large\bf Onde électromagnétique plane progressive 1
+  \end{center}
+
+\paragraph{} On étudie la propagation d'une OEM dans le vide.
+
+\begin{enumerate}
+    \item Rappeler l'équation aux dérivées partielles à laquelle satisfont les champs $\vv{E}$ et $\vv{B}$.
+\end{enumerate}
+
+\begin{enumerate}[resume]
+\item On suppose que le champ électrique est de la forme :
+
+\begin{equation*}
+    \vv{E} = E_0\cos(\omega t - kz)\hat{e}_x, \quad k, \omega>0
+\end{equation*}
+\begin{enumerate}
+    \item A quelle équation doit satisfaire $k$ pour que ce champ soit solution de l'équation précédemment citée ?
+    \item Quels sont la direction, le sens et la vitesse de propagation de cette onde ?
+    \item Quelle est la structure de cette onde ?
+    \item Calculer le champ magnétique $\vv{B}$ associé à $\vv{E}$ ainsi que le vecteur de Poynting de l'onde ?
+\end{enumerate}
+
+\item La puissance moyenne rayonnée par cette onde à travers une surface $S=\SI{4}{\milli\meter\squared}$ orthogonale à sa direction de propagation est $P=\SI{10}{\watt}$. Calculer les amplitudes $E_0$ et $B_0$ des champs électriques et magnétiques. On donne $\mu_0 =\SI{4\pi e-7}{\henry\per\meter}$.
+
+\end{enumerate}
+
+\begin{center}
+    \large\bf Onde électromagnétique plane progressive 2
+  \end{center}
+
+\paragraph{}On étudie une onde électromagnétique dont le champ électrique est :
+
+\begin{equation*}
+    \underline{\vv{E}} = \underline{E_x} \hat{e}_x + \underline{E_y} \hat{e}_y \quad \text{avec} \quad \underline{E_x} = E_0\exp\left( i \left(\omega t -  \frac{K}{3}(2x+2y+z) \right) \right)
+\end{equation*}
+
+\noindent L'onde se propage dans le vide et sa longueur d'onde est $\lambda = \SI{6e-7}{\meter}$.
+
+\begin{enumerate}
+    \item Calculer la fréquence de l'onde.
+    \item Dans quel domaine du spectre électromagnétique se situe cette onde ?
+    \item Exprimer le vecteur d'onde en fonction de $K$.
+    \item Calculer la valeur numérique de la constante $K$.
+    \item Établir l'équation cartésienne d'un plan d'onde.
+    \item Exprimer $\underline{E_y}$ en fonction de $\underline{E_x}$ en utilisant l'équation de Maxwell-Gauss dans la représentation complexe.
+    \item Calculer le champ magnétique $\underline{\vv{B}}$ associé à cette onde.
+    \item Calculer la densité moyenne d'énergie électromagnétique associée à cette onde.
+    \item Calculer le vecteur de Poynting de cette onde et sa moyenne temporelle. 
+\end{enumerate}
+
+\begin{center}
+    \large\bf Communication avec la Terre (E3A MP 2015)
+  \end{center}
+
+\paragraph{} On se propose d'étudier la propagation des ondes électromagnétiques entre la sonde Rosetta et la Terre, dans le vide.
+
+\begin{enumerate}
+    \item Rappeler les équations de Maxwell en présence de charges et de courants. Comment se simplifient-elles dans le vide ?
+    \item Etablir l'équation de propagation dans le vide vérifiée par le champ électrique $\vv{E}$. Donnez celle vérifiée par le champ magnétique $\vv{B}$.
+    \item En déduire la célérité des ondes électromagnétiques dans le vide en fonction de $\mu_0$ et $\epsilon_0$.
+\end{enumerate}
+
+\noindent On considère une onde électromagnétique pour laquelle le champ électrique en coordonnées cartésiennes s'écrit :
+
+\begin{equation*}
+    \vv{E}(z,t) = E_x\cos\left( \omega \left( t-\frac{z}{c} \right) \right)\hat{e}_x + E_y\cos\left( \omega \left( t-\frac{z}{c} \right) \right)\hat{e}_y + E_z\cos\left( \omega \left( t-\frac{z}{c} \right) \right)\hat{e}_z
+\end{equation*}
+
+\noindent où $E_x$, $E_y$ et $E_z$ sont des constantes.
+
+\begin{enumerate}[resume]
+    \item Dans quelle direction se propage cette onde ? Est-ce une OPPH ? Exprimer son vecteur d'onde $k$.
+    \item Simplifier l'expression donnée du champ électrique à l'aide de l'équation de Maxwell-Gauss.
+\end{enumerate}
+
+\noindent Le champ magnétique associé s'écrit :
+
+\begin{equation*}
+    \vv{B}(z,t) = B_x\cos\left( \omega \left( t-\frac{z}{c} \right) \right)\hat{e}_x + B_y\cos\left( \omega \left( t-\frac{z}{c} \right) \right)\hat{e}_y + B_z\cos\left( \omega \left( t-\frac{z}{c} \right) \right)\hat{e}_z
+\end{equation*}
+
+\noindent où $B_x$, $B_y$ et $B_z$ sont des constantes.
+
+\begin{enumerate}[resume]
+    \item Déterminer $B_x$, $B_y$ et $B_z$ en fonction de $E_x$, $E_y$ et $c$.
+    \item Cette onde est-elle transversale ou longitudinale par rapport à la direction de propagation ?
+\end{enumerate}
+
+\begin{center}
+    \large\bf Ondes sphériques
+  \end{center}
+
+\paragraph{}On considère un émetteur isotrope d'ondes électromagnétiques que l'on assimile à une source ponctuelle : il peut s'agir d'un émetteur de radio, d'un satellite, d'une étoile qui rayonne, etc. L'onde émise est sphérique, de la forme en coordonnées sphériques :
+$$
+\vv{E}(\vv{r}, t)=E_0(r) \cos (\omega t-k r) \hat{e}_\theta \quad \text { avec } \quad k=\frac{\omega}{c} .
+$$
+
+\noindent Le milieu de propagation est assimilé au vide.
+
+\begin{enumerate}
+    \item Par analogie avec une onde plane, identifier le vecteur d'onde $\vec{k}$ de l'onde sphérique.
+    \item On admet qu'une telle onde vérifie localement la même relation de structure qu'une onde plane. En déduire l'expression du champ magnétique associé.
+    \item Exprimer le vecteur de Poynting et sa moyenne temporelle.
+    \item Exprimer la puissance moyenne $\mathcal{P}$ rayonnée à travers une sphère de rayon $r$. Justifier par un argument physique que cette puissance est indépendante de $r$. En déduire que $E_0(r)=A / r$ avec $A$ une constante à déterminer.
+\end{enumerate}
+
+  \begin{center}
+    \large\bf Mesures de concentration en CO$_2$ dans l'atmosphère (DS 2023)
+  \end{center}
+
+  \paragraph{}Le développement de modèles climatiques et l’actualisation de leurs prédictions nécessitent des mesures précises
+de la fraction molaire en CO$_2$ présent dans l’atmosphère. Celle-ci est usuellement exprimée en parties par millions
+(ppm) : une fraction molaire de 413 ppm indique par exemple qu’un million de molécules d’air contient en moyenne
+413 molécules de CO$_2$.
+\paragraph{}Pour ce faire, un échantillon d’air est prélevé, de préférence en relative altitude et loin de toute perturbation
+humaine, puis refroidi pour condenser toute la vapeur d’eau, avant d’être analysé. Le principe est celui de la spectrophotométrie : un faisceau laser de longueur d’onde $\SI{4.26}{\micro\meter}$, à laquelle le spectre d’absorption du CO$_2$ présente un
+maximum, traverse un échantillon de longueur connue. Comparer les intensités lumineuses avant et après traversée
+de l’échantillon permet d’en déduire la concentration en CO$_2$, en nombre de molécules par $\text{m}^3$ d’air. Les capteurs
+de CO$_2$ popularisés comme indicateurs de la qualité de l’air lors de la crise du Covid-19 fonctionnent sur le même
+principe mais avec des exigences de précision bien moindre.
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.6\linewidth]{SchemaAbsorption.pdf}
+    \caption{Principe de fonctionnement de la mesure}
+    \label{fig:enter-label}
+\end{figure}
+
+\begin{enumerate}
+    \item On modélise le faisceau laser par un cylindre de section $S$ au sein duquel se propage dans la direction $+\hat{e}_z$ une onde plane progressive
+harmonique polarisée rectilignement selon $\hat{e}_x$. 
+
+\begin{enumerate}
+    \item Écrire le champ électrique $\vv{E}(\vv{r},t)$ associé à cette onde. On notera $E_0$ son amplitude, $\omega$ sa pulsation et $k$ la norme de son vecteur d'onde.
+    \item En déduire le champ magnétique $\vv{B}(\vv{r},t)$  associé.
+    \item En déduire le vecteur de Poynting $\vv{\Pi}(\vv{r},t)$ associé ainsi que sa moyenne temporelle $\langle\vv{\Pi}(\vv{r},t)\rangle$ et son intensité $I = \lVert \langle\vv{\Pi}(\vv{r},t)\rangle\rVert$.
+\end{enumerate}
+
+\item Dans l'échantillon, l'onde interagit avec la matière. On suppose alors que cette première conserve la même structure mais que la quantité d'énergie qu'elle transporte dépend maintenant de son avancée dans l'échantillon :
+
+\begin{equation*}
+    \langle\vv{\Pi}(\vv{r},t)\rangle = I(z)\hat{e}_z
+\end{equation*}
+
+
+\noindent avec $I(z)$ l'intensité du faisceau en $z$. 
+
+\paragraph{}Chaque molécule de CO$_2$ se trouvant dans le faisceau absorbe en moyenne une puissance $p$ proportionnelle à l’intensité : $p = \sigma I$, où $\sigma$ est une constante tabulée dépendant uniquement de la longueur d’onde. On se propose de raisonner sur une tranche infinitésimale du faisceau située entre $z$ et $z+\mathrm{d}z$ pour déterminer la loi d'évolution de l'intensité $I(z)$ au cours de la traversée de l'échantillon.
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.4\linewidth]{BilanTranche.pdf}
+    \caption{Tranche infinitésimale du faisceau située entre $z$ et $z+\mathrm{d}z$}
+\end{figure}
+
+\begin{enumerate}
+    \item Quelle est la dimension de $\sigma$ ?
+    \item Exprimer la puissance moyenne $\mathcal{P}(z)$ transmise par l'onde à travers la surface $S$ à l'abscisse $z$ en fonction de $I(z)$ et $S$. De même, exprimer la puissance moyenne $\mathcal{P}(z+\mathrm{d}z)$ transmise par l'onde à travers la surface $S$ à l'abscisse $z+\mathrm{d}z$.
+    \item On note $n$ la densité volumique de CO$_2$, c’est-à-dire le nombre de molécules de CO$_2$ par unité de volume dans l’échantillon. Déterminer la puissance moyenne totale absorbée $\mathrm{d}P_\text{abs}(z)$ par les molécules de CO$_2$ dans cette tranche en fonction de $n$, $\sigma$, $S$, $\mathrm{d}z$ et $I(z)$.
+    \item En le justifiant par un argument de conservation de l'énergie, déterminer une relation entre $\mathcal{P}(z)$, $\mathcal{P}(z+\mathrm{d}z)$ et $\mathrm{d}P_\text{abs}(z)$
+    \item En déduire que l'intensité du faisceau vérifie l'équation différentielle :
+
+    \begin{equation*}
+        \frac{\mathrm{d}I}{\mathrm{d}z}+\sigma n I = 0
+    \end{equation*}
+\end{enumerate}
+
+\item On appelle absorbance de l'échantillon le rapport :
+
+\begin{equation*}
+    A = \ln\frac{I(z=0)}{I(z=L)}
+\end{equation*}
+
+Montrer qu'une mesure de l'absorbance permet de remonter à $n$.
+
+\item La \autoref{fig:evol} représente l’évolution temporelle de la fraction molaire en CO$_2$ mesurée à l’observatoire situé au sommet du volcan de Mauna Loa, à Hawaï. Proposer une interprétation aux tendances observées.
+
+\begin{figure}
+    \centering
+    \includegraphics[width=0.8\linewidth]{Screenshot from 2023-12-13 14-14-38.png}
+    \caption{\centering Fraction molaire en CO$_2$ mesurée à l’observatoire de Mauna Loa. Les mesures représentées sont des
+moyennes mensuelles.}
+    \label{fig:evol}
+\end{figure}
+
+\end{enumerate}
+
+  \begin{center}
+    \large\bf Orientation de la queue des comètes
+  \end{center}
+
+\paragraph{} La réflexion d'une onde électromagnétique sous incidence normale sur un métal parfaitement conducteur induit une pression de radiation $P$ dont la valeur moyenne $\langle P \rangle$ est reliée à la densité moyenne d'énergie de l'onde $\langle u_\text{em}\rangle$ par :
+
+\begin{equation*}
+    \langle P \rangle = 2 \langle u_\text{em}\rangle
+\end{equation*}
+
+\noindent On se propose d'abord de retrouver ce résultat simple en faisant appel à la théorie corpusculaire.
+
+\begin{enumerate}
+    \item A l'onde incidente, OPPH de fréquence $\nu$, se propageant dans la direction et le sens de l'axe $(Ox)$, on associe un faisceau de photons se propageant à la vitesse de la lumière $c$, parallèlement à l'axe $(Ox)$. On rappelle qu'un photon de fréquence $\nu$ possède une énergie $h\nu$ et une quantité de mouvement de norme $p = h\nu/c$.
+\begin{enumerate}
+    \item Quelle densité particulaire $n$ de photons peut-on attribuer à l'onde incidente ? Exprimer $n$ en fonction de $\langle u_\text{em}\rangle$, $h$ et $\nu$.
+    \item Si l'on considère une surface $S$ orthogonale à ce flux de photons, quel nombre $\mathrm{d}N$ de photons intercepte-t-elle pendant une durée $\mathrm{d}t$ ?
+    \item En supposant que les collisions sont parfaitement élastiques sur cette paroi métallique, quelle est la force exercée par l'onde incidente sur la surface ? En déduire une expression de la pression de radiation associée.
+\end{enumerate}
+
+\item Évaluer la force subie par une petite particule réfléchissante, assimilée à une sphère de rayon $a$, placée dans un tel faisceau lumineux.
+
+\item Cette particule, de masse volumique $\mu$, est située à une distance $r$ du centre du Soleil. 
+
+\begin{enumerate}
+    \item Connaissant la puissance moyenne totale rayonnée par le soleil $\langle \mathcal{P}_S\rangle$, donner la valeur moyenne du vecteur de Poynting puis celle de la densité d'énergie électromagnétique à une distance $r$ de celui-ci. \textit{On rappelle que l'énergie est une grandeur conservative }
+    \item Calculer le rayon limite $a_0$ pour lequel la force de radiation équilibre l'attraction gravitationnelle due au Soleil.
+\end{enumerate} 
+
+\item Cette étude permet-elle d'expliquer pourquoi le nuage gazeux, appelé queue, qui accompagne une comète est derrière la comète quand cell-ci s'approche du Soleil et devant lorsqu'elle s'en éloigne ?
+
+\end{enumerate}
+
+\begin{center}
+\begin{tabular}{c|c|c|c}
+    $\mu$ & $\mathcal{G}$ & $M$ & $\langle \mathcal{P}_S\rangle$ \\
+    $\SI{3e3}{\kilogram\per\meter\cubed}$ & $\SI{6.67e-11}{\per\kilogram\meter\cubed\per\second\squared}$ & $\SI{2e30}{\kilogram}$ & $\SI{4e26}{\watt}$
+\end{tabular}
+\end{center}
+
+\newpage
+
+\section*{TD4}
+
+  \begin{center}
+    \large\bf Nature de la polarisation d'une OPPH
+  \end{center}
+
+\paragraph{}Décrire l'état de polarisation des ondes suivantes :
+
+\begin{enumerate}
+    \item $\vv{E}(z, t)=E_0\left(\frac{1}{2}\cos \left(\omega t-k z\right) \hat{e}_x+\frac{\sqrt{3}}{2}\cos \left(\omega t-k z\right) \hat{e}_y\right)$
+    \item $\vv{E}(z, t)=E_0\left(\cos \left(\omega t-k z-\frac{\pi}{8}\right) \hat{e}_x+\sin \left(\omega t-k z-\frac{\pi}{8}\right) \hat{e}_y\right)$
+    \item $\vv{E}(z, t)=E_0\left(\cos (\omega t-k z) \hat{e}_x+\sin \left(\omega t-k z+\frac{\pi}{3}\right) \hat{e}_y\right)$
+    \item $\vv{E}(z, t)=E_0\left(\cos (\omega t+k z) \hat{e}_x+\sin \left(\omega t+k z+\frac{\pi}{3}\right) \hat{e}_y\right)$
+\end{enumerate}
+
+  \begin{center}
+    \large\bf Polarisation de la lumière (CCP PC 2011)
+  \end{center}
+
+\begin{enumerate}
+    \item Une onde plane monochromatique se propage dans le sens des $z$ croissants. Comment obtenir expérimentalement une onde polarisée rectilignement ?
+    \item Donner l'expression d'une onde électromagnétique monochromatique $\vec{E}(z, t)$, polarisée rectilignement suivant la direction $\frac{\sqrt{2}}{2}\left(\hat{e}_x+\hat{e}_y\right)$ et qui se propage dans le vide suivant la direction $z$, dans le sens des $z$ croissants. On notera $k$ le module du vecteur d'onde, $\omega$ la pulsation et $E_0$ l'amplitude de la norme du champ électrique.
+    \item Soit une onde électromagnétique polarisée circulairement, dont la notation complexe est :
+$$
+\underline{\underline{\vv{E}}}(z, t)=\frac{E_0}{\sqrt{2}} e^{j(\omega t-k z)} \hat{e}_x+\frac{E_0}{\sqrt{2}} e^{j\left(\omega t-k z-\frac{\pi}{2}\right)} \hat{e}_y
+$$
+Donner l'expression de $\vv{E}(z, t)$, partie réelle de $\underline{\vv{E}}$.
+Représenter la trajectoire temporelle de l'extrémité du vecteur $\vv{E}\left(z_0, t\right)$ dans le plan $(x, y)$ lorsque la variable $z$ est fixe et égale à $z_0$.
+\item Comment, dans une expérience d'optique, peut-on convertir l'onde de polarisation rectiligne introduite à la question 1 en onde de polarisation circulaire introduite à la question 3 ? Justifier votre réponse.
+\end{enumerate}
+
+  \begin{center}
+    \large\bf Polarisation rectiligne (CCP MP 2009)
+  \end{center}
+
+\begin{enumerate}
+    \item Définir l'état de polarisation rectiligne des ondes lumineuses représentées par les champs électrique $\vv{E}$ et magnétique $\vv{B}$. Qu'appelle-t-on plan de polarisation ?
+    \item Donner, dans la base orthonormale $\left\{\hat{e}_x, \hat{e}_y, \hat{e}_z\right\}$, les expressions complexes des champs électriques $\underline{\vv{E}}_1$ et $\underline{\vv{E}}_2$, associés aux ondes polarisées suivantes :
+    \begin{enumerate}
+        \item le champ $\underline{\vv{E}}_1$ se propage suivant l'axe $z$ et fait un angle de $\SI{30}{\degree}$ avec l'axe $x$.
+        \item le champ $\underline{\vv{E}}_2$ de polarisation rectiligne suivant l'axe $x$ se propage dans une direction qui fait, dans le plan $y z$, un angle de $\SI{45}{\degree}$ avec l'axe $y$.
+    \end{enumerate}  
+\end{enumerate}
+
+  \begin{center}
+    \large\bf Onde électromagnétique plane progressive (Centrale PC 2003)
+  \end{center}
+
+\paragraph{}Une onde électromagnétique plane, progressive, harmonique, se propage dans la direction définie par le vecteur unitaire $\hat{u}$ dans un milieu où la densité volumique de charges et le vecteur densité de courant sont nuls en tout point à tout instant. On écrit le champ électrique de cette onde, en notations complexes, sous la forme :
+$$
+\underline{\vv{E}}(\vv{r}, t)=\underline{\vv{E}}_0 \exp (i(\omega t-\vv{k} \cdot \vv{r}))
+$$
+où $\underline{\vv{E}}_0$ est un champ uniforme avec $\underline{\vv{E}}_0=\underline{E}_{0 x} \hat{e}_x+\underline{E}_{0 y} \hat{e}_y+\underline{E}_{0 z} \hat{e}_z$, où $\underline{E}_{0 x}, \underline{E}_{0 y}$ et $\underline{E}_{0 z}$ sont des grandeurs complexes.
+
+\begin{enumerate}
+    \item Comment s'exprime le vecteur d'onde $\vv{k}$ en fonction de la longueur d'onde $\lambda$ et du vecteur $\hat{u}$ ?
+    \item Exprimer, en notations complexes, le champ magnétique associé en fonction de $\vv{u}$ et de $\underline{\vv{E}}_0$. Décrire la structure de l'onde électromagnétique.
+    \item 
+    \begin{enumerate}
+        \item Donner l'expression du vecteur de Poynting $\vv{\Pi}$. Quelle est sa direction ? Que représente-t-il concrètement?
+        \item On appelle " intensité lumineuse " $I$ la valeur moyenne de la puissance surfacique de cette onde. En déduire l'expression de $I$ en fonction de $E_0=\sqrt{2\langle\left\|\vv{E}\right\|^2\rangle}, \varepsilon_0$ et $c$.
+    \end{enumerate}
+\end{enumerate}
+
+On définit l'état de polarisation d'une onde électromagnétique à partir de l'évolution temporelle du champ électrique $\vv{E}$ en un point $M$ donné.
+
+\begin{enumerate}[resume]
+    \item Donner l'expression générale du champ électrique d'une onde plane, progressive, harmonique, polarisée rectilignement dans une direction quelconque et qui se propage dans le sens des $z$ croissants, dans un milieu assimilé au vide.
+    \item 
+    \begin{enumerate}
+        \item Donner l'expression générale du champ électrique d'une onde plane, progressive, harmonique, polarisée elliptiquement, qui se propage dans le sens des $z$ croissants.
+        \item Déterminer le sens de polarisation (gauche ou droite) de l'onde dont le champ électrique s'écrit :
+$$
+\vv{E}(\vv{r}, t)=E_{0 x} \cos (\omega t-k z) \hat{e}_x+E_{0 y} \cos \left(\omega t-k z+\frac{\pi}{6}\right) \hat{e}_{y},
+$$
+On expliquera soigneusement le raisonnement en supposant $E_{0 x}$ et $E_{0 y}$ réels positifs.
+\item À quelle(s) condition(s) une onde est-elle polarisée circulairement ?
+    \end{enumerate}
+
+\item Expliquer pourquoi la lumière émise par une source classique n'est pas polarisée.
+    
+\end{enumerate}
+
+  \begin{center}
+    \large\bf Angle de Brewster
+  \end{center}
+  
+\paragraph{}Comme vous le savez déjà grâce à l'optique géométrique, quand une onde lumineuse passe d'un milieu 1 d'indice $n_1$ à un milieu 2 d'indice $n_2$, elle donne lieu à une onde réfléchie dans le milieu 1 et à une onde réfractée dans le milieu 2. Toutefois, l'énergie transmise dans ces deux ondes dépend de la polarisation de l'onde incidente. 
+
+\paragraph{}Une onde d'intensité $I$ polarisée rectilignement parallèlement au plan d'incidence transmettra une intensité réfléchie $I_\parallel^r = R_\parallel I$ et une intensité réfractée $I_\parallel^t = T_\parallel I$. De même si elle est polarisée rectilignement orthogonalement au plan d'incidence, on aura $I_\perp^r = R_\perp I$ et $I_\perp^t = T_\perp I$. La valeur des coeffcients de transmission en puissance pour l'onde réfléchie sont donnés par les formules de Fresnel :
+
+\begin{equation}
+    R_\parallel = \left( \frac{\tan (r-i)}{\tan (r+i)} \right)^2,\quad R_\perp = \left( \frac{\sin (r-i)}{\sin (r+i)} \right)^2
+\end{equation}
+
+avec $i$ l'angle d'incidence et $r$ l'angle de réfraction.
+
+\begin{enumerate}
+    \item Montrer que $R_\parallel$ s’annule lorsque le rayon réfléchi et le rayon réfracté font un angle de $\pi/2$. Montrer que $R_\perp$ ne s’annule pas pour cette incidence.
+    \item En déduire que sous cette incidence, appelée incidence de Brewster, une onde polarisée de manière quelconque produit un rayon réfléchi polarisé rectilignement. Indiquer la direction de polarisation.
+    \item Montrer que sous incidence de Brewster, on a $\tan (i) = n_2/n_1$
+    \item En déduire une méthode de détermination de l’indice de réfraction d’un solide placé dans l’air.
+\end{enumerate}
+
+  \begin{center}
+    \large\bf Lames à retard (Centrale PC 2003)
+  \end{center}
+
+\begin{enumerate}
+    \item Une lame à retard est une lame mince à faces parallèles taillée dans un cristal uniaxe ayant des propriétés optiques anisotropes et agit donc sur la polarisation d'une onde électromagnétique monochromatique sous incidence normale. La lame est caractérisée par deux indices, $n_x$ selon $O x$ et $n_y$ selon $O y$.
+    \begin{enumerate}
+        \item Si $n_x<n_y$, préciser l'axe rapide et l'axe lent. Justifier la réponse.
+        \item On étudie la propagation d'une onde électromagnétique plane progressive harmonique sous incidence normale :
+$$
+\forall z<0, \quad \vv{E}=\left(\begin{array}{c}
+E_{o x} \cos \left(\omega t-\frac{2 \pi}{\lambda} z\right) \\
+E_{o y} \cos \left(\omega t-\frac{2 \pi}{\lambda} z-\phi\right) \\
+0
+\end{array}\right)
+$$
+Hors de la lame ( $z<0$ et $z>e$ ) le milieu est assimilé au vide. Préciser l'expression du champ électrique dans la lame, puis hors de la lame. Montrer que la composante du champ électrique selon l'axe lent a un retard de phase supplémentaire $\Delta\phi$ fonction de $e$, $\lambda$, $n_x$ et $n_y$ par rapport à la composante selon l'axe rapide.
+    \end{enumerate}
+
+    \item Donner la définition d'une lame demi-onde et d'une lame quart d'onde notées respectivement $D$ et $Q$. Calculer l'épaisseur minimale d'une lame de calcite $D$ pour une longueur d'onde $\lambda=\SI{600}{\nano\meter}$ sachant que les indices de réfraction sont $n_y=1.658$ et $n_x=1.486$. Même question pour une lame de quartz $D$, avec, pour cette longueur d'onde les indices de réfraction $n_y=1.544$ et $n_x=1.553$. Comparer les résultats et conclure.
+\end{enumerate}
+
+\begin{center}
+    \large\bf Polariseur circulaire (DS 2023)
+  \end{center}
+
+  On considère une source de lumière suivie d'un filtre monochromatique $\lambda=\SI{600}{\nano\meter}$, le tout émettant dans la direction $+\hat{e}_z$ de l'axe optique une OPPH polarisée de manière quelconque. On place juste après ce dispositif un polariseur de direction privilégiée $\hat{u} = \cos\alpha~\hat{e}_x+\sin\alpha~\hat{e}_y$.
+
+  \begin{enumerate}
+  \item
+  \begin{enumerate}
+      \item Quel est l'état de polarisation de l'onde à la sortie du polariseur ? \item Donner une expression du champ $\vv{E}(\vv{r},t)$ associé en fonction de $E_0$ son amplitude après traversée du polariseur, $\omega$ sa pulsation et $k$ la norme de son vecteur d'onde. 
+      \item Quelle relation existe-t-il entre $k$ et $\lambda$ ?
+\end{enumerate}
+
+\item On place après le polariseur, entre $z=0$ et $z=e$, une lame à retard de phase de lignes neutres $(Ox)$ et $(Oy)$ auxquelles sont associés les indices $n_x$ et $n_y$. 
+
+\begin{enumerate}
+    \item Si $n_x>n_y$, quel est l'axe lent ? Justifier votre réponse.
+    \item Dans une telle lame, quelle est la norme $k_x$ du vecteur d'onde associé à la propagation de la composante selon $\hat{e}_x$ du champ électrique ? On l'exprimera en fonction de $\lambda$ et $n_x$.
+    \item Donner les expressions du champ $\vv{E}(\vv{r},t)$ dans la région $0<z<e$, en $z=e$ et dans la région $z>e$.
+    \item En déduire que la traversée de la lame a induit un déphasage $\Delta\phi$ entre les composantes $E_x$ et $E_y$ du champ électrique dont on donnera l'expression en fonction des données du problème.
+\end{enumerate}
+
+\item On choisit la lame telle que $\Delta\phi = \pi/2$.
+
+\begin{enumerate}
+    \item Comment appelle-t-on une telle lame ?
+    \item Quelle est la polarisation de l'onde en sortie du montage ?
+    \item Déduire de toutes les questions précédentes un dispositif (on pourra en faire un schéma) permettant de créer une polarisation circulaire à partir de n'importe quelle source de lumière. Pourquoi la présence d'un filtre monochromatique est-elle nécessaire ?
+\end{enumerate}
+
+  \end{enumerate}
+  
+\begin{center}
+    \large\bf Loi de Fresnel (DS 2022)
+  \end{center}
+  
+\paragraph{}Les milieux chiraux sont des milieux qui présentent une biréfringence circulaire, c’est-à-dire que les ondes polarisées circulairement droite s’y propagent à une vitesse différente des ondes polarisées circulairement gauche. On propose d’étudier l’effet de la traversée d’un de ces milieux sur une onde de polarisation rectiligne.
+
+\paragraph{}Considérons deux OPPH polarisées circulairement se propageant dans le vide selon l’axe (Oz) représentées par les champs électriques suivants :
+
+\begin{equation*}
+\begin{aligned}
+& \vec{E}_1(z, t)=E_0 \cos (\omega t-k z) \vec{e}_x+E_0 \sin (\omega t-k z) \vec{e}_y \\
+& \vec{E}_2(z, t)=E_0 \cos (\omega t-k z) \vec{e}_x-E_0 \sin (\omega t-k z) \vec{e}_y
+\end{aligned}
+\end{equation*}
+
+\begin{enumerate}
+    \item Laquelle de ces ondes est polarisée circulairement droite ? Laquelle est polarisée circulairement gauche ?
+    \item Considérons l’onde résultant de la superposition de ces deux ondes, représentée par le champ $\vv{E} = \vv{E}_1 + \vv{E}_2$. Quelle est sa polarisation ?
+    \item On place entre $z=0$ et $z=e$ un milieu chiral dans lequel les ondes polarisées circulairement gauche se propagent avec un indice optique $n_g$ et les ondes polarisées circulairement droite avec un indice optique $n_d$.
+    \begin{enumerate}
+        \item Montrer que dans le milieu, le champ $\vv{E}_1$ se propage avec un vecteur d'onde $k_g$ à définir à partir des constantes $k$ et $n_g$ et le champ $\vv{E}_2$ avec un vecteur d'onde $k_d$ à définir à partir des constantes $k$ et $n_d$.
+        \item Donner l'expression des champs $\vv{E}_1$ et $\vv{E}_2$ à l'intérieur du milieu $(0<z<e)$.
+    \end{enumerate}
+    \item Donner l'expression des champs $\vv{E}_1$ et $\vv{E}_2$ à la sortie du milieu $(z=e)$ puis après ce milieu $(z>e)$.
+    \item En déduire l'expression de $\vv{E}$ à la sortie du milieu.
+    \item Montrer que la traversée du milieu a fait tourner la polarisation incidente d’un angle $\alpha$ donné par la loi de Fresnel :
+    \begin{equation*}
+        \alpha=\frac{\pi}{\lambda}\left(n_g-n_d\right) e
+    \end{equation*}
+\end{enumerate}
+  
+\begin{center}
+    \large\bf Traversée d'une suite de polariseurs (DS 2022)
+  \end{center}
+  
+  On rappelle que l’intensité associée à une onde électromagnétique est proportionnelle au carré moyen (moyenne temporelle) du champ électrique associé :
+  \begin{equation*}
+I \propto\left\langle\|\vec{E}\|^2\right\rangle_t
+\end{equation*}
+
+\begin{enumerate}
+    \item On place sur le trajet d’une onde plane progressive harmonique se propageant dans la direction de l’axe $(Oz)$ et polarisée rectilignement dans la direction de $\vv{u}_x$ un polariseur orienté pour transmettre une polarisation rectiligne perpendiculaire à $(Oz)$ et faisant un angle $\theta$ par rapport au vecteur $\vv{u}_x$.
+    \begin{enumerate}
+        \item Écrire l’expression du champ électrique de l’onde avant la traversée du polariseur en introduisant les notations nécessaires.
+        \item En déduire l’expression du champ électrique de l’onde après traversée du polariseur (on suppose que la traversée du polariseur n’induit pas de déphasage). Quel est le coefficient de transmission du polariseur défini comme le rapport de l’intensité de l’onde sortant du polariseur à l’intensité de l’onde arrivant sur le polariseur?
+    \end{enumerate}
+    \item On place maintenant sur le trajet de l’onde une suite de $N$ polariseurs infiniment proches les uns des autres (de telle manière que la traversée n’induit pas de déphasage). Le polariseur $n$ est orienté pour transmettre une polarisation rectiligne formant un angle $n\theta$ par rapport à la polarisation initiale de l’onde.
+    \begin{enumerate}
+        \item Quelle est l’intensité de l’onde transmise après traversée des $N$ polariseurs ?
+        \item Montrer que, pour une valeur de $N$ suffisamment grande, le dispositif permet de faire tourner une polarisation linéaire de $\SI{90}{\degree}$ avec une perte d’intensité négligeable. Combien de polariseurs faut-il utiliser pour que les pertes d’intensité de ce système soient inférieures à 1\% ?
+    \end{enumerate}
+\end{enumerate}
+
+\end{document}

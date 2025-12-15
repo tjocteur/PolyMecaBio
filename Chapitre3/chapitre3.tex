@@ -61,6 +61,12 @@
 
 \noindent Elle s'exprime en joules par seconde, équivalent à des watts (\SI{}{\watt}) et permet de quantifier la quantité d'énergie apportée par la force au mouvement par unité de temps. 
 
+\paragraph{}Pour une force constante opérant pendant une durée $\Delta t$, la relation entre le travail $W$ de cette force et sa puissance $\mathcal{P}$ est :
+
+\begin{equation}
+	W = \mathcal{P}\Delta t
+\end{equation}
+
 \paragraph{}\textit{Une force peut produire un très grand travail à très faible puissance comme un très faible travail à une grande puissance. Tout dépend de la durée sur laquelle l'effort est fourni.}
 
 \paragraph{}De la même manière que pour le travail, une puissance positive $\mathcal{P}>0$ correspond à une force instantanément motrice tandis qu'une puissance négative $\mathcal{P}<0$ correspond à une force instantanément résistante.
@@ -74,6 +80,26 @@
 \end{equation}
 
 \noindent Ce théorème peut permettre de prédire la variation d'énergie cinétique en connaissant les travaux ou bien de déduire un travail de force en connaissant une variation d'énergie cinétique.
+
+\begin{exemple}
+
+\paragraph{}Une pomme de masse $m=\SI{100}{\g}$ tombe d'un arbre d'une hauteur $h=\SI{1.0}{\meter}$. On néglige les frottements de l'air sur la pomme pendant la chute. Quelle est la vitesse $v$ de la pomme avant son impact avec le sol ? On définira un axe $(Oz)$ orienté du sol vers le ciel pour repérer le mouvement de la pomme.
+
+\paragraph{}Pour répondre à cette question, on peut soit utiliser le PFD et intégrer pour obtenir la trajectoire et la vitesse de la pomme au point d'impact. Cette méthode est assez longue est fastidieuse. À la place, on peut simplement utiliser le théorème de l'énergie cinétique. La seule force travaillant est le poids $\vv{P} = -mg\vv{e_z}$, et ce sur le trajet de chute représenté par le vecteur déplacement $\vv{\Delta OM} = -h \vv{e_z}$. Ainsi le travail appliqué sur la pomme est :
+
+\begin{equation}
+	W = (-mg\vv{e_z})\cdot (-h\vv{e_z})=mgh
+\end{equation}
+
+\noindent La pomme étant immobile au début de la chute, le théorème de l'énergie cinétique donne ici :
+
+\begin{equation}
+	\Delta E_c = E_{c, f} - E_{c, i} = E_{c, f} = \frac{1}{2}mv^2 = mgh
+\end{equation}
+
+\noindent soit $v=\sqrt{2gh}=\SI{4.4}{\meter\per\second}$.
+
+\end{exemple}
 
 \section{Énergie potentielle et forces conservatives}
 
@@ -184,33 +210,55 @@ Pour un corps donné, l'énergie mécanique et la somme de son énergie cinétiq
 
 \subsection{Principe}
 
-\paragraph{}Le principe de conservation de l'énergie mécanique peut s'avérer très pratique pour étudier le mouvement d'un corps soumis uniquement à des forces conservatives dont on connaît l'énergie potentielle totale associée. Considérons par exemple un snowboardeur évoluant sur une piste, repérée par la coordonnée $x$ et dont le profil est le suivant :
+\paragraph{}Le principe de conservation de l'énergie mécanique peut s'avérer très pratique pour étudier le mouvement d'un corps soumis uniquement à des forces conservatives dont on connaît l'énergie potentielle totale associée. Considérons par exemple un snowboardeur évoluant sur une piste, repérée par la coordonnée $x$ et dont le profil est donné sur la partie gauche de la \autoref{fig:snow}.
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=\textwidth]{Chapitre3/Figures/piste.pdf}
+	\caption{Profil d'énergie potentielle d'un snowboardeur sur une piste.}
+	\label{fig:snow}
+\end{figure}
 
 
-\paragraph{}Celui-ci n'est soumis qu'à son poids en termes de force conservative\footnote{On néglige ici les frottements et la réaction du support ne travaille pas.}, dont on a vu que l'énergie potentielle associée est proportionnelle à l'altitude. Ainsi, on a le profil d'énergie potentielle suivant :
+\paragraph{}Celui-ci n'est soumis qu'à son poids en termes de force conservative\footnote{On néglige ici les frottements et la réaction du support ne travaille pas.}, dont on a vu que l'énergie potentielle associée est proportionnelle à l'altitude. Ainsi, on a le profil d'énergie potentielle donné sur la partie droite de la \autoref{fig:snow}.
 
 \paragraph{}On suppose que le snowboardeur part du début de la piste en $x=0$ avec une vitesse nulle. Son énergie cinétique est donc nulle $E_c=0$ et donc son énergie mécanique totale égale à son énergie potentielle initiale. On peut donc la représenter sur la \textbf{Fig XX}. Lorsque le snowboardeur se laisse glisser, son énergie cinétique augmente et son énergie potentielle diminue de telle manière que son énergie mécanique reste constante. Grâce à ce graphe, on peut calculer la vitesse du snowboardeur et les zones auxquelles il peut accéder en glissant sans trop de calcul. En effet, il est possible de lire direction l'énergie cinétique sur ce graphe comme $E_c = E_m - E_p$. De plus, étant donné que l'on a nécessairement $E_m \geq E_p$ car l'énergie cinétique est une grandeur positive, on a $E_m \geq E_p$. Ainsi, le snowboardeur ne pourra pas atteindre les zones se situant au-dessus de la droite $E_p = E_m$.
 
 \subsection{Électron lié à un atome}
 
-\paragraph{}Dans l'atome d'hydrogène, l'électron est soumis à des forces d'interaction avec le noyau, résultant en l'énergie potentielle dont le profil est le suivant, avec $r$ la distance entre le noyau et l'électron :
+\paragraph{}Dans l'atome d'hydrogène, l'électron est soumis à des forces d'interaction avec le noyau, résultant en l'énergie potentielle dont le profil est donné sur la \autoref{fig:electron}, avec $r$ la distance entre le noyau et l'électron.
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.6\textwidth]{Chapitre3/Figures/electron.pdf}
+	\caption{Profil d'énergie potentielle de l'électron dans l'atome d'hydrogène.}
+	\label{fig:electron}
+\end{figure}
 
 \paragraph{}Infiniment loin du noyau, l'énergie potentielle de l'électron est nulle. Infiniment proche du noyau, l'énergie potentielle de l'électron est infinie. En fonction de l'énergie totale de l'électron, on peut tirer de ce diagramme plusieurs informations :
 
 \begin{itemize}
-	\item L'énergie minimale de l'électron dans l'atome d'hydrogène est $E_\text{min} = E_{p, \text{min}}$.
-	\item Pour $E_m < 0$, l'électron est lié au noyau, il ne peut pas s'en éloigner arbitrairement loin. On parle d'état lié de l'électron.
-	\item Pour $E_m > 0$, l'électron possède assez d'énergie pour "fuir" l'attraction du noyau et donc partir infiniment loin. On parle d'état libre de l'électron.
+	\item L'énergie minimale de l'électron dans l'atome d'hydrogène est $E_\text{min}$.
+	\item Pour $E_m < E_\infty$, l'électron est lié au noyau, il ne peut pas s'en éloigner arbitrairement loin. On parle d'état lié de l'électron.
+	\item Pour $E_m > E_\infty$, l'électron possède assez d'énergie pour "fuir" l'attraction du noyau et donc partir infiniment loin. On parle d'état libre de l'électron.
 \end{itemize}
 
 \paragraph{}Formellement, on peut relier la quantité d'énergie à fournir à l'électron pour qu'il puisse être dans un état libre à l'énergie d'ionisation.
 
-\paragraph{}Il existe de nombreux autres cas physiques possédant des profils d'énergie potentielle non-monotones présentant ces mêmes notions d'états liés et d'états libres. C'est notamment le cas de certains systèmes d'astres en gravitation.
+\paragraph{}Il existe de nombreux autres cas physiques possédant des profils d'énergie potentielle non-monotones présentant ces mêmes notions d'états liés et d'états libres. C'est notamment le cas de certains systèmes d'astres en gravitation ou alors d'organelles piégées dans une pince optique (voir TD).
 
 \section*{Objectifs de ce chapitre}
 
 \paragraph{}À l'issue de ce chapitre, vous devez :
 
 \begin{itemize}
-	\item Savoir repérer un point sur un axe.
+	\item Calculer le travail d'une force.
+	\item Calculer la puissance d'une force.
+	\item Faire le lien entre travail et puissance dans le cas de forces constantes.
+	\item Utiliser le théorème de l'énergie cinétique pour déterminer la vitesse finale d'un objet à partir du travail d'une force.
+	\item Utiliser le théorème de l'énergie cinétique pour déterminer le travail d'une force à partir de l'état initial et l'état final d'un objet.
+	\item Déterminer la force associée à une énergie potentielle.
+	\item Connaître les énergies potentielles associées aux forces usuelles.
+	\item Connaître les conditions d'application du principe de conservation de l'énergie mécanique.
+	\item Utiliser la conservation de l'énergie mécanique pour caractériser le mouvement d'un objet dans un profil d'énergie potentielle donné. 
 \end{itemize}
