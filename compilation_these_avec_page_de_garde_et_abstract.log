@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2025.11.11)  15 DEC 2025 17:13
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2025.11.11)  16 DEC 2025 15:25
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1223,7 +1223,7 @@ File: uesvect.fd
  been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.148 ...3.1}Énergie cinétique}{31}{section.3.1}
+l.151 ...3.1}Énergie cinétique}{31}{section.3.1}
                                                   % [1])
 \tf@toc=\write4
 \openout4 = `compilation_these_avec_page_de_garde_et_abstract.toc'.
@@ -1467,12 +1467,12 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 81.
 
 [23]
-<Chapitre2/Figures/PoidsBalles.pdf, id=462, 411.5375pt x 265.99374pt>
+<Chapitre2/Figures/PoidsBalles.pdf, id=462, 418.56375pt x 265.99374pt>
 File: Chapitre2/Figures/PoidsBalles.pdf Graphic file (type pdf)
 <use Chapitre2/Figures/PoidsBalles.pdf>
 Package pdftex.def Info: Chapitre2/Figures/PoidsBalles.pdf  used on input line 
 102.
-(pdftex.def)             Requested size: 338.58632pt x 218.84279pt.
+(pdftex.def)             Requested size: 338.58632pt x 215.16557pt.
  [24 <./Chapitre2/Figures/PoidsBalles.pdf>]
 <Chapitre2/Figures/pinceoptique.pdf, id=476, 449.68pt x 310.15875pt>
 File: Chapitre2/Figures/pinceoptique.pdf Graphic file (type pdf)
@@ -1488,109 +1488,100 @@ Package pdftex.def Info: Chapitre2/Figures/poussee.pdf  used on input line 153.
 
 (pdftex.def)             Requested size: 241.84843pt x 169.20811pt.
  [26 <./Chapitre2/Figures/poussee.pdf>]
-<Chapitre2/Figures/charge.pdf, id=515, 466.74374pt x 145.54375pt>
+<Chapitre2/Figures/charge.pdf, id=516, 466.74374pt x 145.54375pt>
 File: Chapitre2/Figures/charge.pdf Graphic file (type pdf)
 <use Chapitre2/Figures/charge.pdf>
-Package pdftex.def Info: Chapitre2/Figures/charge.pdf  used on input line 172.
+Package pdftex.def Info: Chapitre2/Figures/charge.pdf  used on input line 174.
 (pdftex.def)             Requested size: 338.58632pt x 105.58423pt.
+ [27 <./Chapitre2/Figures/charge.pdf>]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 193.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 181.
+(hyperref)                removing `\star' on input line 193.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\star' on input line 181.
+(hyperref)                removing `math shift' on input line 193.
 
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 181.
-
-<Chapitre2/Figures/balle.pdf, id=517, 443.6575pt x 189.70876pt>
+<Chapitre2/Figures/balle.pdf, id=533, 443.6575pt x 189.70876pt>
 File: Chapitre2/Figures/balle.pdf Graphic file (type pdf)
 <use Chapitre2/Figures/balle.pdf>
-Package pdftex.def Info: Chapitre2/Figures/balle.pdf  used on input line 189.
+Package pdftex.def Info: Chapitre2/Figures/balle.pdf  used on input line 201.
 (pdftex.def)             Requested size: 483.69687pt x 206.82764pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[27 <./Chapitre2/Figures/charge.pdf>] [28 <./Chapitre2/Figures/balle.pdf>])
-(./Chapitre3/chapitre3.tex [29] [30
-
-]
+[28 <./Chapitre2/Figures/balle.pdf>] [29]) (./Chapitre3/chapitre3.tex [30]
 Chapitre 3.
-[31] [32]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+[31
+
+] [32]
+Underfull \vbox (badness 4441) has occurred while \output is active []
 
  [33]
-[34] [35]
+[34] [35] [36]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 209.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\star' on input line 209.
+(hyperref)                removing `math shift' on input line 219.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 209.
+(hyperref)                removing `\star' on input line 219.
 
-[36]
-<Chapitre3/Figures/piste.pdf, id=649, 470.75874pt x 118.4425pt>
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 219.
+
+<Chapitre3/Figures/piste.pdf, id=655, 470.75874pt x 118.4425pt>
 File: Chapitre3/Figures/piste.pdf Graphic file (type pdf)
 <use Chapitre3/Figures/piste.pdf>
-Package pdftex.def Info: Chapitre3/Figures/piste.pdf  used on input line 217.
+Package pdftex.def Info: Chapitre3/Figures/piste.pdf  used on input line 227.
 (pdftex.def)             Requested size: 483.69687pt x 121.69891pt.
-<Chapitre3/Figures/electron.pdf, id=653, 229.85875pt x 119.44624pt>
+[37 <./Chapitre3/Figures/piste.pdf>]
+<Chapitre3/Figures/electron.pdf, id=675, 229.85875pt x 119.44624pt>
 File: Chapitre3/Figures/electron.pdf Graphic file (type pdf)
 <use Chapitre3/Figures/electron.pdf>
-Package pdftex.def Info: Chapitre3/Figures/electron.pdf  used on input line 233
+Package pdftex.def Info: Chapitre3/Figures/electron.pdf  used on input line 243
 .
 (pdftex.def)             Requested size: 290.22107pt x 150.82199pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[37 <./Chapitre3/Figures/piste.pdf>])
+ [38 <./Chapitre3/Figures/electron.pdf>])
 No file compilation_these_avec_page_de_garde_et_abstract.bbl.
-[38 <./Chapitre3/Figures/electron.pdf>]
-(./compilation_these_avec_page_de_garde_et_abstract.aux) ) 
+[39] (./compilation_these_avec_page_de_garde_et_abstract.aux) ) 
 Here is how much of TeX's memory you used:
- 34570 strings out of 478287
- 705403 string characters out of 5849288
- 1009205 words of memory out of 5000000
- 51807 multiletter control sequences out of 15000+600000
- 564435 words of font info for 123 fonts, out of 8000000 for 9000
+ 34587 strings out of 478287
+ 705617 string characters out of 5849288
+ 1008998 words of memory out of 5000000
+ 51814 multiletter control sequences out of 15000+600000
+ 570408 words of font info for 125 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  104i,32n,107p,1282b,1219s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf/fon
-ts/enc/dvips/lm/lm-mathit.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/
-usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dvips/
-lm/lm-mathsy.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathex.enc}{/usr/share
-/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/
-fonts/type1/public/esint-type1/esint10.pfb></usr/share/texmf/fonts/type1/public
-/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmcsc10.pfb></usr/share/
-texmf/fonts/type1/public/lm/lmex10.pfb></usr/share/texmf/fonts/type1/public/lm/
-lmmi10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi12.pfb></usr/share/texmf
-/fonts/type1/public/lm/lmmi6.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi7.
-pfb></usr/share/texmf/fonts/type1/public/lm/lmmi8.pfb></usr/share/texmf/fonts/t
-ype1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr12.pfb></us
-r/share/texmf/fonts/type1/public/lm/lmr17.pfb></usr/share/texmf/fonts/type1/pub
-lic/lm/lmr5.pfb></usr/share/texmf/fonts/type1/public/lm/lmr7.pfb></usr/share/te
-xmf/fonts/type1/public/lm/lmr8.pfb></usr/share/texmf/fonts/type1/public/lm/lmri
-10.pfb></usr/share/texmf/fonts/type1/public/lm/lmri12.pfb></usr/share/texmf/fon
-ts/type1/public/lm/lmri8.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb
-></usr/share/texmf/fonts/type1/public/lm/lmsy7.pfb></usr/share/texmf/fonts/type
-1/public/lm/lmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/u
-hvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr
-/share/texlive/texmf-dist/fonts/type1/public/esvect/vect10.pfb></usr/share/texl
-ive/texmf-dist/fonts/type1/public/esvect/vect8.pfb>
-Output written on compilation_these_avec_page_de_garde_et_abstract.pdf (42 page
-s, 1093496 bytes).
+{/usr/share/texm
+f/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.e
+nc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/d
+vips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathex.enc}{/usr/
+share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-
+dist/fonts/type1/public/esint-type1/esint10.pfb></usr/share/texmf/fonts/type1/p
+ublic/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmcsc10.pfb></usr/s
+hare/texmf/fonts/type1/public/lm/lmex10.pfb></usr/share/texmf/fonts/type1/publi
+c/lm/lmmi10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi12.pfb></usr/share/
+texmf/fonts/type1/public/lm/lmmi6.pfb></usr/share/texmf/fonts/type1/public/lm/l
+mmi7.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi8.pfb></usr/share/texmf/fo
+nts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr12.pfb
+></usr/share/texmf/fonts/type1/public/lm/lmr17.pfb></usr/share/texmf/fonts/type
+1/public/lm/lmr5.pfb></usr/share/texmf/fonts/type1/public/lm/lmr7.pfb></usr/sha
+re/texmf/fonts/type1/public/lm/lmr8.pfb></usr/share/texmf/fonts/type1/public/lm
+/lmri10.pfb></usr/share/texmf/fonts/type1/public/lm/lmri12.pfb></usr/share/texm
+f/fonts/type1/public/lm/lmri8.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy1
+0.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy7.pfb></usr/share/texmf/fonts
+/type1/public/lm/lmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helve
+tic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
+</usr/share/texlive/texmf-dist/fonts/type1/public/esvect/vect10.pfb></usr/share
+/texlive/texmf-dist/fonts/type1/public/esvect/vect8.pfb>
+Output written on compilation_these_avec_page_de_garde_et_abstract.pdf (43 page
+s, 1104030 bytes).
 PDF statistics:
- 1018 PDF objects out of 1200 (max. 8388607)
- 884 compressed objects within 9 object streams
- 346 named destinations out of 1000 (max. 500000)
+ 1038 PDF objects out of 1200 (max. 8388607)
+ 901 compressed objects within 10 object streams
+ 354 named destinations out of 1000 (max. 500000)
  525 words of extra memory for PDF output out of 10000 (max. 10000000)
 

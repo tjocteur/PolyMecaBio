@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2025.11.11)  15 DEC 2025 17:36
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2025.11.11)  19 DEC 2025 14:35
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -358,30 +358,37 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip59
 )
+(/usr/share/texlive/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count301
+\float@exts=\toks25
+\float@box=\box64
+\@float@everytoks=\toks26
+\@floatcapt=\box65
+)
 Package translations Info: No language package found. I am going to use `englis
-h' as default language. on input line 27.
-
-(./main.aux)
+h' as default language. on input line 28.
+ (./main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -419,17 +426,17 @@ LaTeX Font Info:    ... okay on input line 27.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count301
+\scratchcounter=\count302
 \scratchdimen=\dimen180
-\scratchbox=\box64
-\nofMPsegments=\count302
-\nofMParguments=\count303
-\everyMPshowfont=\toks25
-\MPscratchCnt=\count304
+\scratchbox=\box66
+\nofMPsegments=\count303
+\nofMParguments=\count304
+\everyMPshowfont=\toks27
+\MPscratchCnt=\count305
 \MPscratchDim=\dimen181
-\MPnumerator=\count305
-\makeMPintoPDFobject=\count306
-\everyMPtoPDFconversion=\toks26
+\MPnumerator=\count306
+\makeMPintoPDFobject=\count307
+\everyMPtoPDFconversion=\toks28
 ) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
@@ -453,8 +460,8 @@ File: translations-basic-dictionary-english.trsl (english translation file `tra
 nslations-basic-dictionary')
 )
 Package translations Info: loading dictionary `translations-basic-dictionary' f
-or `english'. on input line 27.
-Package hyperref Info: Link coloring OFF on input line 27.
+or `english'. on input line 28.
+Package hyperref Info: Link coloring OFF on input line 28.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
@@ -465,85 +472,108 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 (/usr/share/texlive/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count307
+\c@section@level=\count308
 )
-LaTeX Info: Redefining \ref on input line 27.
-LaTeX Info: Redefining \pageref on input line 27.
-LaTeX Info: Redefining \nameref on input line 27.
+LaTeX Info: Redefining \ref on input line 28.
+LaTeX Info: Redefining \pageref on input line 28.
+LaTeX Info: Redefining \nameref on input line 28.
 
 (./main.out) (./main.out)
 \@outlinefile=\write3
 \openout3 = `main.out'.
 
 LaTeX Font Info:    Trying to load font information for U+esvect on input line 
-50.
+40.
 
 (/usr/share/texlive/texmf-dist/tex/latex/esvect/uesvect.fd
 File: uesvect.fd 
-) [1
+)
+<reperage.pdf, id=4, 520.94624pt x 326.21875pt>
+File: reperage.pdf Graphic file (type pdf)
+<use reperage.pdf>
+Package pdftex.def Info: reperage.pdf  used on input line 52.
+(pdftex.def)             Requested size: 277.11429pt x 173.53224pt.
+<trajectoires.pdf, id=5, 520.94624pt x 145.54375pt>
+File: trajectoires.pdf Graphic file (type pdf)
+<use trajectoires.pdf>
+Package pdftex.def Info: trajectoires.pdf  used on input line 64.
+(pdftex.def)             Requested size: 277.11429pt x 77.42207pt.
+<araignee.pdf, id=6, 213.79875pt x 162.6075pt>
+File: araignee.pdf Graphic file (type pdf)
+<use araignee.pdf>
+Package pdftex.def Info: araignee.pdf  used on input line 109.
+(pdftex.def)             Requested size: 207.83704pt x 158.07396pt.
+ [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-Underfull \hbox (badness 4328) in paragraph at lines 117--118
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./reperage.pdf> <./traject
+oires.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./trajectoires.pdf): PDF inclusion: mul
+tiple pdfs with page group included in a single page
+>] [2 <./araignee.pdf>]
+Underfull \hbox (badness 4328) in paragraph at lines 192--193
  []\OT1/cmr/bx/n/10 Exercice 3[] \OT1/cmr/m/n/10 Les mat^^Seriaux supra-con-duc
 -teurs voient leur con-duc-tivit^^Se
  []
 
-[2] [3]
-Underfull \hbox (badness 2671) in paragraph at lines 266--270
+[3] [4]
+Underfull \hbox (badness 2671) in paragraph at lines 353--357
  [][] \OT1/cmr/m/n/10 Le d^^Seveloppement de mod^^Reles cli-ma-tiques et l'actu
 alisation de leurs
  []
 
-<SchemaAbsorption.pdf, id=91, 409.02475pt x 175.80304pt>
+<SchemaAbsorption.pdf, id=109, 409.02475pt x 175.80304pt>
 File: SchemaAbsorption.pdf Graphic file (type pdf)
 <use SchemaAbsorption.pdf>
-Package pdftex.def Info: SchemaAbsorption.pdf  used on input line 279.
+Package pdftex.def Info: SchemaAbsorption.pdf  used on input line 366.
 (pdftex.def)             Requested size: 207.83704pt x 89.33109pt.
-[4 <./SchemaAbsorption.pdf>]
-<BilanTranche.pdf, id=115, 368.51857pt x 183.4477pt>
+[5pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) 
+has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.385 \end{equation*}
+                      <./SchemaAbsorption.pdf>]
+<BilanTranche.pdf, id=134, 368.51857pt x 183.4477pt>
 File: BilanTranche.pdf Graphic file (type pdf)
 <use BilanTranche.pdf>
-Package pdftex.def Info: BilanTranche.pdf  used on input line 307.
+Package pdftex.def Info: BilanTranche.pdf  used on input line 394.
 (pdftex.def)             Requested size: 138.55449pt x 68.97185pt.
 
-Underfull \hbox (badness 1342) in paragraph at lines 315--316
+Underfull \hbox (badness 1342) in paragraph at lines 402--403
 []\OT1/cmr/m/n/10 En le jus-ti-fi-ant par un ar-gu-ment de con-ser-va-tion de l
 '^^Senergie,
  []
 
-<Screenshot from 2023-12-13 14-14-38.png, id=117, 1215.54124pt x 518.93875pt>
+<Screenshot from 2023-12-13 14-14-38.png, id=136, 1215.54124pt x 518.93875pt>
 File: Screenshot from 2023-12-13 14-14-38.png Graphic file (type png)
 <use Screenshot from 2023-12-13 14-14-38.png>
 Package pdftex.def Info: Screenshot from 2023-12-13 14-14-38.png  used on input
- line 335.
+ line 422.
 (pdftex.def)             Requested size: 277.11429pt x 118.30026pt.
-[5 <./BilanTranche.pdf> <./Screenshot from 2023-12-13 14-14-38.png>]
-Underfull \hbox (badness 2846) in paragraph at lines 406--407
-[]\OT1/cmr/m/n/10 Donner l'expression d'une onde ^^Selectromagn^^Setique monoch
-ro-ma-tique
- []
+[6pdfTeX warning (ext4): destination with the same identifier (name{figure.2}) 
+has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.447     \item E
+                 n supposant que les collisions sont parfaitement élastique...
+pdfTeX warning (ext4): destination with the same identifier (name{figure.3}) ha
+s been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.447     \item E
+                 n supposant que les collisions sont parfaitement élastique...
+ <./BilanTranche.pdf> <./Screenshot from 2023-12-13 14-14-38.png>] [7
 
-[6]
-Underfull \hbox (badness 1509) in paragraph at lines 474--475
- [][] \OT1/cmr/m/n/10 Une onde d'intensit^^Se $\OML/cmm/m/it/10 I$ \OT1/cmr/m/n
-/10 po-laris^^See rec-tiligne-ment par-all^^Relement au plan
- []
-
-[7] [8]
-Underfull \hbox (badness 1052) in paragraph at lines 584--586
-[]\OT1/cmr/m/n/10 On place sur le tra-jet d'une onde plane pro-gres-sive har-mo
-nique se
- []
-
-[9] (./main.aux)
+]
+(./main.aux)
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 14285 strings out of 478287
- 274012 string characters out of 5849288
- 574586 words of memory out of 5000000
- 32148 multiletter control sequences out of 15000+600000
+ 14314 strings out of 478287
+ 275121 string characters out of 5849288
+ 572934 words of memory out of 5000000
+ 32232 multiletter control sequences out of 15000+600000
  476212 words of font info for 56 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  71i,16n,89p,548b,1002s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -552,20 +582,18 @@ ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/tex
 mf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dis
 t/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/font
 s/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type
-1/public/amsfonts/cm/cmmi5.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
-c/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
-nts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/
-cmr5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb
-></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/s
-hare/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/t
-exlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texmf/fonts/ty
-pe1/public/cm-super/sfrm1000.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
-lic/esvect/vect10.pfb>
-Output written on main.pdf (9 pages, 298811 bytes).
+1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
+nts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
+mr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pf
+b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr
+/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share
+/texmf/fonts/type1/public/cm-super/sfrm1000.pfb></usr/share/texlive/texmf-dist/
+fonts/type1/public/esvect/vect10.pfb>
+Output written on main.pdf (7 pages, 289708 bytes).
 PDF statistics:
- 344 PDF objects out of 1000 (max. 8388607)
- 293 compressed objects within 3 object streams
- 175 named destinations out of 1000 (max. 500000)
- 16 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 262 PDF objects out of 1000 (max. 8388607)
+ 214 compressed objects within 3 object streams
+ 113 named destinations out of 1000 (max. 500000)
+ 31 words of extra memory for PDF output out of 10000 (max. 10000000)
 

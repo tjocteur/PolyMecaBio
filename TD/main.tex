@@ -7,6 +7,7 @@
 \usepackage{siunitx}
 \sisetup{input-digits = 0123456789\pi}
 \usepackage{hyperref}
+\usepackage{float}
 
 \newcommand{\dive}[1]{\mathrm{div}\left( #1 \right)}
 \newcommand{\rota}[1]{\vv{\mathrm{rot}}\left( #1 \right)}
@@ -30,60 +31,102 @@
 \section*{TD1}
 
 \begin{center}
-    \large\bf Raisonner simplement
+    \large\bf Raisonner simplement, convertir
   \end{center}
   
-\paragraph{Exercice 1} 
+\subsubsection*{Exercice 1} 
 
 \begin{enumerate}
-	\item Exercice de conversion pour savoir quand la kinésine arrive au bout.
-	\item Autre exercice pour savoir combien de distance parcourue par une cellule.
+	\item On considère la marche d'une kinésine le long d'un microtubule, qui se fait à vitesse moyenne de $\langle v \rangle =\SI{1.8}{\nano\meter\per\second}$. Au bout de quelle durée cette kinésine aura-t-elle traversé de bout en bout un microtubule de longueur $L=\SI{40}{\nano\meter}$ ?
+	\item Une cellule migre à une vitesse constante de $v_0=\SI{5}{\micro\meter\per\minute}$. En supposant le mouvement rectiligne, donner la distance parcourue par la cellule au bout de $\SI{2}{\hour}$.
 \end{enumerate}
 
   \begin{center}
     \large\bf Décrire un mouvement
   \end{center}
 
-\paragraph{Exercice 1} 
+\subsubsection*{Exercice 2} 
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\linewidth]{reperage.pdf}
+\end{figure}
 
 \begin{enumerate}
-	\item Exprimer les coordonnées cartésiennes des points suivants puis écrire le vecteur position $\vv{OM}$ associé. La base cartésienne est-elle une base fixe ou mobile ?
-	\item Exprimer les coordonnées polaires des points suivants puis écrire le vecteur position $\vv{OM}$ associé. La base polaire est-elle une base fixe ou mobile ?
+	\item Exprimer les coordonnées cartésiennes des points ci-dessus puis écrire le vecteur position $\vv{OM}$ associé. Tracer les vecteurs unitaires de la base cartésienne, attachés au point $M$. La base cartésienne est-elle une base fixe ou mobile ?
+	\item Mêmes questions avec les coordonnées et la base polaires.
 	
 	\item Calculer le vecteur déplacement associé aux trajectoires suivantes. En considérant que les trajets ont été faits sur une durée $\Delta t = \SI{5}{\second}$, en déduire le vecteur vitesse moyenne associé.
 \end{enumerate}
 
-\paragraph{Exercice 2} 
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\linewidth]{trajectoires.pdf}
+\end{figure}
 
-\begin{enumerate}
-	\item On donne la position d'une cellule, en déduire l'équation de la trajectoire.
-	
-\end{enumerate}
-
-\paragraph{Exercice 2} 
+\subsubsection*{Exercice 3} 
 
 \begin{enumerate}
 	\item Donner les dérivées des fonctions suivantes :
 	
-	\item Donner une primitive des fonctions suivantes : (en montrer une pas facile qui se déduit de celle d'avant)
+	\begin{equation*}
+	f(x) = x^2+1, \quad g(t) = A\cos (\omega t), \quad h(y) = y^2\exp (-ay)
+	\end{equation*}
+	
+	\item Donner une primitive des fonctions suivantes :
+	
+	\begin{equation*}
+	f(x) = 3x+2, \quad g(t) = t+\cos(t), \quad h(y) = (2-ay)ye^{-ay}
+	\end{equation*}
 
 	\item On donne les vecteurs positions suivants. Calculer les vecteurs vitesse et accélération associés.
 	
-	\item On donne les vecteurs accélération suivants. En supposant les conditions initiales $\vv{OM}(t=0) = \vv{0}$ et $\vv{v}(t=0)=\vv{0}$, calculer les vecteurs vitesse et position associés.
+	\begin{equation*}
+		\vv{OM}(t) = v_0 t\vv{e_x} + \left(y_0+\frac{1}{2}a_0t^2\right) \vv{e_y}, \quad \vv{OM}(t) = A\cos (\omega t)\vv{e_x} + A\sin(\omega t)\vv{e_y}
+	\end{equation*}
+	
+	\item On donne le vecteur accélération suivant : $\vv{a} = -g\vv{e_z}$. En supposant les conditions initiales $\vv{OM}(t=0) =h\vv{e_z}$ et $\vv{v}(t=0)=v_0\vv{e_y}$, calculer les vecteurs vitesse et position associés. Pour quelle valeur de $t$ a-t-on $z=0$ ?
 	
 \end{enumerate}
 
-\paragraph{Exercice 3} On considère le bout d'un pendule blabla on donne les équations horaires.
+\subsubsection*{Exercice 4} 
 
 \begin{enumerate}
-	\item Écrire le vecteur position de la masse au bout du pendule à tout instant $t$.
-	\item En déduire le vecteur vitesse instantané associé.
-	\item Pour quelles positions la vitesse du pendule s'annule-t-elle ?
-	\item Calculer l'accélération de la masse au bout du pendule à chaque instant $t$.
-	\item Bonus : Reprendre les questions suivantes en utilisant un repère polaire.
+	\item On donne les équations horaires décrivant le mouvement d'un grain de sable en sédimentation dans l'eau :
+	
+	\begin{equation*}
+		x(t) = v_0 t - x_0, \quad y(t) = -a_0t^2, \quad x_0, v_0, a_0 > 0
+	\end{equation*}
+	
+	\noindent Déterminer l'équation de la trajectoire $y(x)$. En déduire la profondeur $y$ du grain de sable lorsqu'il atteint la position $x=0$.
+	
 \end{enumerate}
 
-\paragraph{Exercice 4} Globule rouge en accélération constante. On donne l'accélération faut trouver la position. A quel moment est-ce qu'il tombe au fond ?
+\subsubsection*{Exercice 5} 
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.6\linewidth]{araignee.pdf}
+\end{figure}
+
+On considère une araignée de masse $m$ se balançant, suspendue au bout d'un fil de longueur $l$. Les équations horaires du mouvement de l'araignée sont :
+
+\begin{equation*}
+	x(t) = x_0\cos(\omega t), \quad y(t) = y_0 + \frac{l}{2}\left( \cos(2\omega t) - 1 \right)
+\end{equation*}
+
+\begin{enumerate}
+	\item Écrire le vecteur position de l'araignée à tout instant $t$.
+	\item En déduire le vecteur vitesse instantané associé.
+	\item Pour quelles positions la vitesse de l'	araignée s'annule-t-elle ?
+	\item Calculer l'accélération de l'araignée au bout du pendule à chaque instant $t$.
+	\item Bonus : Reprendre les questions suivantes en utilisant un repère polaire et les équations horaires :
+	
+	\begin{equation*}
+	r(t) = l, \quad \theta(t) = \theta_0\cos (\omega t)
+\end{equation*}
+	
+\end{enumerate}
 
 
 \newpage
@@ -91,7 +134,39 @@
 \section*{TD2}
 
   \begin{center}
-    \large\bf Manipuler les équations
+    \large\bf Poser un problème de dynamique
+  \end{center}
+  
+  \subsubsection*{Exercice 1}
+  
+  On dépose un échantillon de sang de masse volumique $\rho_s$ et de viscosité $\eta_s$ dans un tube à essai et on observe la sédimentation rectiligne d'un globule rouge vers le fond du tube, ce premier était assimilé à une sphère de rayon $R$ et de masse volumique $\rho$. On note $\vv{g}$ l'accélération de la pesanteur.
+  
+  \begin{enumerate}
+  	\item Définir un repère adapté à l'étude de ce mouvement et faire un schéma du système.
+  	\item Quelles sont les forces s'appliquant sur le globule rouge ? Quelles sont leur expression littérale ? Les tracer sur le schéma.
+  \end{enumerate}
+  
+  \subsubsection*{Exercice 2}
+  
+  On considère un noyau cellulaire plongé dans le cytoplasme, piégé par une pince optique modélisée par un ressort de raideur $k$.
+  
+  \begin{enumerate}
+  	\item Définir un repère adapté à l'étude de ce mouvement et faire un schéma du système.
+  	\item Quelles sont les forces s'appliquant sur le noyau ? En introduisant les grandeurs nécessaires donner leur expression littérale ? Les tracer sur le schéma.
+  \end{enumerate}
+  
+  \begin{center}
+    \large\bf Déterminer une trajectoire
+  \end{center}
+  
+ \subsubsection*{Exercice 3}
+ 
+ électrophorèse avec juste un champ élec. Puis dire qu'en fait on a des frottements et calculer la vitesse à al fin comparer.
+ 
+ question de séparation en fonction de la charge.
+  
+  \begin{center}
+    \large\bf Caractériser une force
   \end{center}
 
 \paragraph{Exercice 1} On suppose que le champ électromagnétique régnant dans une partie de l'espace vide de charges et de courants est donné par :
@@ -153,7 +228,19 @@ $n_s$ la densité volumique d'électrons supraconducteurs,
 \section*{TD3}
 
 \begin{center}
-    \large\bf Onde électromagnétique plane progressive 1
+    \large\bf Calculer des travaux et une puissance
+  \end{center}
+  
+  \begin{center}
+    \large\bf Utiliser le théorème de l'énergie cinétique
+  \end{center}
+  
+  \begin{center}
+    \large\bf Calculer une force à partir d'une énergie potentielle
+  \end{center}
+  
+  \begin{center}
+    \large\bf Utiliser le principe de conservation de l'énergie mécanique
   \end{center}
 
 \paragraph{} On étudie la propagation d'une OEM dans le vide.
@@ -379,218 +466,5 @@ moyennes mensuelles.}
     $\SI{3e3}{\kilogram\per\meter\cubed}$ & $\SI{6.67e-11}{\per\kilogram\meter\cubed\per\second\squared}$ & $\SI{2e30}{\kilogram}$ & $\SI{4e26}{\watt}$
 \end{tabular}
 \end{center}
-
-\newpage
-
-\section*{TD4}
-
-  \begin{center}
-    \large\bf Nature de la polarisation d'une OPPH
-  \end{center}
-
-\paragraph{}Décrire l'état de polarisation des ondes suivantes :
-
-\begin{enumerate}
-    \item $\vv{E}(z, t)=E_0\left(\frac{1}{2}\cos \left(\omega t-k z\right) \hat{e}_x+\frac{\sqrt{3}}{2}\cos \left(\omega t-k z\right) \hat{e}_y\right)$
-    \item $\vv{E}(z, t)=E_0\left(\cos \left(\omega t-k z-\frac{\pi}{8}\right) \hat{e}_x+\sin \left(\omega t-k z-\frac{\pi}{8}\right) \hat{e}_y\right)$
-    \item $\vv{E}(z, t)=E_0\left(\cos (\omega t-k z) \hat{e}_x+\sin \left(\omega t-k z+\frac{\pi}{3}\right) \hat{e}_y\right)$
-    \item $\vv{E}(z, t)=E_0\left(\cos (\omega t+k z) \hat{e}_x+\sin \left(\omega t+k z+\frac{\pi}{3}\right) \hat{e}_y\right)$
-\end{enumerate}
-
-  \begin{center}
-    \large\bf Polarisation de la lumière (CCP PC 2011)
-  \end{center}
-
-\begin{enumerate}
-    \item Une onde plane monochromatique se propage dans le sens des $z$ croissants. Comment obtenir expérimentalement une onde polarisée rectilignement ?
-    \item Donner l'expression d'une onde électromagnétique monochromatique $\vec{E}(z, t)$, polarisée rectilignement suivant la direction $\frac{\sqrt{2}}{2}\left(\hat{e}_x+\hat{e}_y\right)$ et qui se propage dans le vide suivant la direction $z$, dans le sens des $z$ croissants. On notera $k$ le module du vecteur d'onde, $\omega$ la pulsation et $E_0$ l'amplitude de la norme du champ électrique.
-    \item Soit une onde électromagnétique polarisée circulairement, dont la notation complexe est :
-$$
-\underline{\underline{\vv{E}}}(z, t)=\frac{E_0}{\sqrt{2}} e^{j(\omega t-k z)} \hat{e}_x+\frac{E_0}{\sqrt{2}} e^{j\left(\omega t-k z-\frac{\pi}{2}\right)} \hat{e}_y
-$$
-Donner l'expression de $\vv{E}(z, t)$, partie réelle de $\underline{\vv{E}}$.
-Représenter la trajectoire temporelle de l'extrémité du vecteur $\vv{E}\left(z_0, t\right)$ dans le plan $(x, y)$ lorsque la variable $z$ est fixe et égale à $z_0$.
-\item Comment, dans une expérience d'optique, peut-on convertir l'onde de polarisation rectiligne introduite à la question 1 en onde de polarisation circulaire introduite à la question 3 ? Justifier votre réponse.
-\end{enumerate}
-
-  \begin{center}
-    \large\bf Polarisation rectiligne (CCP MP 2009)
-  \end{center}
-
-\begin{enumerate}
-    \item Définir l'état de polarisation rectiligne des ondes lumineuses représentées par les champs électrique $\vv{E}$ et magnétique $\vv{B}$. Qu'appelle-t-on plan de polarisation ?
-    \item Donner, dans la base orthonormale $\left\{\hat{e}_x, \hat{e}_y, \hat{e}_z\right\}$, les expressions complexes des champs électriques $\underline{\vv{E}}_1$ et $\underline{\vv{E}}_2$, associés aux ondes polarisées suivantes :
-    \begin{enumerate}
-        \item le champ $\underline{\vv{E}}_1$ se propage suivant l'axe $z$ et fait un angle de $\SI{30}{\degree}$ avec l'axe $x$.
-        \item le champ $\underline{\vv{E}}_2$ de polarisation rectiligne suivant l'axe $x$ se propage dans une direction qui fait, dans le plan $y z$, un angle de $\SI{45}{\degree}$ avec l'axe $y$.
-    \end{enumerate}  
-\end{enumerate}
-
-  \begin{center}
-    \large\bf Onde électromagnétique plane progressive (Centrale PC 2003)
-  \end{center}
-
-\paragraph{}Une onde électromagnétique plane, progressive, harmonique, se propage dans la direction définie par le vecteur unitaire $\hat{u}$ dans un milieu où la densité volumique de charges et le vecteur densité de courant sont nuls en tout point à tout instant. On écrit le champ électrique de cette onde, en notations complexes, sous la forme :
-$$
-\underline{\vv{E}}(\vv{r}, t)=\underline{\vv{E}}_0 \exp (i(\omega t-\vv{k} \cdot \vv{r}))
-$$
-où $\underline{\vv{E}}_0$ est un champ uniforme avec $\underline{\vv{E}}_0=\underline{E}_{0 x} \hat{e}_x+\underline{E}_{0 y} \hat{e}_y+\underline{E}_{0 z} \hat{e}_z$, où $\underline{E}_{0 x}, \underline{E}_{0 y}$ et $\underline{E}_{0 z}$ sont des grandeurs complexes.
-
-\begin{enumerate}
-    \item Comment s'exprime le vecteur d'onde $\vv{k}$ en fonction de la longueur d'onde $\lambda$ et du vecteur $\hat{u}$ ?
-    \item Exprimer, en notations complexes, le champ magnétique associé en fonction de $\vv{u}$ et de $\underline{\vv{E}}_0$. Décrire la structure de l'onde électromagnétique.
-    \item 
-    \begin{enumerate}
-        \item Donner l'expression du vecteur de Poynting $\vv{\Pi}$. Quelle est sa direction ? Que représente-t-il concrètement?
-        \item On appelle " intensité lumineuse " $I$ la valeur moyenne de la puissance surfacique de cette onde. En déduire l'expression de $I$ en fonction de $E_0=\sqrt{2\langle\left\|\vv{E}\right\|^2\rangle}, \varepsilon_0$ et $c$.
-    \end{enumerate}
-\end{enumerate}
-
-On définit l'état de polarisation d'une onde électromagnétique à partir de l'évolution temporelle du champ électrique $\vv{E}$ en un point $M$ donné.
-
-\begin{enumerate}[resume]
-    \item Donner l'expression générale du champ électrique d'une onde plane, progressive, harmonique, polarisée rectilignement dans une direction quelconque et qui se propage dans le sens des $z$ croissants, dans un milieu assimilé au vide.
-    \item 
-    \begin{enumerate}
-        \item Donner l'expression générale du champ électrique d'une onde plane, progressive, harmonique, polarisée elliptiquement, qui se propage dans le sens des $z$ croissants.
-        \item Déterminer le sens de polarisation (gauche ou droite) de l'onde dont le champ électrique s'écrit :
-$$
-\vv{E}(\vv{r}, t)=E_{0 x} \cos (\omega t-k z) \hat{e}_x+E_{0 y} \cos \left(\omega t-k z+\frac{\pi}{6}\right) \hat{e}_{y},
-$$
-On expliquera soigneusement le raisonnement en supposant $E_{0 x}$ et $E_{0 y}$ réels positifs.
-\item À quelle(s) condition(s) une onde est-elle polarisée circulairement ?
-    \end{enumerate}
-
-\item Expliquer pourquoi la lumière émise par une source classique n'est pas polarisée.
-    
-\end{enumerate}
-
-  \begin{center}
-    \large\bf Angle de Brewster
-  \end{center}
-  
-\paragraph{}Comme vous le savez déjà grâce à l'optique géométrique, quand une onde lumineuse passe d'un milieu 1 d'indice $n_1$ à un milieu 2 d'indice $n_2$, elle donne lieu à une onde réfléchie dans le milieu 1 et à une onde réfractée dans le milieu 2. Toutefois, l'énergie transmise dans ces deux ondes dépend de la polarisation de l'onde incidente. 
-
-\paragraph{}Une onde d'intensité $I$ polarisée rectilignement parallèlement au plan d'incidence transmettra une intensité réfléchie $I_\parallel^r = R_\parallel I$ et une intensité réfractée $I_\parallel^t = T_\parallel I$. De même si elle est polarisée rectilignement orthogonalement au plan d'incidence, on aura $I_\perp^r = R_\perp I$ et $I_\perp^t = T_\perp I$. La valeur des coeffcients de transmission en puissance pour l'onde réfléchie sont donnés par les formules de Fresnel :
-
-\begin{equation}
-    R_\parallel = \left( \frac{\tan (r-i)}{\tan (r+i)} \right)^2,\quad R_\perp = \left( \frac{\sin (r-i)}{\sin (r+i)} \right)^2
-\end{equation}
-
-avec $i$ l'angle d'incidence et $r$ l'angle de réfraction.
-
-\begin{enumerate}
-    \item Montrer que $R_\parallel$ s’annule lorsque le rayon réfléchi et le rayon réfracté font un angle de $\pi/2$. Montrer que $R_\perp$ ne s’annule pas pour cette incidence.
-    \item En déduire que sous cette incidence, appelée incidence de Brewster, une onde polarisée de manière quelconque produit un rayon réfléchi polarisé rectilignement. Indiquer la direction de polarisation.
-    \item Montrer que sous incidence de Brewster, on a $\tan (i) = n_2/n_1$
-    \item En déduire une méthode de détermination de l’indice de réfraction d’un solide placé dans l’air.
-\end{enumerate}
-
-  \begin{center}
-    \large\bf Lames à retard (Centrale PC 2003)
-  \end{center}
-
-\begin{enumerate}
-    \item Une lame à retard est une lame mince à faces parallèles taillée dans un cristal uniaxe ayant des propriétés optiques anisotropes et agit donc sur la polarisation d'une onde électromagnétique monochromatique sous incidence normale. La lame est caractérisée par deux indices, $n_x$ selon $O x$ et $n_y$ selon $O y$.
-    \begin{enumerate}
-        \item Si $n_x<n_y$, préciser l'axe rapide et l'axe lent. Justifier la réponse.
-        \item On étudie la propagation d'une onde électromagnétique plane progressive harmonique sous incidence normale :
-$$
-\forall z<0, \quad \vv{E}=\left(\begin{array}{c}
-E_{o x} \cos \left(\omega t-\frac{2 \pi}{\lambda} z\right) \\
-E_{o y} \cos \left(\omega t-\frac{2 \pi}{\lambda} z-\phi\right) \\
-0
-\end{array}\right)
-$$
-Hors de la lame ( $z<0$ et $z>e$ ) le milieu est assimilé au vide. Préciser l'expression du champ électrique dans la lame, puis hors de la lame. Montrer que la composante du champ électrique selon l'axe lent a un retard de phase supplémentaire $\Delta\phi$ fonction de $e$, $\lambda$, $n_x$ et $n_y$ par rapport à la composante selon l'axe rapide.
-    \end{enumerate}
-
-    \item Donner la définition d'une lame demi-onde et d'une lame quart d'onde notées respectivement $D$ et $Q$. Calculer l'épaisseur minimale d'une lame de calcite $D$ pour une longueur d'onde $\lambda=\SI{600}{\nano\meter}$ sachant que les indices de réfraction sont $n_y=1.658$ et $n_x=1.486$. Même question pour une lame de quartz $D$, avec, pour cette longueur d'onde les indices de réfraction $n_y=1.544$ et $n_x=1.553$. Comparer les résultats et conclure.
-\end{enumerate}
-
-\begin{center}
-    \large\bf Polariseur circulaire (DS 2023)
-  \end{center}
-
-  On considère une source de lumière suivie d'un filtre monochromatique $\lambda=\SI{600}{\nano\meter}$, le tout émettant dans la direction $+\hat{e}_z$ de l'axe optique une OPPH polarisée de manière quelconque. On place juste après ce dispositif un polariseur de direction privilégiée $\hat{u} = \cos\alpha~\hat{e}_x+\sin\alpha~\hat{e}_y$.
-
-  \begin{enumerate}
-  \item
-  \begin{enumerate}
-      \item Quel est l'état de polarisation de l'onde à la sortie du polariseur ? \item Donner une expression du champ $\vv{E}(\vv{r},t)$ associé en fonction de $E_0$ son amplitude après traversée du polariseur, $\omega$ sa pulsation et $k$ la norme de son vecteur d'onde. 
-      \item Quelle relation existe-t-il entre $k$ et $\lambda$ ?
-\end{enumerate}
-
-\item On place après le polariseur, entre $z=0$ et $z=e$, une lame à retard de phase de lignes neutres $(Ox)$ et $(Oy)$ auxquelles sont associés les indices $n_x$ et $n_y$. 
-
-\begin{enumerate}
-    \item Si $n_x>n_y$, quel est l'axe lent ? Justifier votre réponse.
-    \item Dans une telle lame, quelle est la norme $k_x$ du vecteur d'onde associé à la propagation de la composante selon $\hat{e}_x$ du champ électrique ? On l'exprimera en fonction de $\lambda$ et $n_x$.
-    \item Donner les expressions du champ $\vv{E}(\vv{r},t)$ dans la région $0<z<e$, en $z=e$ et dans la région $z>e$.
-    \item En déduire que la traversée de la lame a induit un déphasage $\Delta\phi$ entre les composantes $E_x$ et $E_y$ du champ électrique dont on donnera l'expression en fonction des données du problème.
-\end{enumerate}
-
-\item On choisit la lame telle que $\Delta\phi = \pi/2$.
-
-\begin{enumerate}
-    \item Comment appelle-t-on une telle lame ?
-    \item Quelle est la polarisation de l'onde en sortie du montage ?
-    \item Déduire de toutes les questions précédentes un dispositif (on pourra en faire un schéma) permettant de créer une polarisation circulaire à partir de n'importe quelle source de lumière. Pourquoi la présence d'un filtre monochromatique est-elle nécessaire ?
-\end{enumerate}
-
-  \end{enumerate}
-  
-\begin{center}
-    \large\bf Loi de Fresnel (DS 2022)
-  \end{center}
-  
-\paragraph{}Les milieux chiraux sont des milieux qui présentent une biréfringence circulaire, c’est-à-dire que les ondes polarisées circulairement droite s’y propagent à une vitesse différente des ondes polarisées circulairement gauche. On propose d’étudier l’effet de la traversée d’un de ces milieux sur une onde de polarisation rectiligne.
-
-\paragraph{}Considérons deux OPPH polarisées circulairement se propageant dans le vide selon l’axe (Oz) représentées par les champs électriques suivants :
-
-\begin{equation*}
-\begin{aligned}
-& \vec{E}_1(z, t)=E_0 \cos (\omega t-k z) \vec{e}_x+E_0 \sin (\omega t-k z) \vec{e}_y \\
-& \vec{E}_2(z, t)=E_0 \cos (\omega t-k z) \vec{e}_x-E_0 \sin (\omega t-k z) \vec{e}_y
-\end{aligned}
-\end{equation*}
-
-\begin{enumerate}
-    \item Laquelle de ces ondes est polarisée circulairement droite ? Laquelle est polarisée circulairement gauche ?
-    \item Considérons l’onde résultant de la superposition de ces deux ondes, représentée par le champ $\vv{E} = \vv{E}_1 + \vv{E}_2$. Quelle est sa polarisation ?
-    \item On place entre $z=0$ et $z=e$ un milieu chiral dans lequel les ondes polarisées circulairement gauche se propagent avec un indice optique $n_g$ et les ondes polarisées circulairement droite avec un indice optique $n_d$.
-    \begin{enumerate}
-        \item Montrer que dans le milieu, le champ $\vv{E}_1$ se propage avec un vecteur d'onde $k_g$ à définir à partir des constantes $k$ et $n_g$ et le champ $\vv{E}_2$ avec un vecteur d'onde $k_d$ à définir à partir des constantes $k$ et $n_d$.
-        \item Donner l'expression des champs $\vv{E}_1$ et $\vv{E}_2$ à l'intérieur du milieu $(0<z<e)$.
-    \end{enumerate}
-    \item Donner l'expression des champs $\vv{E}_1$ et $\vv{E}_2$ à la sortie du milieu $(z=e)$ puis après ce milieu $(z>e)$.
-    \item En déduire l'expression de $\vv{E}$ à la sortie du milieu.
-    \item Montrer que la traversée du milieu a fait tourner la polarisation incidente d’un angle $\alpha$ donné par la loi de Fresnel :
-    \begin{equation*}
-        \alpha=\frac{\pi}{\lambda}\left(n_g-n_d\right) e
-    \end{equation*}
-\end{enumerate}
-  
-\begin{center}
-    \large\bf Traversée d'une suite de polariseurs (DS 2022)
-  \end{center}
-  
-  On rappelle que l’intensité associée à une onde électromagnétique est proportionnelle au carré moyen (moyenne temporelle) du champ électrique associé :
-  \begin{equation*}
-I \propto\left\langle\|\vec{E}\|^2\right\rangle_t
-\end{equation*}
-
-\begin{enumerate}
-    \item On place sur le trajet d’une onde plane progressive harmonique se propageant dans la direction de l’axe $(Oz)$ et polarisée rectilignement dans la direction de $\vv{u}_x$ un polariseur orienté pour transmettre une polarisation rectiligne perpendiculaire à $(Oz)$ et faisant un angle $\theta$ par rapport au vecteur $\vv{u}_x$.
-    \begin{enumerate}
-        \item Écrire l’expression du champ électrique de l’onde avant la traversée du polariseur en introduisant les notations nécessaires.
-        \item En déduire l’expression du champ électrique de l’onde après traversée du polariseur (on suppose que la traversée du polariseur n’induit pas de déphasage). Quel est le coefficient de transmission du polariseur défini comme le rapport de l’intensité de l’onde sortant du polariseur à l’intensité de l’onde arrivant sur le polariseur?
-    \end{enumerate}
-    \item On place maintenant sur le trajet de l’onde une suite de $N$ polariseurs infiniment proches les uns des autres (de telle manière que la traversée n’induit pas de déphasage). Le polariseur $n$ est orienté pour transmettre une polarisation rectiligne formant un angle $n\theta$ par rapport à la polarisation initiale de l’onde.
-    \begin{enumerate}
-        \item Quelle est l’intensité de l’onde transmise après traversée des $N$ polariseurs ?
-        \item Montrer que, pour une valeur de $N$ suffisamment grande, le dispositif permet de faire tourner une polarisation linéaire de $\SI{90}{\degree}$ avec une perte d’intensité négligeable. Combien de polariseurs faut-il utiliser pour que les pertes d’intensité de ce système soient inférieures à 1\% ?
-    \end{enumerate}
-\end{enumerate}
 
 \end{document}

@@ -21,6 +21,8 @@
 
 \subsection{Travail d'une force}
 
+\textbf{Peut-être à retravailler un poil}
+
 \paragraph{}Comme on l'a vu dans le chapitre précédent, une force extérieure est capable de mettre en mouvement, ou de modifier le mouvement d'un corps. Cela signifie donc qu'elle peut modifier son énergie cinétique, via un transfert d'énergie avec l'extérieur. En fait c'est possible de le comprendre en partant du PFD ! En effet, si l'on considère un corps de masse $m$ soumis à une force $\vv{F}$ on a :
 
 \begin{equation}
@@ -33,13 +35,13 @@
 	m\frac{\mathrm{d}\vv{v}}{\mathrm{d}t}\cdot \vv{v} = \vv{F}\cdot\vv{v}\Rightarrow \frac{1}{2}m\frac{\mathrm{d}\vv{v}^2}{\mathrm{d}t} = \vv{F}\cdot\frac{\mathrm{d}\vv{OM}}{\mathrm{d}t}
 \end{equation}
 
-\noindent $m$ étant une constante on a en fait $\frac{\mathrm{d}}{\mathrm{d}t}\left( \frac{1}{2}mv^2 \right) \frac{\mathrm{d}E_c}{\mathrm{d}t} = \vv{F}\cdot\frac{\mathrm{d}\vv{OM}}{\mathrm{d}t}$ et donc en intégrant entre un instant $t_i$ et un instant $t_f$ :
+\noindent $m$ étant une constante on a en fait $\frac{\mathrm{d}}{\mathrm{d}t}\left( \frac{1}{2}mv^2 \right) =\frac{\mathrm{d}E_c}{\mathrm{d}t} = \vv{F}\cdot\frac{\mathrm{d}\vv{OM}}{\mathrm{d}t}$ et donc en intégrant entre un instant $t_A$ et un instant $t_B$ :
 
 \begin{equation}
 	E_{c, B} - E_{c, A} = \int_{t_A}^{t_B}\vv{F}\cdot \mathrm{d}\vv{OM}
 \end{equation}
 
-\paragraph{}On définit alors $W_{AB} = \int_{t_A}^{t_B}\vv{F}\cdot \mathrm{d}\vv{OM}$ le travail fourni par la force $\vv{F}$ à l'objet. Le travail est une énergie (qui s'exprime don aussi en \SI{}{\joule}) qui mesure en quelques sortes l'effort fourni par une force. Si l'on considère une force constante, alors on a simplement :
+\paragraph{}On définit alors $W_{AB} = \int_{t_A}^{t_B}\vv{F}\cdot \mathrm{d}\vv{OM}$ le travail fourni par la force $\vv{F}$ à l'objet. Le travail est une énergie (qui s'exprime donc aussi en \SI{}{\joule}) qui mesure en quelques sortes l'effort fourni par une force. Si l'on considère une force constante, alors on a simplement :
 
 \begin{equation}
 	W_{AB} = \vv{F}\cdot\vv{\Delta OM}
@@ -61,7 +63,7 @@
 
 \noindent Elle s'exprime en joules par seconde, équivalent à des watts (\SI{}{\watt}) et permet de quantifier la quantité d'énergie apportée par la force au mouvement par unité de temps. 
 
-\paragraph{}Pour une force constante opérant pendant une durée $\Delta t$, la relation entre le travail $W$ de cette force et sa puissance $\mathcal{P}$ est :
+\paragraph{}Pour une force constante opérant pendant une durée $\Delta t$, la relation entre le travail $W$ de cette force et sa puissance $\mathcal{P}$ est simplement :
 
 \begin{equation}
 	W = \mathcal{P}\Delta t
@@ -85,7 +87,7 @@
 
 \paragraph{}Une pomme de masse $m=\SI{100}{\g}$ tombe d'un arbre d'une hauteur $h=\SI{1.0}{\meter}$. On néglige les frottements de l'air sur la pomme pendant la chute. Quelle est la vitesse $v$ de la pomme avant son impact avec le sol ? On définira un axe $(Oz)$ orienté du sol vers le ciel pour repérer le mouvement de la pomme.
 
-\paragraph{}Pour répondre à cette question, on peut soit utiliser le PFD et intégrer pour obtenir la trajectoire et la vitesse de la pomme au point d'impact. Cette méthode est assez longue est fastidieuse. À la place, on peut simplement utiliser le théorème de l'énergie cinétique. La seule force travaillant est le poids $\vv{P} = -mg\vv{e_z}$, et ce sur le trajet de chute représenté par le vecteur déplacement $\vv{\Delta OM} = -h \vv{e_z}$. Ainsi le travail appliqué sur la pomme est :
+\paragraph{}Pour répondre à cette question, on peut utiliser le PFD et intégrer pour obtenir la trajectoire et la vitesse de la pomme au point d'impact. Cette méthode est assez longue et fastidieuse. À la place, on peut simplement utiliser le théorème de l'énergie cinétique. La seule force travaillant est le poids $\vv{P} = -mg\vv{e_z}$, et ce sur le trajet de chute représenté par le vecteur déplacement $\vv{\Delta OM} = -h \vv{e_z}$. Ainsi le travail reçu par la pomme est :
 
 \begin{equation}
 	W = (-mg\vv{e_z})\cdot (-h\vv{e_z})=mgh
@@ -115,7 +117,7 @@
 	\vv{F}(x,y,z) = -\frac{\partial E_p}{\partial x}\vv{e_x} - \frac{\partial E_p}{\partial y}\vv{e_y} - \frac{\partial E_p}{\partial z}\vv{e_z}
 \end{equation}
 
-\paragraph{}Dans cette expression, l'opérateur $\frac{\partial}{\partial x}$ correspond à la dérivée partielle par rapport à $x$. Une dérivée partielle correspond à une dérivée d'une fonction de plusieurs variables par rapport à l'une seule de ces variables en gardant les autres constantes. Par exemple, si l'on considère la fonction $g(x,y,z) = xy + z$ alors on a :
+\paragraph{}Dans cette expression, l'opérateur $\frac{\partial}{\partial x}$ correspond à la dérivée partielle par rapport à $x$. Une dérivée partielle correspond à une dérivée d'une fonction de plusieurs variables par rapport à l'une seule de ces variables, en gardant les autres constantes. Par exemple, si l'on considère la fonction $g(x,y,z) = xy + z$ alors on a :
 
 \begin{equation}
 	\frac{\partial g}{\partial x} = y, \quad \frac{\partial g}{\partial y} = x, \quad \frac{\partial g}{\partial z} = 1
@@ -159,7 +161,7 @@
 
 \subsubsection{Énergie potentielle de rappel élastique}
 
-\paragraph{}La force de rappel exercée par un ressort est elle aussi conservative. En effet, on peut montrer que l'énergie potentielle $E_p = \frac{1}{2}k(l-l_0)^2+C$ est l'énergie potentielle dont dérive la force de rappel définie à l'\autoref{eq:forceressort}. En choisissant comme origine de l'énergie potentiel la position du ressort au repos ($l=l_0$) on a $C=0$ et donc finalement :
+\paragraph{}La force de rappel exercée par un ressort est elle aussi conservative. En effet, on peut montrer que l'énergie potentielle $E_p = \frac{1}{2}k(l-l_0)^2+C$ est l'énergie potentielle dont dérive la force de rappel définie à l'\autoref{eq:forceressort}. En choisissant comme origine de l'énergie potentielle la position du ressort au repos ($l=l_0$) on a $C=0$ et donc finalement :
 
 \begin{defi}{Énergie potentielle de rappel élastique}
 \begin{equation}
@@ -181,7 +183,7 @@
 
 \subsubsection{Force de frottements visqueux : un exemple de force non conservative}
 
-\paragraph{}Toutes les forces ne peuvent pas s'exprimer comme la dérivée d'une énergie potentielle. C'est le cas de la force de frottements visqueux que l'on a vu au chapitre précédent. En effet, celle-ci dépend de la vitesse du corps sur le trajet entre $A$ et $B$. Ainsi, pour un même point de départ et d'arrivée on peut avoir des intensités de force très différentes (avec des trajectoires très différentes). On dit alors qu'une telle force est non-conservative. Nous verrons pourquoi.
+\paragraph{}Toutes les forces ne peuvent pas s'exprimer comme la dérivée d'une énergie potentielle. C'est le cas de la force de frottements visqueux que l'on a vu au chapitre précédent. En effet, celle-ci dépend de la vitesse du corps sur le trajet entre $A$ et $B$. Ainsi, pour un même point de départ et d'arrivée on peut avoir des intensités de force très différentes (avec des trajectoires très différentes). On dit alors qu'une telle force est non-conservative. Nous allons voir pourquoi dans la partie suivante.
 
 \section{Principe de conservation de l'énergie mécanique}
 
@@ -196,7 +198,11 @@ Pour un corps donné, l'énergie mécanique et la somme de son énergie cinétiq
 \end{equation}
 \end{defi}
 
-\paragraph{}En effet, un corps soumis uniquement à des forces conservatives voit son énergie mécanique conservée. C'est à dire que tout au long du mouvement on a $E_m = \text{cste}$. Cette propriété peut s'avérer très utile pour résoudre certains problèmes comme on le verra dans la partie suivante.
+\paragraph{}En effet, \textbf{un corps soumis uniquement à des forces conservatives voit son énergie mécanique conservée}. C'est à dire que tout au long du mouvement on a $E_m = \text{cste}$. Cette propriété peut s'avérer très utile pour résoudre certains problèmes.
+
+\begin{exemple}
+	\paragraph{}On pend une masse $m=\SI{1}{\kg}$ au bout d'un ressort de raideur $k$ et de longueur à vide $l_0=\SI{5}{\cm}$, disposé à la vertical, et on tire la masse de telle manière que la longueur du ressort soit $l=\SI{10}{\cm}$ avant de la lâcher sans vitesse initiale à $t=\SI{0}{\second}$. En utilisant le principe de conservation de l'énergie mécanique, calculer la vitesse de la masse lorsque $l=\SI{6}{\cm}$.
+\end{exemple}
 
 \subsection{Cas général}
 
@@ -206,11 +212,15 @@ Pour un corps donné, l'énergie mécanique et la somme de son énergie cinétiq
 	\Delta E_m = E_m(B) - E_m(A) = \sum_iW_{AB}(\vv{F_{i, NC}})
 \end{equation}
 
+\begin{exemple}
+	\paragraph{}Reprendre le problème précédent en supposant que les frottements de l'air avec la masse pendant le mouvement ont exercé un travail résistant de $W=\SI{10}{\joule}$.
+\end{exemple}
+
 \section{Mouvement dans un profil d'énergie potentielle ($\star$)}
 
 \subsection{Principe}
 
-\paragraph{}Le principe de conservation de l'énergie mécanique peut s'avérer très pratique pour étudier le mouvement d'un corps soumis uniquement à des forces conservatives dont on connaît l'énergie potentielle totale associée. Considérons par exemple un snowboardeur évoluant sur une piste, repérée par la coordonnée $x$ et dont le profil est donné sur la partie gauche de la \autoref{fig:snow}.
+\paragraph{}Le principe de conservation de l'énergie mécanique peut s'avérer très pratique pour étudier le mouvement d'un corps soumis uniquement à des forces conservatives dont on connaît l'énergie potentielle totale associée. Considérons par exemple un snowboardeur évoluant sur une piste, repéré par la coordonnée $x$ et dont le profil est donné sur la partie gauche de la \autoref{fig:snow}.
 
 \begin{figure}[h]
 	\centering
@@ -222,11 +232,11 @@ Pour un corps donné, l'énergie mécanique et la somme de son énergie cinétiq
 
 \paragraph{}Celui-ci n'est soumis qu'à son poids en termes de force conservative\footnote{On néglige ici les frottements et la réaction du support ne travaille pas.}, dont on a vu que l'énergie potentielle associée est proportionnelle à l'altitude. Ainsi, on a le profil d'énergie potentielle donné sur la partie droite de la \autoref{fig:snow}.
 
-\paragraph{}On suppose que le snowboardeur part du début de la piste en $x=0$ avec une vitesse nulle. Son énergie cinétique est donc nulle $E_c=0$ et donc son énergie mécanique totale égale à son énergie potentielle initiale. On peut donc la représenter sur la \textbf{Fig XX}. Lorsque le snowboardeur se laisse glisser, son énergie cinétique augmente et son énergie potentielle diminue de telle manière que son énergie mécanique reste constante. Grâce à ce graphe, on peut calculer la vitesse du snowboardeur et les zones auxquelles il peut accéder en glissant sans trop de calcul. En effet, il est possible de lire direction l'énergie cinétique sur ce graphe comme $E_c = E_m - E_p$. De plus, étant donné que l'on a nécessairement $E_m \geq E_p$ car l'énergie cinétique est une grandeur positive, on a $E_m \geq E_p$. Ainsi, le snowboardeur ne pourra pas atteindre les zones se situant au-dessus de la droite $E_p = E_m$.
+\paragraph{}On suppose que le snowboardeur part du début de la piste en $x=0$ avec une vitesse nulle. Son énergie cinétique est donc nulle $E_c=0$ et son énergie mécanique totale égale à son énergie potentielle initiale. On peut donc la représenter sur la partie droite de la \autoref{fig:snow}. Lorsque le snowboardeur se laisse glisser, son énergie cinétique augmente et son énergie potentielle diminue de telle manière que son énergie mécanique reste constante. Grâce à ce graphe, on peut calculer la vitesse du snowboardeur et les zones auxquelles il peut accéder en glissant sans trop de calcul. En effet, il est possible de lire directement l'énergie cinétique sur ce graphe comme $E_c = E_m - E_p$. De plus, étant donné que l'on a nécessairement $E_m \geq E_p$ car l'énergie cinétique est une grandeur positive, on a $E_p \leq E_m$. Ainsi, le snowboardeur ne pourra pas atteindre les zones se situant au-dessus de la droite $E_p = E_m$. Dans le cas de la \autoref{fig:snow}, il ne pourra donc jamais franchir la bosse.
 
 \subsection{Électron lié à un atome}
 
-\paragraph{}Dans l'atome d'hydrogène, l'électron est soumis à des forces d'interaction avec le noyau, résultant en l'énergie potentielle dont le profil est donné sur la \autoref{fig:electron}, avec $r$ la distance entre le noyau et l'électron.
+\paragraph{}On peut appliquer le même raisonnement à des systèmes plus complexes dont on connpait le profil d'énergie potentielle. Par exemple, dans l'atome d'hydrogène, l'électron est soumis à des forces d'interaction avec le noyau résultant en l'énergie potentielle dont le profil est donné sur la \autoref{fig:electron}, avec $r$ la distance entre le noyau et l'électron.
 
 \begin{figure}[h]
 	\centering
@@ -235,7 +245,7 @@ Pour un corps donné, l'énergie mécanique et la somme de son énergie cinétiq
 	\label{fig:electron}
 \end{figure}
 
-\paragraph{}Infiniment loin du noyau, l'énergie potentielle de l'électron est nulle. Infiniment proche du noyau, l'énergie potentielle de l'électron est infinie. En fonction de l'énergie totale de l'électron, on peut tirer de ce diagramme plusieurs informations :
+\paragraph{}Infiniment loin du noyau, l'énergie potentielle d'interaction est égale à $E_\infty$. Infiniment proche du noyau, l'énergie potentielle de d'interaction est infinie, cette zone est donc physiquement inaccessible à l'électron (car il faudrait une énergie mécanique infini pour pouvoir y accéder). En fonction de l'énergie totale de l'électron, on peut tirer de ce diagramme plusieurs informations :
 
 \begin{itemize}
 	\item L'énergie minimale de l'électron dans l'atome d'hydrogène est $E_\text{min}$.
@@ -252,7 +262,7 @@ Pour un corps donné, l'énergie mécanique et la somme de son énergie cinétiq
 \paragraph{}À l'issue de ce chapitre, vous devez :
 
 \begin{itemize}
-	\item Calculer le travail d'une force.
+	\item Calculer le travail d'une force constante.
 	\item Calculer la puissance d'une force.
 	\item Faire le lien entre travail et puissance dans le cas de forces constantes.
 	\item Utiliser le théorème de l'énergie cinétique pour déterminer la vitesse finale d'un objet à partir du travail d'une force.
