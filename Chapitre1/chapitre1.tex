@@ -1,7 +1,7 @@
 \chapter{Cinématique du point}
 \label{chapter1}
 
-\paragraph{}\textit{La mécanique est la science du mouvement des corps. Comment la Terre tourne-t-elle autour du Soleil ? Comment les oiseaux volent-ils ? Comment les roches sédimentent-elles ? Pourquoi certains acides aminés s'attirent-ils ? Voilà autant de questions auxquelles la mécanique prétend pouvoir répondre. Dans ce cours nous allons aborder les bases de la mécanique classique afin de développer votre intuition physique sur cet aspect du monde qui nous entoure quotidiennement.}
+\paragraph{}\textit{La mécanique est la science du mouvement des corps. Comment la Terre tourne-t-elle autour du Soleil ? Comment les oiseaux volent-ils ? Comment les roches sédimentent-elles ? Pourquoi certains acides aminés s'attirent-ils ? Voilà autant de questions auxquelles la mécanique prétend pouvoir répondre. Dans ce cours nous allons aborder les bases de la mécanique classique afin de développer votre intuition physique sur cet aspect du monde qui nous entoure.}
 
 \paragraph{}\textit{Pour commencer, nous allons nous intéresser à une branche spécifique de la mécanique : la cinématique. Celle-ci s'intéresse à la description du mouvement des objets, sans s'intéresser aux causes de celui-ci. C'est la fondation essentielle nécessaire à la compréhension du reste, car pour pouvoir comprendre le mouvement, il faut d'abord être capable de le décrire.} 
 
@@ -12,7 +12,7 @@
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=0.8\textwidth]{Chapitre1/Figures/angles_solide.png}
-	\caption{Repérage d'un solide}
+	\caption{Repérage d'un solide (schéma issu de \cite{cardini_physique_2024}).}
 	\label{fig:anglesolide}
 \end{figure}
 
@@ -33,7 +33,7 @@
 
 \section{Repérage d'un point}
 
-\paragraph{}Dans l'approximation ponctuelle, repérer un objet revient donc à repérer un point. C'est certes plus simple, mais comment s'y prend-on en pratique pour repérer un point ?
+\paragraph{}Dans l'approximation ponctuelle, repérer un objet revient à repérer un point. C'est certes plus simple, mais comment s'y prend-on en pratique pour repérer un point ?
 
 \paragraph{}Il y a en fait différentes manières de faire, dépendantes de la dimension de l'espace que l'on considère (1D, 2D, 3D, ...). Dans la suite de ce cours, nous désignerons systématiquement l'objet de notre étude comme le point matériel $M$. La question à laquelle nous allons répondre ici est donc la suivante : comment peut-on s'y prendre pour décrire la position du point $M$ ?
 
@@ -113,7 +113,7 @@
 	\vv{OM} = x\vv{e_x} + y\vv{e_y}
 \end{equation} 
 
-\noindent et les coordonnées $x$ et $y$ correspondent aux projections du vecteur $\vv{OM}$ sur les axes $(Ox)$ et $(Oy)$ respectivement. On les appelle \textbf{coordonnées cartésiennes}, et le repère formé des axes $(Ox)$ et $(Oy)$ repère cartésien. Des exemples de vecteurs positions définis en coordonnées cartésiennes en 2D sont donnés à la \autoref{fig:cart2}.
+\noindent et les coordonnées $x$ et $y$ correspondent aux projections du vecteur $\vv{OM}$ sur les axes $(Ox)$ et $(Oy)$ respectivement. On les appelle \textbf{coordonnées cartésiennes}, et le repère formé des axes $(Ox)$ et $(Oy)$ repère cartésien. Des exemples de vecteurs position définis en coordonnées cartésiennes en 2D sont donnés à la \autoref{fig:cart2}.
 
 \paragraph{}Peu importe où se situe le point $M$ dans le plan, la base de vecteurs unitaires $(\vv{e_x}, \vv{e_y})$ des coordonnées cartésiennes reste la même (les vecteurs unitaires pointent une direction fixe). On dit alors que la base cartésienne est une \textbf{base fixe}.
 
@@ -121,8 +121,8 @@
 
 \begin{figure}[h]
 	\centering
-	\includegraphics[width=0.6\textwidth]{Chapitre1/Figures/bact_circ.jpeg}
-	\caption{Images de trajectoires de E. coli issues de l'étude \textbf{Citer XX}}
+	\includegraphics[width=0.6\textwidth]{Chapitre1/Figures/bact.jpg}
+	\caption{Images de trajectoires de E. Coli issues de l'étude \cite{lauga_swimming_2006}.}
 	\label{fig:bact_circ}
 \end{figure}
 
@@ -132,9 +132,9 @@
 
 \begin{itemize}
 
-	\item L'angle $\theta$ entre l'axe $(Ox)$ et le vecteur $\vv{OM}$.
+	\item L'angle $\theta$ entre l'axe $(Ox)$ et le vecteur position $\vv{OM}$.
 	
-	\item La distance $r$ entre le point $M$ et l'origine $O$ du repère, soit la norme du vecteur $\vv{OM}$.
+	\item La distance $r$ entre le point $M$ et l'origine $O$ du repère, soit la norme du vecteur position $\vv{OM}$.
 
 \end{itemize}
 
@@ -168,7 +168,7 @@
 
 \begin{itemize}
 
-	\item du vecteur $\vv{e_r}$ qui possède la même direction est le même sens que le vecteur $\vv{OM}$.
+	\item du vecteur $\vv{e_r}$ qui possède la même direction et le même sens que le vecteur $\vv{OM}$.
 	
 	\item du vecteur $\vv{e_\theta}$ qui correspond au vecteur $\vv{e_r}$ tourné d'un angle $\pi/2$ dans le sens trigonométrique (i.e. inverse au sens horaire).
 
@@ -180,7 +180,7 @@
 	\vv{OM} = r\vv{e_r}	
 \end{equation}
 
-\noindent Des exemples de vecteurs $\vv{OM}$ décrit en coordonnées polaires sont donnés à la \autoref{fig:pol}.
+\noindent Des exemples de vecteurs position $\vv{OM}$ décrits en coordonnées polaires sont donnés à la \autoref{fig:pol}.
 
 \paragraph{}Contrairement aux coordonnées cartésiennes, la base de vecteurs unitaires en coordonnées polaires dépend donc de la position du point $M$ (le doublet de vecteurs change d'orientation en fonction de la coordonnée $\theta$). On dit que c'est une \textbf{base mobile}.
 
@@ -191,7 +191,7 @@
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=\textwidth]{Chapitre1/Figures/reperes3D.pdf}
-	\caption{Systèmes de coordonnées en 3D. (a) cartésiennes (b) cylindriques (c) sphériques.}
+	\caption{Systèmes de coordonnées en 3D. (a) cartésiennes (b) cylindriques (c) sphériques (schémas issus de \cite{cardini_physique_2024}).}
 	\label{fig:rep3D}
 \end{figure}
 
@@ -294,7 +294,7 @@
 \right.
 \end{equation}
 
-\noindent tandis que celles décrivant un mouvement circulaire plan de rayon $R_0$ et de vitesse angulaire $\omega$ sont :
+\noindent tandis que celles décrivant un mouvement circulaire plan de rayon $R_0$ et de vitesse angulaire $\omega$\footnote{Une vitesse angulaire définit la vitesse à laquelle un objet tourne en unités d'angle par unité de temps.} sont :
 
 \begin{equation}
 \left\{
@@ -332,7 +332,7 @@
 
 \subsubsection{Définition}
 
-\paragraph{}Vous avez normalement déjà toustes entendu parler du concept de vitesse. Prenons l'exemple de la kinésine qui se déplace sur les microtubules. Si elle se déplace d'une distance $D$ sur le microtubule au cours d'une durée $\Delta t$, alors celle-ci a une vitesse $v$ telle que :
+\paragraph{}Vous avez normalement déjà toustes entendu parler du concept de vitesse. Prenons l'exemple de la myosine qui se déplace sur un filament d'actine. Si elle se déplace d'une distance $D$ sur le microtubule au cours d'une durée $\Delta t$, alors celle-ci a une vitesse $v$ telle que :
 
 \begin{equation}
 	v = \frac{D}{\Delta t}
@@ -341,12 +341,12 @@
 
 \noindent Cette grandeur physique s'exprime en mètre par seconde (\SI{}{\meter\per\second}), comme on peut le déduire facilement de l'\autoref{eq:vbb}.
 
-\paragraph{}Dans cet exemple, pour être plus précis, la  vitesse $v$ correspond en fait à la moyenne de la vitesse de la kinésine sur le trajet. En effet, si l'on étudie expérimentalement le trajet d'une myosine sur un filament d'actine (voir \autoref{fig:myosine}), on se rend compte que son déplacement n'est pas du tout uniforme mais se fait plutôt par pas : elle alterne des phases de pause immobile ($v=0$) et des avancées ponctuelles ($v>0$). Pour spécifier cette notion de moyenne sur le trajet, on préférera alors utiliser la notation $\langle v \rangle$.
+\paragraph{}Dans cet exemple, pour être plus précis, la  vitesse $v$ correspond en fait à la moyenne de la vitesse de la myosine sur le trajet. En effet, si l'on étudie expérimentalement le trajet d'une myosine sur un filament d'actine (voir \autoref{fig:myosine}), on se rend compte que son déplacement n'est pas du tout uniforme mais se fait plutôt par pas : elle alterne des phases de pause immobile ($v=0$) et des avancées ponctuelles ($v>0$). Pour spécifier cette notion de moyenne sur le trajet, on préférera alors utiliser la notation $\langle v \rangle$.
 
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=0.5\textwidth]{Chapitre1/Figures/myosine.png}
-	\caption{Évolution de la coordonnée d'une myosine sur un filament d'actine au cours du temps (c'est la représentation graphique de l'équation horaire $x(t)$). \textbf{Citer XX}}
+	\caption{Évolution de la coordonnée d'une myosine sur un filament d'actine au cours du temps (c'est la représentation graphique de l'équation horaire $x(t)$). Les mesures sont issues de \cite{rief_myosin_v_2000}}
 	\label{fig:myosine}
 \end{figure}
 
@@ -356,7 +356,7 @@
 	\langle \vv{v} \rangle = \frac{\vv{\Delta OM}}{\Delta t}
 \end{equation}
 
-\noindent On retrouve donc exactement la même définition que précédemment mais appliquée au cas des vecteurs.
+\noindent On retrouve donc exactement la même définition que précédemment mais transposée au cas des vecteurs.
 
 \paragraph{}Toutefois, la vitesse moyenne est souvent insuffisante pour décrire correctement un mouvement et un même vecteur $\langle \vv{v} \rangle$ peut décrire des trajectoires extrêmement différentes. Pour une description plus fine, il faut en fait connaître la vitesse du point $M$ à chaque instant $t$, en moyennant le moins possible au cours du trajet. Pour ce faire, on considère donc une durée de trajet infinitésimale $\mathrm{d}t$ afin de définir le vecteur vitesse instantané :
 
@@ -382,7 +382,7 @@ Le vecteur vitesse correspond à la dérivée du vecteur position par rapport au
 
 \subsubsection{Dérivation}
 
-\paragraph{}Afin de calculer une vitesse, il est donc essentiel de maîtriser ses dérivées. Les dérivées de fonctions usuelles sont répertoriées dans le \autoref{tab:der}. Si vous n'êtes pas à l'aise avec cet outil, il est conseillé de reprendre des cours de lycée.
+\paragraph{}Afin de calculer une vitesse, il est donc essentiel de maîtriser ses dérivées. Les dérivées de fonctions usuelles sont répertoriées dans le \autoref{tab:der}. Si vous n'êtes pas à l'aise avec cet outil, il est conseillé de reprendre des cours de lycée sur ce sujet (manuels scolaire disponibles à la BU Joseph Fourier).
 
 \begin{table*}[h]
 \caption{Dérivée des fonctions usuelles}

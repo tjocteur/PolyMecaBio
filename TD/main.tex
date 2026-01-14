@@ -37,8 +37,8 @@
 \subsubsection*{Exercice 1} 
 
 \begin{enumerate}
-	\item On considère la marche d'une kinésine le long d'un microtubule, qui se fait à vitesse moyenne de $\langle v \rangle =\SI{1.8}{\nano\meter\per\second}$. Au bout de quelle durée cette kinésine aura-t-elle traversé de bout en bout un microtubule de longueur $L=\SI{40}{\nano\meter}$ ?
-	\item Une cellule migre à une vitesse constante de $v_0=\SI{5}{\micro\meter\per\minute}$. En supposant le mouvement rectiligne, donner la distance parcourue par la cellule au bout de $\SI{2}{\hour}$.
+	\item On considère la marche d'une kinésine le long d'un microtubule, qui se fait à vitesse moyenne de $\langle v \rangle =\SI{1.8}{\nano\meter\per\second}$. Au bout de quelle durée cette kinésine aura-t-elle traversé de bout en bout un microtubule de longueur $L=\SI{0.04}{\micro\meter}$ ?
+	\item Une cellule migre à une vitesse constante de $v_0=\SI{5}{\micro\meter\per\minute}$. En supposant le mouvement rectiligne, donner la distance parcourue par la cellule au bout de $\SI{2}{\hour}$. On donnera la réponse en millimètres.
 \end{enumerate}
 
   \begin{center}
@@ -54,9 +54,9 @@
 
 \begin{enumerate}
 	\item Exprimer les coordonnées cartésiennes des points ci-dessus puis écrire le vecteur position $\vv{OM}$ associé. Tracer les vecteurs unitaires de la base cartésienne, attachés au point $M$. La base cartésienne est-elle une base fixe ou mobile ?
-	\item Mêmes questions avec les coordonnées et la base polaires.
+	\item Mêmes questions avec les coordonnées et la base polaires. \textit{On pourra utiliser les fonctions tangente et arctangente pour le cas c)}
 	
-	\item Calculer le vecteur déplacement associé aux trajectoires suivantes. En considérant que les trajets ont été faits sur une durée $\Delta t = \SI{5}{\second}$, en déduire le vecteur vitesse moyenne associé.
+	\item Calculer le vecteur déplacement associé aux trajectoires suivantes. En considérant que les trajets ont été faits sur une durée $\Delta t = \SI{5}{\second}$, en déduire le vecteur vitesse moyenne associé (on prendra le mètre comme unité des axes).
 \end{enumerate}
 
 \begin{figure}[H]
@@ -70,16 +70,18 @@
 	\item Donner les dérivées des fonctions suivantes :
 	
 	\begin{equation*}
-	f(x) = x^2+1, \quad g(t) = A\cos (\omega t), \quad h(y) = y^2\exp (-ay)
+	f(x) = x^2+\frac{1}{x}, \quad g(t) = A\cos (\omega t), \quad h(y) = y^2\exp (-ay)
 	\end{equation*}
 	
 	\item Donner une primitive des fonctions suivantes :
 	
 	\begin{equation*}
-	f(x) = 3x+2, \quad g(t) = t+\cos(t), \quad h(y) = (2-ay)ye^{-ay}
+	f(x) = 3x^2+2, \quad g(t) = t+\cos(t), \quad h(y) = (2-ay)ye^{-ay}
 	\end{equation*}
+	
+	\noindent Donner les primitives de ces mêmes fonctions qui s'annulent en $x=1$ (pour $f$), $t=-1$ (pour $g$) et $y=0$ (pour $h$).
 
-	\item On donne les vecteurs positions suivants. Calculer les vecteurs vitesse et accélération associés.
+	\item On donne les vecteurs position suivants. Calculer les vecteurs vitesse et accélération associés.
 	
 	\begin{equation*}
 		\vv{OM}(t) = v_0 t\vv{e_x} + \left(y_0+\frac{1}{2}a_0t^2\right) \vv{e_y}, \quad \vv{OM}(t) = A\cos (\omega t)\vv{e_x} + A\sin(\omega t)\vv{e_y}
@@ -91,14 +93,19 @@
 
 \subsubsection*{Exercice 4} 
 
-\begin{enumerate}
-	\item On donne les équations horaires décrivant le mouvement d'un grain de sable en sédimentation dans l'eau :
+On donne les équations horaires décrivant le mouvement d'un grain de sable en sédimentation dans l'eau :
 	
 	\begin{equation*}
-		x(t) = v_0 t - x_0, \quad y(t) = -a_0t^2, \quad x_0, v_0, a_0 > 0
+		x(t) = x_0+\tau v_0\left( 1-e^{-t/\tau} \right),\quad y(t)=a_0\tau^2\left( 1-e^{-t/\tau}-\frac{t}{\tau} \right)
 	\end{equation*}
+
+\begin{enumerate}
+
+	\item Écrire le vecteur position associé au grain de sable à tout instant $t$.	
 	
-	\noindent Déterminer l'équation de la trajectoire $y(x)$. En déduire la profondeur $y$ du grain de sable lorsqu'il atteint la position $x=0$.
+	\item Calculer la vitesse et l'accélération du grain de sable à tout instant $t$.
+	
+	\item Déterminer l'équation de la trajectoire $y(x)$. En déduire la profondeur $y$ du grain de sable lorsqu'il atteint la position $x=0$. Faire l'application numérique pour $v_0 = \SI{36}{\milli\meter\per\minute}$, $x_0=\SI{1}{\cm}$, $\tau=\SI{0.5}{\second}$ et $a_0=\SI{35000}{\meter\per\minute\squared}$
 	
 \end{enumerate}
 
@@ -128,10 +135,31 @@ On considère une araignée de masse $m$ se balançant, suspendue au bout d'un f
 	
 \end{enumerate}
 
+\subsubsection*{Exercice 6 (tiré de Physique tout-en-un PCSI, Dunod)}
+
+Dans un épisode de la Star Wars, on
+peut assister à une course poursuite de speeder entre des cheminées d’usine. On suppose que le véhicule suit une trajectoire sinusoïdale de slalom entre les cheminées alignées selon l’axe $(Ox)$. Elles sont espacées d’une distance $L = \SI{200}{\meter}$.
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.4\linewidth]{chem.png}
+\end{figure}
+
+\begin{enumerate}
+	\item Le véhicule conserve une vitesse $v_0$ constante selon $(Ox)$ et met $t_t = \SI{12}{\s}$ pour revenir sur l’axe après la sixième cheminée. En déduire la vitesse $v_0$. Faire l’application numérique.
+	\item Déterminer l’amplitude de la sinusoïde pour que l’accélération reste inférieure à $10g$ en
+valeur absolue, avec $g = \SI{9,8}{\meter\per\second\squared}$ . Que penser des valeurs obtenues ?
+\end{enumerate}
 
 \newpage
 
 \section*{TD2}
+
+\begin{center}
+    \large\bf Raisonner simplement
+  \end{center}
+  
+  Mini exercice pour faire comprendre pk des trucs flottent ou pas.
 
   \begin{center}
     \large\bf Poser un problème de dynamique
@@ -161,67 +189,45 @@ On considère une araignée de masse $m$ se balançant, suspendue au bout d'un f
   
  \subsubsection*{Exercice 3}
  
- électrophorèse avec juste un champ élec. Puis dire qu'en fait on a des frottements et calculer la vitesse à al fin comparer.
+ \paragraph{}On considère une protéine de charge nette $q$ que l'on fait migrer par électrophorèse le long d'une ligne de gel dirigée par le vecteur unitaire $\vv{e_x}$. Pour ce faire, on applique dans le gel un champ électrique uniforme $\vv{E}=E_0\vv{e_x}$. On considère que la protéine est initialement à la position $x=0$ et possède une vitesse nulle.
  
- question de séparation en fonction de la charge.
+ \begin{enumerate}
+ 	\item Écrire le PFD appliqué à la protéine en supposant que la force de Coulomb est la seule force en jeu.
+ 	\item Intégrer l'équation obtenue pour obtenir le vecteur position à tout temps. À quel instant $t_1$ la protéine atteint-elle le bout du gel en $x=L$ ?
+\end{enumerate}  
+ 
+\paragraph{}En réalité, lors de la migration dans le gel, la protéine est soumise à une force de frottements fluides qui finit par conférer à la protéine une vitesse limite de migration constante.
+
+ \begin{enumerate}[resume]
+ 	\item Écrire le PFD en considérant cette nouvelle force. On notera $\eta$ la viscosité du gel et $R$ le rayon hydrodynamique de la protéine.
+ 	\item En déduire la vitesse limite de migration de la protéine.
+ 	\item On met au début de la ligne de gel un mélange de protéines de charge nette $q$ et de protéines de charge nette $2q$. Expliquer comment cette méthode peut-elle permettre de séparer les différents constituants du mélange.
+\end{enumerate} 
   
   \begin{center}
     \large\bf Caractériser une force
   \end{center}
 
-\paragraph{Exercice 1} On suppose que le champ électromagnétique régnant dans une partie de l'espace vide de charges et de courants est donné par :
-$$
-\vv{E}(\vv{r}, t)=f(z) e^{-\alpha t} \hat{e}_x \quad \text { et } \quad \vv{B}(\vv{r}, t)=g(z) e^{-\alpha t} \hat{e}_y
-$$
+\paragraph{Exercice 4}
+
+\paragraph{}On attache au bout d'une kinésine une bille que l'on piège dans une pince optique. La zone de focalisation de la pince optique se trouve en $x=0$ et la force qu'elle exerce sur la bille est modélisée par un ressort de raideur $k$. D'autre part, la kinésine exerce une force de traction constante $\vv{F}=F_0\vv{e_x}$ qui l'éloigne du centre de la pince optique.
 
 \begin{enumerate}
-    \item Les équations de Maxwell-Gauss et Maxwell-flux sont-elles vérifiées ?
-    \item Montrer que l'équation de Maxwell-Faraday impose une expression de $g(z)$ en fonction de $f^{\prime}(z)$.
-    \item Montrer que l'équation de Maxwell-Ampère impose une expression de $f(z)$ en fonction de $g^{\prime}(z)$.
-    \item En déduire une équation différentielle sur $f$ dont on vérifiera l'homogénéité.
-    \item Déterminer $f(z)$ en supposant $f$ paire et $\vv{E}(0,0)=E_0\hat{e}_x$
-    \item Donner l'expression du champ électromagnétique.
+	\item Faire un schéma simplifié de la situation.
+	\item Écrire le PFD appliqué à la bille.
+\end{enumerate}
+
+\paragraph{}Après un court instant, la bille se stabilise à la position $x_0$.
+
+\begin{enumerate}[resume]
+	\item En déduire la force exercée par le moteur moléculaire sur la bille.
 \end{enumerate}
 
   \begin{center}
     \large\bf Résoudre des problèmes
   \end{center}
 
-\paragraph{Exercice 3}
-
-Les matériaux supraconducteurs voient leur conductivité électrique devenir infinie en-dessous d'une certaine température. Dans ce cas, on constate que les lignes du champ magnétique ne peuvent plus entrer dans le matériau mais doivent le contourner : c'est l'effet Meissner. Pour expliquer ce phénomène, les frères London ont ajouté aux équations de Maxwell la relation entre le vecteur densité volumique de courant $\vv{j}$ et le champ magnétique à l'intérieur de la plaque :
-$$
-\rota{\vv{j}}=-\frac{1}{\mu_0 \lambda^2} \vv{B}
-$$
-où $\lambda$ est une constante positive, caractéristique du matériau.
-
-\begin{enumerate}
-    \item En se plaçant dans l'ARQSM, déterminer l'équation différentielle satisfaite en tout point intérieur du matériau par le champ magnétique. On donne par ailleurs la formule d'analyse vectorielle $\rota{\rota{\vv{V}}}=\vv{\mathrm{grad}}\left( \mathrm{div}\left(\vv{V}\right) \right)-\Delta\vv{V}$.
-\end{enumerate}
-
-On considère une plaque supraconductrice d'épaisseur $2 d$ dans la direction $\hat{e}_z$ et d'extension infinie dans les deux autres directions. L'origine de l'axe $z$ est prise au milieu de l'épaisseur de la plaque de sorte que les faces inférieure et supérieure aient pour équation respectivement $z=-d$ et $z=+d$. La plaque est plongée dans un champ magnétique statique et uniforme : $\vv{B}_0=B_0 \hat{e}_x$. On cherche le champ magnétique à l'intérieur de la plaque sous la forme $\vv{B}=B(z)\hat{e}_x$
-
-\begin{enumerate}[resume]
-    \item Faire un schéma simple du système.
-    \item Déterminer le champ magnétique à l'intérieur de la plaque en supposant que $\vec{B}(-d)=\vec{B}(d)=\overrightarrow{B_0}$.
-    \item En déduire le vecteur densité volumique de courant $\vec{j}$ à l'intérieur de la plaque.
-\end{enumerate}
-
-Un modèle microscopique donne :
-$$
-\lambda^2=\frac{m_e}{\mu_0 n_s e^2}
-$$
-avec : $\mu_0 = \SI{4\pi e-7}{\henry\per\meter}$ la perméabilité magnétique du vide,
-$m_e=\SI{9.1 e-31}{\kilogram}$ la masse d'un électron,
-$e=\SI{1.6 e-19}{\coulomb}$ la charge élémentaire,
-$n_s$ la densité volumique d'électrons supraconducteurs,
-
-\begin{enumerate}[resume]
-    \item Vérifier que $\lambda$ est bien homogène à une longueur.
-    \item Calculer $\lambda$ en prenant $n_s=\SI{1.0 e29}{\per\meter\cubed}$.
-    \item Tracer les graphes des composantes non nulles de $\vec{B}$ et $\vec{j}$ en fonction de $z$. Donner un sens concret à $\lambda$.
-    \item Pour $d \gg \lambda$, à quelle distance de la surface de la plaque la densité de courant est-elle réduite à un centième de sa valeur à la surface?
-\end{enumerate}
+exo sur la méthode BACS
 
 \newpage
 
